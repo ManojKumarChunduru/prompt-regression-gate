@@ -1,5 +1,5 @@
 {
-  "_note": "The claim extractor's grammar, with a reason per rule. A summary is split into sentences (claims); each claim is split into atoms by these rules; each atom is matched against the sources the template merged in. A claim with no atom is unverifiable and is counted, never gated on.",
+  "_note": "The claim extractor's grammar, with a reason per rule. A summary is split into sentences (claims); each claim is split into atoms by these rules; each atom is matched against the sources the template merged in. A claim with no atom is unverifiable and is counted, never gated on. Vocabulary rules run before pattern rules, so a product name the export knows wins any overlap.",
   "sentence_split": {
     "pattern": "(?<=[.!?])\\s+(?=[A-Z$\"'])",
     "reason": "a sentence ends at a full stop, exclamation or question mark followed by white space and a capital, a dollar sign or a quote; dates and amounts never contain that sequence"
@@ -25,8 +25,8 @@
       "reason": "ISO dates are how the export writes every date field and how the fixture's comments quote them; an unseen date is unsupported, never contradicted, because a date can belong to many roles"
     },
     "duration": {
-      "pattern": "\\b\\d+[ -](?:month|months|day|days|week|weeks|unit|units|hour|hours|year|years|minute|minutes|step|steps|percent)\\b",
-      "reason": "warranty lengths, quantities, windows and percentages come from knowledge chunks and comments; a figure with a unit from nowhere is unsupported"
+      "pattern": "\\b\\d+[ -](?:month|months|day|days|week|weeks|hour|hours|year|years|minute|minutes|step|steps|percent)\\b",
+      "reason": "warranty lengths, windows, steps and percentages come from knowledge chunks and comments; a figure with a unit from nowhere is unsupported; `units` is not a unit here because product names end in a digit (Aero 2 units)"
     },
     "identifier": {
       "pattern": "\\b(?:SN|RMA|ORD|INV)-\\d{3,}\\b",

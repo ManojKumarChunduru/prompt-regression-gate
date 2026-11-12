@@ -50,6 +50,7 @@ ignore = ["SIM108"]
 testpaths = ["tests"]
 python_functions = "test_*"
 addopts = "-q"
+markers = ["slow: regenerates the fixture in subprocesses"]
 
 [tool.coverage.run]
 source = ["prg"]

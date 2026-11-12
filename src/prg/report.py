@@ -236,7 +236,7 @@ def power_text(payload: dict) -> str:
     ]
     a = payload["agreement"]
     lines.append(f"  reviewer agreement   {a['meanAgreementPct']}% of preferences, mean kappa {a['meanKappa']}")
-    if payload.get("clearsAt") is not None:
+    if "clearsAt" in payload:
         lines.append(
             f"  clears at            {payload['clearsAt']} reviews along the committed order"
             if payload["clearsAt"]

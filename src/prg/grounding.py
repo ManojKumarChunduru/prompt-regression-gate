@@ -90,7 +90,8 @@ def vocabularies(exports: Exports) -> dict[str, list[str]]:
 
 def sources_for(version: TemplateVersion, case: Case) -> Sources:
     fields = {name: (case.value(name) or "") for name in version.fields}
-    comments = [(c.id, c.body) for c in case.comments] if version.has("RelatedList") else []
+    # A comment is a source with its date: the related list renders "[date] body" into the prompt.
+    comments = [(c.id, f"[{c.created}] {c.body}") for c in case.comments] if version.has("RelatedList") else []
     chunks = [(c.chunk_id, c.product, c.text) for c in case.chunks] if version.has("EinsteinSearch") else []
     providers = [
         (m.provider or "", render_provider(case, m.provider or "")) for m in version.merge_fields if m.family in ("Flow", "Apex")

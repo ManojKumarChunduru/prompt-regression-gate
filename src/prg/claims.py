@@ -108,7 +108,10 @@ def extract_atoms(sentence: str, grammar: Grammar, vocabularies: dict[str, list[
     """Atoms in one sentence, in order of appearance; a span claimed by one rule is not claimed by another."""
     taken: list[tuple[int, int]] = []
     atoms: list[Atom] = []
-    for rule in grammar.rules:
+    # Vocabulary rules first: a product name such as "Aero 2" is a literal the export knows, and a
+    # pattern rule running first once claimed "2 units" out of "Aero 2 units" (pinned in test_bugs).
+    ordered = sorted(grammar.rules, key=lambda r: 0 if r.vocabulary_from else 1 if r.vocabulary else 2)
+    for rule in ordered:
         pattern = rule.pattern
         if pattern is None:
             words = rule.vocabulary or vocabularies.get(rule.vocabulary_from or "", [])

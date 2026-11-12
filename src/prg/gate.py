@@ -64,8 +64,8 @@ def load_context(
     versions: list[str] | None = None,
 ) -> Context:
     policy = load_policy(policy_path)
-    grammar = load_grammar(grammar_path)
     template = find_template(Path(project_dir), policy.merge_field_families, template_name)
+    grammar = load_grammar(grammar_path)
     exports = read_exports(Path(data_dir))
     ctx = Context(
         Path(project_dir),

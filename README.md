@@ -133,7 +133,7 @@ Three rows where a regression wins: the reviews are undecided and the grounding 
 
 ## Architecture
 
-<img src="docs/assets/architecture.svg" alt="the template reader builds the contract; exports, generations and reviews feed the grammar, the grounder and the statistics; the gate decides and the reports and the service render it" width="823">
+<img src="docs/assets/architecture.svg" alt="the template reader builds the contract; exports, generations and reviews feed the grammar, the grounder and the statistics; the gate decides and the reports and the service render it" width="1261">
 
 ```mermaid-source
 flowchart TB

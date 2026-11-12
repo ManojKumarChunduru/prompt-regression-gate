@@ -1,0 +1,63 @@
+{
+  "report": "docs/evidence/report.html",
+  "generatedBy": "tools/capture_screenshots.py",
+  "badge": {
+    "text": "exit 2: cannot decide",
+    "colour": "rgb(255, 255, 255)",
+    "background": "rgb(239, 108, 0)",
+    "visible": true
+  },
+  "shots": [
+    {
+      "file": "docs/evidence/report-dimensions.png",
+      "framedBy": [
+        "header",
+        "claims"
+      ],
+      "clip": {
+        "x": 0,
+        "y": 16,
+        "width": 1320,
+        "height": 471.96875
+      },
+      "capped": false,
+      "maxHeight": null
+    },
+    {
+      "file": "docs/evidence/report-claims.png",
+      "framedBy": [
+        "claims",
+        "end of document"
+      ],
+      "clip": {
+        "x": 0,
+        "y": 481.96875,
+        "width": 1320,
+        "height": 1200
+      },
+      "capped": true,
+      "maxHeight": 1200
+    },
+    {
+      "file": "docs/evidence/api-docs.png",
+      "framedBy": [
+        "the service's /docs page"
+      ],
+      "clip": {
+        "width": 1320,
+        "height": 900
+      },
+      "capped": true,
+      "maxHeight": 900
+    }
+  ],
+  "api": {
+    "route": "/versions",
+    "template": "Case_Summary",
+    "versions": [
+      "v1",
+      "v2",
+      "v3"
+    ]
+  }
+}

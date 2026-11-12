@@ -24,35 +24,35 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "evidence"
 OUT.mkdir(parents=True, exist_ok=True)
 
-FIX = ["--project", "fixture", "--data", "fixture/data", "--policy", "fixture/policy/sharing-policy.json"]
+FIX = ["--project", "fixture"]
 FIX_TEXT = " ".join(FIX)
-truth = json.loads((ROOT / "fixture" / "EXPECTED_ACCESS.json").read_text(encoding="utf-8"))
-implicit = next(s for s in truth["scenarios"] if s["id"] == "S04")["pairs"]
-# A pair whose only path is the implicit parent grant: the one the README quotes.
-example = next(p for p in implicit if p["record"] == "001000000000075AAA")
+EXAMPLE = "500000000000004AAA"  # a v3 summary that quotes a chunk about another product: the mis-grounded case the README names
 
 SEGMENTS = [
     {
-        "title": "Every reachable pair with its paths; the hidden pairs first",
-        "command": f"sea audit {FIX_TEXT} --limit 8",
-        "args": ["audit", *FIX, "--limit", "8"],
-        "tailLines": 26,
+        "title": "The careful rewrite on the canonical thirty: ahead, and the thirty cannot say so",
+        "command": f"prg gate --baseline v1 --candidate v3 {FIX_TEXT}",
+        "args": ["gate", "--baseline", "v1", "--candidate", "v3", *FIX],
     },
     {
-        "title": "One pair: Read on an account through an opportunity rule, on no page",
-        "command": f"sea explain {example['user']} {example['record']} {FIX_TEXT}",
-        "args": ["explain", example["user"], example["record"], *FIX],
-    },
-    {"title": "What each single page would let a reviewer conclude", "command": f"sea pages {FIX_TEXT}", "args": ["pages", *FIX]},
-    {
-        "title": "The Finance group's bosses flag: what removing it loses",
-        "command": f"sea without Finance {FIX_TEXT} --limit 6",
-        "args": ["without", "Finance", *FIX, "--limit", "6"],
+        "title": "The arithmetic: the floor, the n, the sweep along the committed order, 500 thirties drawn",
+        "command": f"prg power --baseline v1 --candidate v3 --sweep {FIX_TEXT}",
+        "args": ["power", "--baseline", "v1", "--candidate", "v3", "--sweep", *FIX],
     },
     {
-        "title": "The refused rule: what removing it decides",
-        "command": f"sea without Project__c.High_Budget_Projects_To_Finance {FIX_TEXT} --limit 4",
-        "args": ["without", "Project__c.High_Budget_Projects_To_Finance", *FIX, "--limit", "4"],
+        "title": "One summary, claim by claim: a chunk about another product, quoted as the knowledge base",
+        "command": f"prg explain {EXAMPLE} v3 {FIX_TEXT}",
+        "args": ["explain", EXAMPLE, "v3", *FIX],
+    },
+    {
+        "title": "The fluent rewrite reviewers prefer, on the full review: blocked on grounding",
+        "command": f"prg gate --baseline v1 --candidate v2 --reviewed-set all {FIX_TEXT}",
+        "args": ["gate", "--baseline", "v1", "--candidate", "v2", "--reviewed-set", "all", *FIX],
+    },
+    {
+        "title": "The claims the review score cannot see",
+        "command": f"prg ground --version v2 --limit 6 {FIX_TEXT}",
+        "args": ["ground", "--version", "v2", "--limit", "6", *FIX],
     },
     {
         "title": "The receipts: every figure in the docs checked against the code",
@@ -62,7 +62,7 @@ SEGMENTS = [
 ]
 
 # Warm the import so the first segment does not pay for it.
-subprocess.run([sys.executable, "-m", "sea.cli", "--help"], cwd=ROOT, capture_output=True)
+subprocess.run([sys.executable, "-m", "prg.cli", "--help"], cwd=ROOT, capture_output=True)
 
 MIN_SECONDS = 2.2
 MAX_SECONDS = 7.0
@@ -71,7 +71,7 @@ for segment in SEGMENTS:
     argv = (
         [sys.executable, "tools/check_numbers.py"]
         if segment["args"] is None
-        else [sys.executable, "-m", "sea.cli", *segment["args"]]
+        else [sys.executable, "-m", "prg.cli", *segment["args"]]
     )
     started = time.perf_counter()
     result = subprocess.run(argv, cwd=ROOT, capture_output=True, text=True)

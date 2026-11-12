@@ -1,0 +1,76 @@
+{
+  "generatedBy": "tools/record_demo.py",
+  "note": "A replay of captured stdout paced by measured wall time, clamped between MIN and MAX seconds per segment; the wall times are pacing data, not benchmarks.",
+  "pacing": {
+    "minSeconds": 2.2,
+    "maxSeconds": 7.0,
+    "multiplier": 4,
+    "typeSeconds": 1.2,
+    "pauseSeconds": 2.6
+  },
+  "gif": {
+    "fps": 6,
+    "width": 800,
+    "colours": 32,
+    "bytes": 1528853
+  },
+  "mp4": {
+    "bytes": 301948
+  },
+  "segments": [
+    {
+      "title": "The careful rewrite on the canonical thirty: ahead, and the thirty cannot say so",
+      "command": "prg gate --baseline v1 --candidate v3 --project fixture",
+      "exitCode": 2,
+      "wallSeconds": 0.69,
+      "replaySeconds": 2.761176895999597,
+      "lines": 12,
+      "truncated": false
+    },
+    {
+      "title": "The arithmetic: the floor, the n, the sweep along the committed order, 500 thirties drawn",
+      "command": "prg power --baseline v1 --candidate v3 --sweep --project fixture",
+      "exitCode": 0,
+      "wallSeconds": 2.14,
+      "replaySeconds": 7.0,
+      "lines": 12,
+      "truncated": false
+    },
+    {
+      "title": "One summary, claim by claim: a chunk about another product, quoted as the knowledge base",
+      "command": "prg explain 500000000000004AAA v3 --project fixture",
+      "exitCode": 0,
+      "wallSeconds": 0.421,
+      "replaySeconds": 2.2,
+      "lines": 16,
+      "truncated": false
+    },
+    {
+      "title": "The fluent rewrite reviewers prefer, on the full review: blocked on grounding",
+      "command": "prg gate --baseline v1 --candidate v2 --reviewed-set all --project fixture",
+      "exitCode": 1,
+      "wallSeconds": 0.804,
+      "replaySeconds": 3.214823095999236,
+      "lines": 12,
+      "truncated": false
+    },
+    {
+      "title": "The claims the review score cannot see",
+      "command": "prg ground --version v2 --limit 6 --project fixture",
+      "exitCode": 0,
+      "wallSeconds": 0.416,
+      "replaySeconds": 2.2,
+      "lines": 13,
+      "truncated": false
+    },
+    {
+      "title": "The receipts: every figure in the docs checked against the code",
+      "command": "python tools/check_numbers.py",
+      "exitCode": 0,
+      "wallSeconds": 0.109,
+      "replaySeconds": 2.2,
+      "lines": 1,
+      "truncated": false
+    }
+  ]
+}

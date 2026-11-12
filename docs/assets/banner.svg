@@ -65,5 +65,5 @@
   <g class="dot d2"><circle cx="708" cy="186" r="5" fill="#ff9f9f"/><text x="722" y="190" class="claimline">It is a Low priority case (the field says High).</text></g>
   <g class="dot d3"><circle cx="708" cy="210" r="5" fill="#ffb37a"/><text x="722" y="214" class="claimline">A replacement shipped under RMA-55001 (no such comment).</text></g>
   <g class="dot d4"><circle cx="708" cy="234" r="5" fill="#ffe08a"/><text x="722" y="238" class="claimline">Straps are replaced free within 12 months (another product's chunk).</text></g>
-  <g class="fig f4"><text x="700" y="278" class="figure bad">84 bad claims unflagged</text><text x="700" y="298" class="caption">of 227 the grammar found across every generation; the preferred version carries the most</text></g>
+  <g class="fig f4"><text x="700" y="278" class="figure bad">84 bad claims unflagged</text><text x="700" y="298" class="caption">of 227 found across every generation; the version reviewers prefer carries the most</text></g>
 </svg>

@@ -1,0 +1,144 @@
+{
+  "defaultPathForbiddenCount": 0,
+  "defaultPathForbiddenFound": [],
+  "exitCounts": {
+    "0": 1,
+    "1": 7,
+    "2": 4
+  },
+  "regressionWinsRows": 3,
+  "rows": [
+    {
+      "baseline": "v1",
+      "candidate": "v2",
+      "exitCode": 1,
+      "grounding": "worse",
+      "groundingEffect": -0.21,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "first30",
+      "reviews": "better",
+      "reviewsEffect": 0.4556
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v2",
+      "exitCode": 1,
+      "grounding": "worse",
+      "groundingEffect": -0.21,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "all",
+      "reviews": "better",
+      "reviewsEffect": 0.2667
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v3",
+      "exitCode": 2,
+      "grounding": "undecided",
+      "groundingEffect": -0.04,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "first30",
+      "reviews": "undecided",
+      "reviewsEffect": 0.2333
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v3",
+      "exitCode": 0,
+      "grounding": "undecided",
+      "groundingEffect": -0.04,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "all",
+      "reviews": "better",
+      "reviewsEffect": 0.2483
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v1",
+      "exitCode": 1,
+      "grounding": "better",
+      "groundingEffect": 0.21,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "first30",
+      "reviews": "worse",
+      "reviewsEffect": -0.4556
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v1",
+      "exitCode": 1,
+      "grounding": "better",
+      "groundingEffect": 0.21,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "all",
+      "reviews": "worse",
+      "reviewsEffect": -0.2667
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v3",
+      "exitCode": 2,
+      "grounding": "better",
+      "groundingEffect": 0.17,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "first30",
+      "reviews": "undecided",
+      "reviewsEffect": -0.2222
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v3",
+      "exitCode": 2,
+      "grounding": "better",
+      "groundingEffect": 0.17,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "all",
+      "reviews": "undecided",
+      "reviewsEffect": -0.0183
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v1",
+      "exitCode": 2,
+      "grounding": "undecided",
+      "groundingEffect": 0.04,
+      "regressionWinsOverUndecided": false,
+      "reviewedSet": "first30",
+      "reviews": "undecided",
+      "reviewsEffect": -0.2333
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v1",
+      "exitCode": 1,
+      "grounding": "undecided",
+      "groundingEffect": 0.04,
+      "regressionWinsOverUndecided": true,
+      "reviewedSet": "all",
+      "reviews": "worse",
+      "reviewsEffect": -0.2483
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v2",
+      "exitCode": 1,
+      "grounding": "worse",
+      "groundingEffect": -0.17,
+      "regressionWinsOverUndecided": true,
+      "reviewedSet": "first30",
+      "reviews": "undecided",
+      "reviewsEffect": 0.2222
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v2",
+      "exitCode": 1,
+      "grounding": "worse",
+      "groundingEffect": -0.17,
+      "regressionWinsOverUndecided": true,
+      "reviewedSet": "all",
+      "reviews": "undecided",
+      "reviewsEffect": 0.0183
+    }
+  ]
+}

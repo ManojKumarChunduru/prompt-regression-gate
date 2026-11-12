@@ -1,0 +1,50 @@
+{
+  "badClaimsTotal": 227,
+  "badClaimsUnflagged": 84,
+  "badClaimsUnflaggedPct": 37.0,
+  "meanScoreContradictedPooled": 3.07,
+  "mostBadClaimsVersion": "v2",
+  "pooledRankCorrelation": -0.131,
+  "preferredVersion": "v2",
+  "versions": [
+    {
+      "badClaimsTotal": 59,
+      "badClaimsUnflagged": 21,
+      "flaggedByAnyReviewer": 35,
+      "meanScore": 2.992,
+      "meanScoreClean": 3.06,
+      "meanScoreContradicted": 2.778,
+      "rankCorrelation": -0.17,
+      "summariesWithABadClaim": 55,
+      "unflaggedPct": 36.4,
+      "unflaggedSummaries": 20,
+      "version": "v1"
+    },
+    {
+      "badClaimsTotal": 101,
+      "badClaimsUnflagged": 37,
+      "flaggedByAnyReviewer": 56,
+      "meanScore": 3.258,
+      "meanScoreClean": 3.342,
+      "meanScoreContradicted": 3.348,
+      "rankCorrelation": -0.15,
+      "summariesWithABadClaim": 87,
+      "unflaggedPct": 35.6,
+      "unflaggedSummaries": 31,
+      "version": "v2"
+    },
+    {
+      "badClaimsTotal": 67,
+      "badClaimsUnflagged": 26,
+      "flaggedByAnyReviewer": 34,
+      "meanScore": 3.24,
+      "meanScoreClean": 3.3,
+      "meanScoreContradicted": 3.083,
+      "rankCorrelation": -0.142,
+      "summariesWithABadClaim": 58,
+      "unflaggedPct": 41.4,
+      "unflaggedSummaries": 24,
+      "version": "v3"
+    }
+  ]
+}

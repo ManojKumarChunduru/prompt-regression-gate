@@ -1,0 +1,599 @@
+{
+  "metrics": {
+    "tests_total": 293,
+    "coverage_line_pct": "99.0",
+    "cases_total": 200,
+    "comments_total": 597,
+    "chunks_total": 600,
+    "versions_total": 3,
+    "generations_total": 600,
+    "reviewers_total": 3,
+    "review_rows_total": 1800,
+    "canonical_cases": 30,
+    "reviewer_spread": "0.860",
+    "flagged_rows": 190,
+    "flagged_rows_pct": "10.6",
+    "mean_score_v1": "2.992",
+    "mean_score_v2": "3.258",
+    "mean_score_v3": "3.240",
+    "fluent_effect_30": "0.456",
+    "fluent_floor_30": "0.453",
+    "fluent_sd_30": "0.855",
+    "fluent_p_30": "0.007",
+    "fluent_effect_all": "0.267",
+    "fluent_p_all": "0.00002",
+    "fluent_draws_clear_pct": "34.4",
+    "fluent_draws_wrong_pct": "3.0",
+    "fluent_sign_wins": 16,
+    "fluent_sign_losses": 7,
+    "fluent_sign_ties": 7,
+    "fluent_min_n": 30,
+    "fluent_clears_at": 23,
+    "fluent_ci_low": "0.136",
+    "fluent_ci_high": "0.775",
+    "careful_effect_30": "0.233",
+    "careful_floor_30": "0.484",
+    "careful_sd_30": "0.914",
+    "careful_p_30": "0.173",
+    "careful_effect_all": "0.248",
+    "careful_p_all": "0.00013",
+    "careful_draws_clear_pct": "24.8",
+    "careful_draws_wrong_pct": "5.8",
+    "careful_sign_wins": 15,
+    "careful_sign_losses": 12,
+    "careful_sign_ties": 3,
+    "careful_min_n": 123,
+    "careful_clears_at": 70,
+    "careful_ci_low_abs": "0.108",
+    "careful_ci_high": "0.575",
+    "sibling_effect_30": "0.222",
+    "sibling_floor_30": "0.515",
+    "sibling_sd_30": "0.972",
+    "sibling_p_30": "0.221",
+    "sibling_effect_all": "0.018",
+    "sibling_p_all": "0.763",
+    "sibling_draws_clear_pct": "0.6",
+    "sibling_draws_wrong_pct": "56.2",
+    "sibling_sign_wins": 11,
+    "sibling_sign_losses": 14,
+    "sibling_sign_ties": 5,
+    "sibling_min_n": 153,
+    "draws_count": 500,
+    "careful_agreement_pct": "41.1",
+    "careful_kappa": "0.105",
+    "claims_total": 2704,
+    "bad_total": 227,
+    "bad_pct": "9.2",
+    "unverifiable_total": 238,
+    "unverifiable_pct": "8.8",
+    "claims_v1": 760,
+    "supported_v1": 679,
+    "unsupported_v1": 44,
+    "contradicted_v1": 15,
+    "unverifiable_v1": 22,
+    "bad_v1": 59,
+    "bad_per_case_v1": "0.295",
+    "summaries_with_bad_v1": 55,
+    "claims_v2": 898,
+    "supported_v2": 690,
+    "unsupported_v2": 79,
+    "contradicted_v2": 22,
+    "unverifiable_v2": 107,
+    "bad_v2": 101,
+    "bad_per_case_v2": "0.505",
+    "summaries_with_bad_v2": 87,
+    "claims_v3": 1046,
+    "supported_v3": 870,
+    "unsupported_v3": 21,
+    "contradicted_v3": 8,
+    "unverifiable_v3": 109,
+    "bad_v3": 67,
+    "bad_per_case_v3": "0.335",
+    "summaries_with_bad_v3": 58,
+    "misgrounded_v3": 38,
+    "planted_faults": 227,
+    "faults_recovered": 227,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "planted_contradicted": 45,
+    "planted_misgrounded": 38,
+    "planted_unsupported": 144,
+    "fluent_grounding_effect": "0.210",
+    "careful_grounding_effect": "0.040",
+    "sibling_grounding_effect": "0.170",
+    "unflagged_bad_claims": 84,
+    "unflagged_bad_pct": "37.0",
+    "unflagged_summaries_pct_v1": "36.4",
+    "score_contradicted_v1": "2.778",
+    "score_clean_v1": "3.060",
+    "unflagged_summaries_pct_v2": "35.6",
+    "score_contradicted_v2": "3.348",
+    "score_clean_v2": "3.342",
+    "unflagged_summaries_pct_v3": "41.4",
+    "score_contradicted_v3": "3.083",
+    "score_clean_v3": "3.300",
+    "pooled_rank_corr_abs": "0.131",
+    "matrix_rows": 12,
+    "matrix_exit_0": 1,
+    "matrix_exit_1": 7,
+    "matrix_exit_2": 4,
+    "regression_wins_rows": 3,
+    "forbidden_on_default_path": 0,
+    "row_v1_v2_first30_reviews": "0.456",
+    "row_v1_v2_first30_grounding": "0.210",
+    "row_v1_v2_all_reviews": "0.267",
+    "row_v1_v2_all_grounding": "0.210",
+    "row_v1_v3_first30_reviews": "0.233",
+    "row_v1_v3_first30_grounding": "0.040",
+    "row_v1_v3_all_reviews": "0.248",
+    "row_v1_v3_all_grounding": "0.040",
+    "row_v2_v1_first30_reviews": "0.456",
+    "row_v2_v1_first30_grounding": "0.210",
+    "row_v2_v1_all_reviews": "0.267",
+    "row_v2_v1_all_grounding": "0.210",
+    "row_v2_v3_first30_reviews": "0.222",
+    "row_v2_v3_first30_grounding": "0.170",
+    "row_v2_v3_all_reviews": "0.018",
+    "row_v2_v3_all_grounding": "0.170",
+    "row_v3_v1_first30_reviews": "0.233",
+    "row_v3_v1_first30_grounding": "0.040",
+    "row_v3_v1_all_reviews": "0.248",
+    "row_v3_v1_all_grounding": "0.040",
+    "row_v3_v2_first30_reviews": "0.222",
+    "row_v3_v2_first30_grounding": "0.170",
+    "row_v3_v2_all_reviews": "0.018",
+    "row_v3_v2_all_grounding": "0.170"
+  },
+  "anchors": {
+    "tests_total": [
+      "{} tests"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "cases_total": [
+      "{} cases in the fixture",
+      "{} fixture cases"
+    ],
+    "comments_total": [
+      "{} case comments"
+    ],
+    "chunks_total": [
+      "{} retrieved chunks"
+    ],
+    "versions_total": [
+      "{} template versions"
+    ],
+    "generations_total": [
+      "{} generated summaries"
+    ],
+    "reviewers_total": [
+      "{} reviewers"
+    ],
+    "review_rows_total": [
+      "{} review rows"
+    ],
+    "canonical_cases": [
+      "canonical set of {} cases"
+    ],
+    "reviewer_spread": [
+      "{} points between reviewers on one summary"
+    ],
+    "flagged_rows": [
+      "{} flagged review rows"
+    ],
+    "flagged_rows_pct": [
+      "{}% of review rows flagged"
+    ],
+    "mean_score_v1": [
+      "v1 averages {}"
+    ],
+    "mean_score_v2": [
+      "v2 averages {}"
+    ],
+    "mean_score_v3": [
+      "v3 averages {}"
+    ],
+    "fluent_effect_30": [
+      "fluent rewrite ahead by {} on thirty"
+    ],
+    "fluent_floor_30": [
+      "fluent floor of {}"
+    ],
+    "fluent_sd_30": [
+      "fluent paired spread of {}"
+    ],
+    "fluent_p_30": [
+      "fluent p of {} on thirty"
+    ],
+    "fluent_effect_all": [
+      "fluent rewrite ahead by {} on the full review"
+    ],
+    "fluent_p_all": [
+      "fluent p of {} on the full review"
+    ],
+    "fluent_draws_clear_pct": [
+      "{}% of fluent rewrite thirties clear"
+    ],
+    "fluent_draws_wrong_pct": [
+      "{}% of fluent rewrite thirties point the wrong way"
+    ],
+    "fluent_sign_wins": [
+      "fluent sign test {} wins, {m:fluent_sign_losses} losses, {m:fluent_sign_ties} ties"
+    ],
+    "fluent_sign_losses": [
+      "fluent sign test {m:fluent_sign_wins} wins, {} losses, {m:fluent_sign_ties} ties"
+    ],
+    "fluent_sign_ties": [
+      "fluent sign test {m:fluent_sign_wins} wins, {m:fluent_sign_losses} losses, {} ties"
+    ],
+    "fluent_min_n": [
+      "fluent formula says {} reviews"
+    ],
+    "fluent_clears_at": [
+      "fluent rewrite clears at {} reviews"
+    ],
+    "fluent_ci_low": [
+      "fluent interval from {} to {m:fluent_ci_high}"
+    ],
+    "fluent_ci_high": [
+      "fluent interval from {m:fluent_ci_low} to {}"
+    ],
+    "careful_effect_30": [
+      "careful rewrite ahead by {} on thirty"
+    ],
+    "careful_floor_30": [
+      "careful floor of {}"
+    ],
+    "careful_sd_30": [
+      "careful paired spread of {}"
+    ],
+    "careful_p_30": [
+      "careful p of {} on thirty"
+    ],
+    "careful_effect_all": [
+      "careful rewrite ahead by {} on the full review"
+    ],
+    "careful_p_all": [
+      "careful p of {} on the full review"
+    ],
+    "careful_draws_clear_pct": [
+      "{}% of careful rewrite thirties clear"
+    ],
+    "careful_draws_wrong_pct": [
+      "{}% of careful rewrite thirties point the wrong way"
+    ],
+    "careful_sign_wins": [
+      "careful sign test {} wins, {m:careful_sign_losses} losses, {m:careful_sign_ties} ties"
+    ],
+    "careful_sign_losses": [
+      "careful sign test {m:careful_sign_wins} wins, {} losses, {m:careful_sign_ties} ties"
+    ],
+    "careful_sign_ties": [
+      "careful sign test {m:careful_sign_wins} wins, {m:careful_sign_losses} losses, {} ties"
+    ],
+    "careful_min_n": [
+      "careful formula says {} reviews"
+    ],
+    "careful_clears_at": [
+      "careful rewrite clears at {} reviews"
+    ],
+    "careful_ci_low_abs": [
+      "careful interval from minus {} to {m:careful_ci_high}"
+    ],
+    "careful_ci_high": [
+      "careful interval from minus {m:careful_ci_low_abs} to {}"
+    ],
+    "sibling_effect_30": [
+      "v3 against v2 trails by {} on thirty"
+    ],
+    "sibling_floor_30": [
+      "sibling floor of {}"
+    ],
+    "sibling_sd_30": [
+      "sibling paired spread of {}"
+    ],
+    "sibling_p_30": [
+      "sibling p of {} on thirty"
+    ],
+    "sibling_effect_all": [
+      "v3 against v2 trails by {} on the full review"
+    ],
+    "sibling_p_all": [
+      "sibling p of {} on the full review"
+    ],
+    "sibling_draws_clear_pct": [
+      "{}% of v3 against v2 thirties clear"
+    ],
+    "sibling_draws_wrong_pct": [
+      "{}% of v3 against v2 thirties point the wrong way"
+    ],
+    "sibling_sign_wins": [
+      "sibling sign test {} wins, {m:sibling_sign_losses} losses, {m:sibling_sign_ties} ties"
+    ],
+    "sibling_sign_losses": [
+      "sibling sign test {m:sibling_sign_wins} wins, {} losses, {m:sibling_sign_ties} ties"
+    ],
+    "sibling_sign_ties": [
+      "sibling sign test {m:sibling_sign_wins} wins, {m:sibling_sign_losses} losses, {} ties"
+    ],
+    "sibling_min_n": [
+      "sibling formula says {} reviews"
+    ],
+    "draws_count": [
+      "{} draws of thirty"
+    ],
+    "careful_agreement_pct": [
+      "{}% pairwise reviewer agreement"
+    ],
+    "careful_kappa": [
+      "mean kappa of {}"
+    ],
+    "claims_total": [
+      "{} claims extracted"
+    ],
+    "bad_total": [
+      "{} bad claims in all"
+    ],
+    "bad_pct": [
+      "{}% of checkable claims are bad"
+    ],
+    "unverifiable_total": [
+      "{} unverifiable claims"
+    ],
+    "unverifiable_pct": [
+      "{}% of claims unverifiable"
+    ],
+    "claims_v1": [
+      "{} v1 claims"
+    ],
+    "supported_v1": [
+      "{} supported in v1"
+    ],
+    "unsupported_v1": [
+      "{} unsupported in v1"
+    ],
+    "contradicted_v1": [
+      "{} contradicted in v1"
+    ],
+    "unverifiable_v1": [
+      "{} unverifiable in v1"
+    ],
+    "bad_v1": [
+      "{} bad claims in v1"
+    ],
+    "bad_per_case_v1": [
+      "{} bad claims per v1 case"
+    ],
+    "summaries_with_bad_v1": [
+      "{} v1 summaries carry a bad claim"
+    ],
+    "claims_v2": [
+      "{} v2 claims"
+    ],
+    "supported_v2": [
+      "{} supported in v2"
+    ],
+    "unsupported_v2": [
+      "{} unsupported in v2"
+    ],
+    "contradicted_v2": [
+      "{} contradicted in v2"
+    ],
+    "unverifiable_v2": [
+      "{} unverifiable in v2"
+    ],
+    "bad_v2": [
+      "{} bad claims in v2"
+    ],
+    "bad_per_case_v2": [
+      "{} bad claims per v2 case"
+    ],
+    "summaries_with_bad_v2": [
+      "{} v2 summaries carry a bad claim"
+    ],
+    "claims_v3": [
+      "{} v3 claims"
+    ],
+    "supported_v3": [
+      "{} supported in v3"
+    ],
+    "unsupported_v3": [
+      "{} unsupported in v3"
+    ],
+    "contradicted_v3": [
+      "{} contradicted in v3"
+    ],
+    "unverifiable_v3": [
+      "{} unverifiable in v3"
+    ],
+    "bad_v3": [
+      "{} bad claims in v3"
+    ],
+    "bad_per_case_v3": [
+      "{} bad claims per v3 case"
+    ],
+    "summaries_with_bad_v3": [
+      "{} v3 summaries carry a bad claim"
+    ],
+    "misgrounded_v3": [
+      "{} mis-grounded through a chunk"
+    ],
+    "planted_faults": [
+      "{} planted faults",
+      "floor 1 in {}"
+    ],
+    "faults_recovered": [
+      "{} of {m:planted_faults} faults recovered"
+    ],
+    "false_positives": [
+      "{} false positives"
+    ],
+    "false_negatives": [
+      "{} false negatives"
+    ],
+    "planted_contradicted": [
+      "{} planted contradicted"
+    ],
+    "planted_misgrounded": [
+      "{} planted misgrounded"
+    ],
+    "planted_unsupported": [
+      "{} planted unsupported"
+    ],
+    "fluent_grounding_effect": [
+      "{} more bad claims per case than v1"
+    ],
+    "careful_grounding_effect": [
+      "{} bad claims per case apart from v1"
+    ],
+    "sibling_grounding_effect": [
+      "{} fewer bad claims per case than v2"
+    ],
+    "unflagged_bad_claims": [
+      "{} bad claims no reviewer flagged"
+    ],
+    "unflagged_bad_pct": [
+      "{}% of bad claims unflagged"
+    ],
+    "unflagged_summaries_pct_v1": [
+      "{}% of v1 summaries with a bad claim went unflagged"
+    ],
+    "score_contradicted_v1": [
+      "v1 summaries with a contradicted claim score {}"
+    ],
+    "score_clean_v1": [
+      "clean v1 summaries score {}"
+    ],
+    "unflagged_summaries_pct_v2": [
+      "{}% of v2 summaries with a bad claim went unflagged"
+    ],
+    "score_contradicted_v2": [
+      "v2 summaries with a contradicted claim score {}"
+    ],
+    "score_clean_v2": [
+      "clean v2 summaries score {}"
+    ],
+    "unflagged_summaries_pct_v3": [
+      "{}% of v3 summaries with a bad claim went unflagged"
+    ],
+    "score_contradicted_v3": [
+      "v3 summaries with a contradicted claim score {}"
+    ],
+    "score_clean_v3": [
+      "clean v3 summaries score {}"
+    ],
+    "pooled_rank_corr_abs": [
+      "rank correlation of minus {}"
+    ],
+    "matrix_rows": [
+      "{} gate rows"
+    ],
+    "matrix_exit_0": [
+      "{} rows exit 0"
+    ],
+    "matrix_exit_1": [
+      "{} rows exit 1"
+    ],
+    "matrix_exit_2": [
+      "{} rows exit 2"
+    ],
+    "regression_wins_rows": [
+      "{} rows where a regression wins"
+    ],
+    "forbidden_on_default_path": [
+      "{} forbidden modules on the default path"
+    ],
+    "row_v1_v2_first30_reviews": [
+      "| v1 | v2 | first30 | better | +{} | worse | -{m:row_v1_v2_first30_grounding} | 1 |"
+    ],
+    "row_v1_v2_first30_grounding": [
+      "| v1 | v2 | first30 | better | +{m:row_v1_v2_first30_reviews} | worse | -{} | 1 |"
+    ],
+    "row_v1_v2_all_reviews": [
+      "| v1 | v2 | all | better | +{} | worse | -{m:row_v1_v2_all_grounding} | 1 |"
+    ],
+    "row_v1_v2_all_grounding": [
+      "| v1 | v2 | all | better | +{m:row_v1_v2_all_reviews} | worse | -{} | 1 |"
+    ],
+    "row_v1_v3_first30_reviews": [
+      "| v1 | v3 | first30 | undecided | +{} | undecided | -{m:row_v1_v3_first30_grounding} | 2 |"
+    ],
+    "row_v1_v3_first30_grounding": [
+      "| v1 | v3 | first30 | undecided | +{m:row_v1_v3_first30_reviews} | undecided | -{} | 2 |"
+    ],
+    "row_v1_v3_all_reviews": [
+      "| v1 | v3 | all | better | +{} | undecided | -{m:row_v1_v3_all_grounding} | 0 |"
+    ],
+    "row_v1_v3_all_grounding": [
+      "| v1 | v3 | all | better | +{m:row_v1_v3_all_reviews} | undecided | -{} | 0 |"
+    ],
+    "row_v2_v1_first30_reviews": [
+      "| v2 | v1 | first30 | worse | -{} | better | +{m:row_v2_v1_first30_grounding} | 1 |"
+    ],
+    "row_v2_v1_first30_grounding": [
+      "| v2 | v1 | first30 | worse | -{m:row_v2_v1_first30_reviews} | better | +{} | 1 |"
+    ],
+    "row_v2_v1_all_reviews": [
+      "| v2 | v1 | all | worse | -{} | better | +{m:row_v2_v1_all_grounding} | 1 |"
+    ],
+    "row_v2_v1_all_grounding": [
+      "| v2 | v1 | all | worse | -{m:row_v2_v1_all_reviews} | better | +{} | 1 |"
+    ],
+    "row_v2_v3_first30_reviews": [
+      "| v2 | v3 | first30 | undecided | -{} | better | +{m:row_v2_v3_first30_grounding} | 2 |"
+    ],
+    "row_v2_v3_first30_grounding": [
+      "| v2 | v3 | first30 | undecided | -{m:row_v2_v3_first30_reviews} | better | +{} | 2 |"
+    ],
+    "row_v2_v3_all_reviews": [
+      "| v2 | v3 | all | undecided | -{} | better | +{m:row_v2_v3_all_grounding} | 2 |"
+    ],
+    "row_v2_v3_all_grounding": [
+      "| v2 | v3 | all | undecided | -{m:row_v2_v3_all_reviews} | better | +{} | 2 |"
+    ],
+    "row_v3_v1_first30_reviews": [
+      "| v3 | v1 | first30 | undecided | -{} | undecided | +{m:row_v3_v1_first30_grounding} | 2 |"
+    ],
+    "row_v3_v1_first30_grounding": [
+      "| v3 | v1 | first30 | undecided | -{m:row_v3_v1_first30_reviews} | undecided | +{} | 2 |"
+    ],
+    "row_v3_v1_all_reviews": [
+      "| v3 | v1 | all | worse | -{} | undecided | +{m:row_v3_v1_all_grounding} | 1 |"
+    ],
+    "row_v3_v1_all_grounding": [
+      "| v3 | v1 | all | worse | -{m:row_v3_v1_all_reviews} | undecided | +{} | 1 |"
+    ],
+    "row_v3_v2_first30_reviews": [
+      "| v3 | v2 | first30 | undecided | +{} | worse | -{m:row_v3_v2_first30_grounding} | 1 |"
+    ],
+    "row_v3_v2_first30_grounding": [
+      "| v3 | v2 | first30 | undecided | +{m:row_v3_v2_first30_reviews} | worse | -{} | 1 |"
+    ],
+    "row_v3_v2_all_reviews": [
+      "| v3 | v2 | all | undecided | +{} | worse | -{m:row_v3_v2_all_grounding} | 1 |"
+    ],
+    "row_v3_v2_all_grounding": [
+      "| v3 | v2 | all | undecided | +{m:row_v3_v2_all_reviews} | worse | -{} | 1 |"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "fixture/README.md",
+    "docs/adr/ADR-001-the-verdict-is-a-sample-size-claim.md",
+    "docs/adr/ADR-002-claim-level-grounding-against-the-contract.md",
+    "docs/adr/ADR-003-standard-library-statistics-and-a-stand-in-model.md",
+    "docs/adr/ADR-004-a-regression-wins-and-the-service-cannot-disagree.md",
+    "docs/adr/ADR-005-what-a-committed-fixture-cannot-establish.md"
+  ],
+  "banner": {
+    "path": "docs/assets/banner.svg",
+    "figures": {
+      "careful_effect_30": "ahead by {}",
+      "careful_floor_30": "floor {}",
+      "careful_min_n": "{} reviews to know",
+      "unflagged_bad_claims": "{} bad claims unflagged"
+    }
+  },
+  "note": "every value here is produced by running the suite and the experiments; tools/collect_metrics.py wrote it"
+}

@@ -1,0 +1,90 @@
+{
+  "recall": {
+    "byKind": {
+      "contradicted": {
+        "planted": 45,
+        "recovered": 45
+      },
+      "misgrounded": {
+        "planted": 38,
+        "recovered": 38
+      },
+      "unsupported": {
+        "planted": 144,
+        "recovered": 144
+      }
+    },
+    "falseNegatives": 0,
+    "falsePositives": 0,
+    "floor": 227,
+    "planted": 227,
+    "recovered": 227
+  },
+  "totals": {
+    "bad": 227,
+    "badPct": 9.2,
+    "claims": 2704,
+    "summaries": 600,
+    "unverifiable": 238,
+    "unverifiablePct": 8.8
+  },
+  "versions": {
+    "v1": {
+      "bad": 59,
+      "badPerCase": 0.295,
+      "by_source": {
+        "chunk": 0,
+        "comment": 299,
+        "field": 380,
+        "provider": 0
+      },
+      "claims": 760,
+      "contradicted": 15,
+      "misgrounded": 0,
+      "summaries": 200,
+      "summariesWithABadClaim": 55,
+      "supported": 679,
+      "unsupported": 44,
+      "unverifiable": 22,
+      "unverifiablePct": 2.9
+    },
+    "v2": {
+      "bad": 101,
+      "badPerCase": 0.505,
+      "by_source": {
+        "chunk": 0,
+        "comment": 314,
+        "field": 376,
+        "provider": 0
+      },
+      "claims": 898,
+      "contradicted": 22,
+      "misgrounded": 0,
+      "summaries": 200,
+      "summariesWithABadClaim": 87,
+      "supported": 690,
+      "unsupported": 79,
+      "unverifiable": 107,
+      "unverifiablePct": 11.9
+    },
+    "v3": {
+      "bad": 67,
+      "badPerCase": 0.335,
+      "by_source": {
+        "chunk": 0,
+        "comment": 317,
+        "field": 553,
+        "provider": 0
+      },
+      "claims": 1046,
+      "contradicted": 8,
+      "misgrounded": 38,
+      "summaries": 200,
+      "summariesWithABadClaim": 58,
+      "supported": 870,
+      "unsupported": 21,
+      "unverifiable": 109,
+      "unverifiablePct": 10.4
+    }
+  }
+}

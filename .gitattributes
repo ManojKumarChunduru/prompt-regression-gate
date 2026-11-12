@@ -1,0 +1,13 @@
+# Salesforce metadata is source, not data: count it on the language bar.
+*.cls linguist-detectable=true linguist-language=Apex
+*.cls-meta.xml linguist-detectable=true linguist-language=XML
+*.genAiPromptTemplate-meta.xml linguist-detectable=true linguist-language=XML
+*.field-meta.xml linguist-detectable=true linguist-language=XML
+fixture/data/*.csv linguist-detectable=true linguist-language=CSV
+fixture/data/*.jsonl linguist-generated=true
+fixture/generations/**/*.json linguist-generated=true
+fixture/reviews/*.csv linguist-generated=true
+fixture/EXPECTED_VERDICTS.json linguist-generated=true
+docs/assets/*.svg linguist-generated=true
+docs/metrics.json linguist-generated=true
+docs/experiments/*.json linguist-generated=true

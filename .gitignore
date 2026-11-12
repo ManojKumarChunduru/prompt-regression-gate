@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+src/*.egg-info/
+coverage.json
+.coverage
+docs/test-results.xml
+docs/evidence/report.html
+docs/evidence/demo-player.html
+docs/evidence/demo.webm
+docs/evidence/video-tmp/
+docs/assets/.mermaid-config.json
+docs/assets/.architecture.mmd

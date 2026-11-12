@@ -178,7 +178,7 @@ add("pooled_rank_corr_abs", three(exp4["pooledRankCorrelation"]), ["rank correla
 # The gate matrix.
 add("matrix_rows", len(exp5["rows"]), ["{} gate rows"])
 for code, count in exp5["exitCounts"].items():
-    add(f"matrix_exit_{code}", count, [f"{{}} rows exit {code}"])
+    add(f"matrix_exit_{code}", count, [f"{{}} rows exit {code}", f"{{}} row exits {code}"])
 add("regression_wins_rows", exp5["regressionWinsRows"], ["{} rows where a regression wins"])
 add("forbidden_on_default_path", exp5["defaultPathForbiddenCount"], ["{} forbidden modules on the default path"])
 for r in exp5["rows"]:

@@ -28,26 +28,24 @@ banner: dict | None = payload.get("banner")
 
 # Numbers that appear in prose and are not measurements. One reason each.
 ALLOWED_UNANCHORED: dict[str, str] = {
-    "0": "zero in prose (0 runtime dependencies, exit 0, a flag off)",
-    "1": "a count of one in prose (one page, one record, a floor of 1 in N, exit 1)",
-    "2": "a count of two in prose (two pages, exit 2)",
-    "3": "three readers, three page families, exit 3",
-    "4": "four criteria operations, four pinned stages of the build",
-    "5": "the five ADRs and five experiments",
-    "6": "six page families",
+    "0": "zero in prose (exit 0, 0 runtime dependencies, a rate of zero)",
+    "1": "a count of one in prose (one file per case, a floor of 1 in N, exit 1, one to five)",
+    "2": "a count of two in prose (two dimensions, exit 2, two hundred as a word elsewhere)",
+    "3": "three reviewers, three versions, exit 3",
+    "4": "a numbered item in ADR-005, four routes",
+    "5": "the five ADRs, five experiments, five verdicts, a score of one to five",
+    "6": "a numbered item in ADR-005",
     "7": "a numbered item in ADR-005",
     "8": "a numbered item in ADR-005",
-    "9": "a numbered item in ADR-005",
-    "200": "the UserRecordAccess query limit per call, a documented constant",
     "2026": "the year in the licence and the dates",
     "3.11": "the oldest Python the package supports",
+    "3.12": "the middle Python in the CI matrix",
     "3.13": "the newest Python in the CI matrix",
     "001": "ADR number in a link title",
     "002": "ADR number in a link title",
     "003": "ADR number in a link title",
     "004": "ADR number in a link title",
     "005": "ADR number in a link title",
-    "62.0": "the fixture's API version",
 }
 
 NUMBER = r"(\d+(?:,\d{3})*(?:\.\d+)?)"

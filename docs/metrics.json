@@ -490,13 +490,16 @@
       "{} gate rows"
     ],
     "matrix_exit_0": [
-      "{} rows exit 0"
+      "{} rows exit 0",
+      "{} row exits 0"
     ],
     "matrix_exit_1": [
-      "{} rows exit 1"
+      "{} rows exit 1",
+      "{} row exits 1"
     ],
     "matrix_exit_2": [
-      "{} rows exit 2"
+      "{} rows exit 2",
+      "{} row exits 2"
     ],
     "regression_wins_rows": [
       "{} rows where a regression wins"

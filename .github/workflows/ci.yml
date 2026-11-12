@@ -1,0 +1,108 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    name: "verify (python ${{ matrix.python }})"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install the package with the dev and api extras (pytest, coverage, ruff, fastapi, httpx)
+        run: python -m pip install -e ".[dev,api]"
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Tests with coverage (no model, no key, no network, no socket)
+        run: make coverage
+      - name: "Coverage floor: 95% of lines"
+        run: |
+          python - <<'EOF'
+          import json, sys
+          pct = json.load(open("coverage.json"))["totals"]["percent_covered"]
+          print(f"line coverage {pct:.1f}")
+          sys.exit(0 if pct >= 95 else 1)
+          EOF
+      - name: Experiments
+        run: make experiments
+      - name: "Experiments are byte-identical to the committed copies"
+        run: git diff --exit-code -- docs/experiments
+      - name: Receipts
+        run: |
+          python tools/collect_metrics.py
+          python tools/check_numbers.py
+      - name: "metrics.json is byte-identical to the committed copy"
+        run: git diff --exit-code -- docs/metrics.json
+      - name: "The fixture regenerates byte-identical"
+        run: |
+          python -I fixture/generate.py --out /tmp/regenerated
+          diff -r -x generate.py -x README.md -x policy -x force-app -x sfdx-project.json -x broken fixture /tmp/regenerated
+      - name: Upload the receipts
+        if: matrix.python == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: receipts
+          path: |
+            docs/metrics.json
+            docs/experiments/*.json
+            docs/test-results.xml
+            coverage.json
+
+  gate:
+    name: "gate: prg gate on the fixture with nothing but the package installed"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: "Install the package alone: the gate has no runtime dependencies"
+        run: python -m pip install .
+      - name: "The careful rewrite on the canonical thirty (expects exit 2: the thirty cannot decide)"
+        run: |
+          set +e
+          prg gate --project fixture --baseline v1 --candidate v3 --markdown gate-summary.md --json gate.json
+          code=$?
+          set -e
+          echo "prg exit code: $code"
+          test "$code" -eq 2
+      - name: Publish the awkward table to the job summary
+        if: always()
+        run: cat gate-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: "The careful rewrite on the full review (expects exit 0: ship)"
+        run: |
+          set +e
+          prg gate --project fixture --baseline v1 --candidate v3 --reviewed-set all --quiet
+          code=$?
+          set -e
+          echo "prg exit code: $code"
+          test "$code" -eq 0
+      - name: "The fluent rewrite reviewers prefer (expects exit 1: blocked on grounding)"
+        run: |
+          set +e
+          prg gate --project fixture --baseline v1 --candidate v2 --reviewed-set all --markdown fluent-summary.md
+          code=$?
+          set -e
+          echo "prg exit code: $code"
+          test "$code" -eq 1
+          cat fluent-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: "No optional module on the default path"
+        run: |
+          python - <<'EOF'
+          import sys, prg.cli
+          prg.cli.main(["gate", "--project", "fixture", "--baseline", "v1", "--candidate", "v3", "--quiet"])
+          bad = [m for m in ("openai", "google", "fastapi", "uvicorn") if m in sys.modules]
+          print("forbidden modules loaded:", bad)
+          sys.exit(1 if bad else 0)
+          EOF

@@ -3,12 +3,9 @@
 
 PY ?= python3
 
-.PHONY: install install-api lint test coverage experiments receipts evidence verify clean
+.PHONY: install lint test coverage experiments receipts evidence verify clean
 
 install:
-	$(PY) -m pip install -e ".[dev]"
-
-install-api:
 	$(PY) -m pip install -e ".[dev,api]"
 
 lint:

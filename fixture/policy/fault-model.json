@@ -1,0 +1,69 @@
+{
+  "_note": "The fixture's declared fictions, with a reason per line. The stand-in model writes each summary from the case's own values and then applies these rates; the reviewer model scores fluency and completeness with noise and flags a bad claim only sometimes. Nothing here is a measurement of any real model or reviewer; ADR-005 says which claims need the real thing.",
+  "versions": {
+    "v1": {
+      "fluency": 0.0,
+      "omit_detail": 0.16,
+      "invent_sentence": 0.16,
+      "contradict_atom": 0.1,
+      "quote_chunk": 0.0,
+      "add_sentiment": 0.1,
+      "reason": "the active version: terse instructions, omits a detail often, invents little; the baseline every candidate is measured against"
+    },
+    "v2": {
+      "fluency": 0.22,
+      "omit_detail": 0.08,
+      "invent_sentence": 0.4,
+      "contradict_atom": 0.2,
+      "quote_chunk": 0.0,
+      "add_sentiment": 0.55,
+      "reason": "the rewrite everyone wants to ship: reads better and omits less, and invents more; its review score rises by less than the thirty-review floor and its bad-claim count rises by more than the two-hundred-case floor"
+    },
+    "v3": {
+      "fluency": 0.22,
+      "omit_detail": 0.08,
+      "invent_sentence": 0.08,
+      "contradict_atom": 0.06,
+      "quote_chunk": 0.5,
+      "add_sentiment": 0.55,
+      "reason": "the careful rewrite with the retriever and the Apex provider: invents least from nothing and quotes the retrieved chunk half the time, which is the mis-grounding source when the retriever brought the wrong product"
+    }
+  },
+  "invented_sentences": {
+    "reason": "the sentences the stand-in invents; each carries an identifier and a date the case never had, so the grammar grades it unsupported",
+    "templates": [
+      "A replacement unit was shipped under RMA-{rma} on {date}.",
+      "Invoice INV-{inv} was issued on {date} for the repair.",
+      "The customer was told a firmware update would arrive on {date}."
+    ]
+  },
+  "contradictions": {
+    "reason": "which atom a contradiction displaces and how; priority, status, amount and contact have field counterparts and grade contradicted, a date has none and grades unsupported",
+    "kinds": [
+      "priority",
+      "status",
+      "amount",
+      "contact",
+      "date"
+    ]
+  },
+  "reviewers": {
+    "reason": "three reviewers score fluency and completeness with independent noise; one is harsher by a constant; a bad claim is flagged with a probability well below one, so the blind-spot count and the flag rate cannot contradict each other",
+    "base": 3.2,
+    "noise_sd": 0.9,
+    "omission_penalty": 0.5,
+    "flag_probability": 0.25,
+    "flag_penalty": 1.0,
+    "false_flag_probability": 0.03,
+    "harshness": {
+      "reviewer_a": 0.0,
+      "reviewer_b": -0.3,
+      "reviewer_c": 0.2
+    }
+  },
+  "retrieval": {
+    "reason": "three chunks per case: two from the case's product and one general, except in a quarter of cases where one chunk is for another product, which is what a retriever over a shared index does",
+    "chunks_per_case": 3,
+    "off_product_share": 0.25
+  }
+}

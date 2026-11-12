@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Yara Alvarez contacted support because the Pulse Band will not sync with the phone since 2026-02-23. It is a Medium priority case and the status is currently New. The agent offered a credit of $310.00. The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset.",
+      "responseId": "req-v3-069-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Pulse Band will not sync with the phone\nDescription: Customer Yara Alvarez reports the Pulse Band will not sync with the phone since 2026-02-23.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Pulse Band\nCustomer: Yara Alvarez\nAmount: 310.00\nOpened: 2026-02-27\nThread facts: Comment count: 3. Newest comment: 2026-03-06. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-01] Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-02-23. Serial SN-21099.\n- [2026-03-03] Offered a credit of $310.00.\n- [2026-03-06] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-nimbus-hub-03) Nimbus Hub needs a 2-hour cool-down before a factory reset.\n- (chunk-pulse-band-02) Pulse Band syncs only over Bluetooth 5 or later.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-069",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000069AAA"
+    }
+  },
+  "generationErrors": []
+}

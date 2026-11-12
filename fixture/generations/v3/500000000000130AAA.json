@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Haddad contacted support because the Nimbus Hub reboots during updates since 2026-04-12. It is a Medium priority case and the status is currently Escalated. The agent offered a replacement of $899.00. The customer confirmed order ORD-52870 and asked for a replacement. The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted. The customer seems satisfied with the proposed next step.",
+      "responseId": "req-v3-130-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub reboots during updates\nDescription: Customer Aisha Haddad reports the Nimbus Hub reboots during updates since 2026-04-12.\nPriority: Medium\nStatus: Escalated\nType: Problem\nProduct: Nimbus Hub\nCustomer: Aisha Haddad\nAmount: 899.00\nOpened: 2026-04-15\nThread facts: Comment count: 3. Newest comment: 2026-04-20. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-16] Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-04-12. Serial SN-78497.\n- [2026-04-19] Offered a replacement of $899.00.\n- [2026-04-20] Customer confirmed order ORD-52870 and asked for a replacement.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-nimbus-hub-03) Nimbus Hub needs a 2-hour cool-down before a factory reset.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-130",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000130AAA"
+    }
+  },
+  "generationErrors": []
+}

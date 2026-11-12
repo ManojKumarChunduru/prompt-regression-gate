@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Alvarez reported that the Volt Charger clicks and stops at 80 percent since 2026-04-12. The case is Medium priority and the status is New. The agent offered a credit of $49.00. The customer confirmed order ORD-20352 and asked for a replacement.",
+      "responseId": "req-v1-165-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Volt Charger clicks and stops at 80 percent\nDescription: Customer Owen Alvarez reports the Volt Charger clicks and stops at 80 percent since 2026-04-12.\nPriority: Medium\nStatus: New\nType: Question\nProduct: Volt Charger\nCustomer: Owen Alvarez\nAmount: 49.00\nOpened: 2026-04-16\nComments:\n- [2026-04-17] Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-04-12. Serial SN-36084.\n- [2026-04-17] Offered a credit of $49.00.\n- [2026-04-18] Customer confirmed order ORD-20352 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-165",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000165AAA"
+    }
+  },
+  "generationErrors": []
+}

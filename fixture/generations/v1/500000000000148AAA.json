@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Lukas Dubois reported that the Aero 2 stops charging after a few minutes since 2026-01-17. The case is High priority and the status is Escalated. The case was escalated to tier 2 on 2026-02-07. The customer confirmed order ORD-80328 and asked for a replacement.",
+      "responseId": "req-v1-148-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Lukas Dubois reports the Aero 2 stops charging after a few minutes since 2026-01-17.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Aero 2\nCustomer: Lukas Dubois\nAmount: 575.00\nOpened: 2026-02-06\nComments:\n- [2026-02-07] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-17. Serial SN-85681.\n- [2026-02-09] Escalated to tier 2 on 2026-02-07.\n- [2026-02-11] Customer confirmed order ORD-80328 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-148",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000148AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Alvarez contacted support because the Aero 2 overheats on the dock since 2026-04-03. It is a Medium priority case and the status is currently Escalated. The agent offered a credit of $199.00. The knowledge base notes that Aero 2 units carry a 24-month warranty from the purchase date.",
+      "responseId": "req-v3-118-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 overheats on the dock\nDescription: Customer Mei Alvarez reports the Aero 2 overheats on the dock since 2026-04-03.\nPriority: Medium\nStatus: Escalated\nType: Question\nProduct: Aero 2\nCustomer: Mei Alvarez\nAmount: 199.00\nOpened: 2026-04-11\nThread facts: Comment count: 2. Newest comment: 2026-04-15. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-14] Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-03. Serial SN-97986.\n- [2026-04-15] Offered a credit of $199.00.\nKnowledge passages:\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-118",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000118AAA"
+    }
+  },
+  "generationErrors": []
+}

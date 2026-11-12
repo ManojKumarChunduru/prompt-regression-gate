@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Leila Novak contacted support because the Orbit Cam records without audio since 2026-05-12. It is a High priority case and the status is currently New. The agent offered a replacement of $575.00. The customer confirmed order ORD-24556 and asked for a callback. The knowledge base notes that Orbit Cam records audio only after a 1-hour first charge.",
+      "responseId": "req-v3-027-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Orbit Cam records without audio\nDescription: Customer Leila Novak reports the Orbit Cam records without audio since 2026-05-12.\nPriority: High\nStatus: New\nType: Question\nProduct: Orbit Cam\nCustomer: Leila Novak\nAmount: 575.00\nOpened: 2026-05-18\nThread facts: Comment count: 3. Newest comment: 2026-05-24. Provider: CaseSummaryGrounding.\nComments:\n- [2026-05-21] Confirmed with the customer: the Orbit Cam records without audio since 2026-05-12. Serial SN-86882.\n- [2026-05-24] Offered a replacement of $575.00.\n- [2026-05-24] Customer confirmed order ORD-24556 and asked for a callback.\nKnowledge passages:\n- (chunk-orbit-cam-01) Orbit Cam records audio only after a 1-hour first charge.\n- (chunk-orbit-cam-03) Orbit Cam logs out after 7 days without a refresh.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-027",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000027AAA"
+    }
+  },
+  "generationErrors": []
+}

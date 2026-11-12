@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Sofia Petrov reported that the Nimbus Hub ignores the voice command since 2026-04-10. The case is Low priority and the status is Escalated. The customer confirmed order ORD-19628 and asked for a replacement.",
+      "responseId": "req-v1-174-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub ignores the voice command\nDescription: Customer Sofia Petrov reports the Nimbus Hub ignores the voice command since 2026-04-10.\nPriority: Low\nStatus: Escalated\nType: Question\nProduct: Nimbus Hub\nCustomer: Sofia Petrov\nAmount: 49.00\nOpened: 2026-04-16\nComments:\n- [2026-04-19] Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-04-10. Serial SN-44932.\n- [2026-04-20] Offered a refund of $49.00.\n- [2026-04-23] Customer confirmed order ORD-19628 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-174",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000174AAA"
+    }
+  },
+  "generationErrors": []
+}

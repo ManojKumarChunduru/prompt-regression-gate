@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Daniel Novak contacted support because the Nimbus Hub ignores the voice command since 2026-05-02. It is a Low priority case and the status is currently New. The agent offered a refund of $199.00. The customer confirmed order ORD-42090 and asked for a refund. The customer seems satisfied with the proposed next step.",
+      "responseId": "req-v2-100-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Nimbus Hub ignores the voice command\nDescription: Customer Daniel Novak reports the Nimbus Hub ignores the voice command since 2026-05-02.\nPriority: Low\nStatus: New\nType: Question\nProduct: Nimbus Hub\nCustomer: Daniel Novak\nAmount: 199.00\nOpened: 2026-05-11\nComments:\n- [2026-05-13] Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-05-02. Serial SN-23059.\n- [2026-05-13] Offered a refund of $199.00.\n- [2026-05-13] Customer confirmed order ORD-42090 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-100",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000100AAA"
+    }
+  },
+  "generationErrors": []
+}

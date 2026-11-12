@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Haddad contacted support because the Nimbus Hub reboots during updates since 2025-12-23. It is a Medium priority case and the status is currently Working. The agent offered a replacement of $89.00. The customer confirmed order ORD-81672 and asked for a refund.",
+      "responseId": "req-v2-124-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Nimbus Hub reboots during updates\nDescription: Customer Nadia Haddad reports the Nimbus Hub reboots during updates since 2025-12-23.\nPriority: Medium\nStatus: Working\nType: Problem\nProduct: Nimbus Hub\nCustomer: Nadia Haddad\nAmount: 89.00\nOpened: 2026-01-07\nComments:\n- [2026-01-10] Confirmed with the customer: the Nimbus Hub reboots during updates since 2025-12-23. Serial SN-50463.\n- [2026-01-10] Offered a replacement of $89.00.\n- [2026-01-10] Customer confirmed order ORD-81672 and asked for a refund.\n- [2026-01-13] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-124",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000124AAA"
+    }
+  },
+  "generationErrors": []
+}

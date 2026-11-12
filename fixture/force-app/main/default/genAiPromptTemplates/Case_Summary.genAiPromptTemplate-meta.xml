@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>v1</activeVersionIdentifier>
+    <description>Summarises a case for the next agent who opens it. Three versions: the active terse one, a fluent rewrite, and the fluent rewrite grounded with a retriever and an Apex provider.</description>
+    <developerName>Case_Summary</developerName>
+    <masterLabel>Case Summary</masterLabel>
+    <relatedEntity>Case</relatedEntity>
+    <relatedField>Case.Case_Summary__c</relatedField>
+    <templateVersions>
+        <content>Summarize this support case for the next agent in three to five short sentences. State only what the case says.
+Subject: {!$Input:Case.Subject}
+Description: {!$Input:Case.Description}
+Priority: {!$Input:Case.Priority}
+Status: {!$Input:Case.Status}
+Type: {!$Input:Case.Type}
+Product: {!$Input:Case.Product__c}
+Customer: {!$Input:Case.Contact.Name}
+Amount: {!$Input:Case.Amount__c}
+Opened: {!$Input:Case.CreatedDate}
+Comments:
+{!$RelatedList:Case.CaseComments.Records}</content>
+        <description>The active version: terse instructions over the record and its comments.</description>
+        <inputs>
+            <apiName>Case</apiName>
+            <definition>SOBJECT://Case</definition>
+            <masterLabel>Case</masterLabel>
+            <referenceName>Input:Case</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>MarkDown</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>v1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.
+Subject: {!$Input:Case.Subject}
+Description: {!$Input:Case.Description}
+Priority: {!$Input:Case.Priority}
+Status: {!$Input:Case.Status}
+Type: {!$Input:Case.Type}
+Product: {!$Input:Case.Product__c}
+Customer: {!$Input:Case.Contact.Name}
+Amount: {!$Input:Case.Amount__c}
+Opened: {!$Input:Case.CreatedDate}
+Comments:
+{!$RelatedList:Case.CaseComments.Records}</content>
+        <description>The fluent rewrite: the same merge fields, instructions tuned for readability.</description>
+        <inputs>
+            <apiName>Case</apiName>
+            <definition>SOBJECT://Case</definition>
+            <masterLabel>Case</masterLabel>
+            <referenceName>Input:Case</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>MarkDown</responseFormat>
+        <status>Draft</status>
+        <versionIdentifier>v2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.
+Subject: {!$Input:Case.Subject}
+Description: {!$Input:Case.Description}
+Priority: {!$Input:Case.Priority}
+Status: {!$Input:Case.Status}
+Type: {!$Input:Case.Type}
+Product: {!$Input:Case.Product__c}
+Customer: {!$Input:Case.Contact.Name}
+Amount: {!$Input:Case.Amount__c}
+Opened: {!$Input:Case.CreatedDate}
+Thread facts: {!$Apex:CaseSummaryGrounding.Prompt}
+Comments:
+{!$RelatedList:Case.CaseComments.Records}
+Knowledge passages:
+{!$EinsteinSearch:Case_Knowledge_Retriever.Results}</content>
+        <description>The fluent rewrite grounded with the Case_Knowledge_Retriever and the CaseSummaryGrounding Apex provider.</description>
+        <inputs>
+            <apiName>Case</apiName>
+            <definition>SOBJECT://Case</definition>
+            <masterLabel>Case</masterLabel>
+            <referenceName>Input:Case</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>MarkDown</responseFormat>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>apex://CaseSummaryGrounding</definition>
+            <label>Case Summary Grounding</label>
+            <parameters>
+                <definition>SOBJECT://Case</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Case</parameterName>
+                <valueExpression>{!$Input:Case}</valueExpression>
+            </parameters>
+            <referenceName>CaseSummaryGrounding</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>v3</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__fieldCompletion</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Quintero contacted support because the Nimbus Hub reboots during updates since 2026-04-23. It is a High priority case and the status is currently New. A callback is scheduled for 2026-04-27. The customer confirmed order ORD-45437 and asked for a cancellation. The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted.",
+      "responseId": "req-v3-136-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub reboots during updates\nDescription: Customer Priya Quintero reports the Nimbus Hub reboots during updates since 2026-04-23.\nPriority: High\nStatus: New\nType: Feature Request\nProduct: Nimbus Hub\nCustomer: Priya Quintero\nAmount: 575.00\nOpened: 2026-04-24\nThread facts: Comment count: 3. Newest comment: 2026-04-28. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-26] Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-04-23. Serial SN-32907.\n- [2026-04-26] Scheduled a callback on 2026-04-27.\n- [2026-04-28] Customer confirmed order ORD-45437 and asked for a cancellation.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-nimbus-hub-01) Nimbus Hub supports a 36-month extended warranty.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-136",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000136AAA"
+    }
+  },
+  "generationErrors": []
+}

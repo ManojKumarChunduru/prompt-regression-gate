@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Haddad contacted support because the Nimbus Hub reboots during updates since 2025-12-23. It is a Medium priority case and the status is currently Working. The agent offered a replacement of $89.00. The customer confirmed order ORD-81672 and asked for a refund. The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted.",
+      "responseId": "req-v3-124-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub reboots during updates\nDescription: Customer Nadia Haddad reports the Nimbus Hub reboots during updates since 2025-12-23.\nPriority: Medium\nStatus: Working\nType: Problem\nProduct: Nimbus Hub\nCustomer: Nadia Haddad\nAmount: 89.00\nOpened: 2026-01-07\nThread facts: Comment count: 4. Newest comment: 2026-01-13. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-10] Confirmed with the customer: the Nimbus Hub reboots during updates since 2025-12-23. Serial SN-50463.\n- [2026-01-10] Offered a replacement of $89.00.\n- [2026-01-10] Customer confirmed order ORD-81672 and asked for a refund.\n- [2026-01-13] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-nimbus-hub-01) Nimbus Hub supports a 36-month extended warranty.\n- (chunk-pulse-band-03) Pulse Band step counts are recalibrated after a 2-day wear period.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-124",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000124AAA"
+    }
+  },
+  "generationErrors": []
+}

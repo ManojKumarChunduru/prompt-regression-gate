@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Leila Sato contacted support because the Volt Charger trips the breaker since 2026-03-22. It is a Medium priority case and the status is currently New. The case was escalated to tier 2 on 2026-03-28. The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted.",
+      "responseId": "req-v3-025-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Volt Charger trips the breaker\nDescription: Customer Leila Sato reports the Volt Charger trips the breaker since 2026-03-22.\nPriority: Medium\nStatus: New\nType: Problem\nProduct: Volt Charger\nCustomer: Leila Sato\nAmount: 49.00\nOpened: 2026-03-27\nThread facts: Comment count: 2. Newest comment: 2026-03-27. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-27] Confirmed with the customer: the Volt Charger trips the breaker since 2026-03-22. Serial SN-80093.\n- [2026-03-27] Escalated to tier 2 on 2026-03-28.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-volt-charger-02) Volt Charger limits output for 10 minutes when the breaker trips.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-025",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000025AAA"
+    }
+  },
+  "generationErrors": []
+}

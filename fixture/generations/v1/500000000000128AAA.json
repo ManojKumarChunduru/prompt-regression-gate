@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Natarajan reported that the Orbit Cam records without audio since 2026-04-04. The case is Low priority and the status is New. The agent offered a credit of $420.00. The customer confirmed order ORD-79901 and asked for a refund.",
+      "responseId": "req-v1-128-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Orbit Cam records without audio\nDescription: Customer Mei Natarajan reports the Orbit Cam records without audio since 2026-04-04.\nPriority: Low\nStatus: New\nType: Feature Request\nProduct: Orbit Cam\nCustomer: Mei Natarajan\nAmount: 420.00\nOpened: 2026-04-22\nComments:\n- [2026-04-24] Confirmed with the customer: the Orbit Cam records without audio since 2026-04-04. Serial SN-27411.\n- [2026-04-27] Offered a credit of $420.00.\n- [2026-04-29] Customer confirmed order ORD-79901 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-128",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000128AAA"
+    }
+  },
+  "generationErrors": []
+}

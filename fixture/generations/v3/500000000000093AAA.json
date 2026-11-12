@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Daniel Quintero contacted support because the Pulse Band drains in under a day since 2026-03-21. It is a High priority case and the status is currently Escalated. The agent offered a replacement of $89.00. The customer confirmed order ORD-13832 and asked for a refund. The knowledge base notes that Orbit Cam logs out after 7 days without a refresh. The customer sounds frustrated and wants a quick resolution.",
+      "responseId": "req-v3-093-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Pulse Band drains in under a day\nDescription: Customer Daniel Quintero reports the Pulse Band drains in under a day since 2026-03-21.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Pulse Band\nCustomer: Daniel Quintero\nAmount: 89.00\nOpened: 2026-04-08\nThread facts: Comment count: 3. Newest comment: 2026-04-09. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-08] Confirmed with the customer: the Pulse Band drains in under a day since 2026-03-21. Serial SN-78066.\n- [2026-04-09] Offered a replacement of $89.00.\n- [2026-04-09] Customer confirmed order ORD-13832 and asked for a refund.\nKnowledge passages:\n- (chunk-pulse-band-02) Pulse Band syncs only over Bluetooth 5 or later.\n- (chunk-orbit-cam-03) Orbit Cam logs out after 7 days without a refresh.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-093",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000093AAA"
+    }
+  },
+  "generationErrors": []
+}

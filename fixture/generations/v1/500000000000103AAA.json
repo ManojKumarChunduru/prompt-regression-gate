@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Lindqvist reported that the Pulse Band has a cracked strap clip since 2026-05-12. The case is Low priority and the status is Working. The agent offered a replacement of $310.00.",
+      "responseId": "req-v1-103-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Pulse Band has a cracked strap clip\nDescription: Customer Tomas Lindqvist reports the Pulse Band has a cracked strap clip since 2026-05-12.\nPriority: Low\nStatus: Working\nType: Problem\nProduct: Pulse Band\nCustomer: Tomas Lindqvist\nAmount: 310.00\nOpened: 2026-05-16\nComments:\n- [2026-05-18] Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-12. Serial SN-76384.\n- [2026-05-21] Offered a replacement of $310.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-103",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000103AAA"
+    }
+  },
+  "generationErrors": []
+}

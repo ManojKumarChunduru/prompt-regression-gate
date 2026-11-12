@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Pulse Band drains in under a day since 2026-01-17. It is a Low priority case and the status is currently Escalated. The agent offered a credit of $49.00.",
+      "responseId": "req-v2-032-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Pulse Band drains in under a day\nDescription: Customer Nadia Fernandes reports the Pulse Band drains in under a day since 2026-01-17.\nPriority: Low\nStatus: Escalated\nType: Question\nProduct: Pulse Band\nCustomer: Nadia Fernandes\nAmount: 49.00\nOpened: 2026-01-22\nComments:\n- [2026-01-22] Confirmed with the customer: the Pulse Band drains in under a day since 2026-01-17. Serial SN-12659.\n- [2026-01-25] Offered a credit of $49.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-032",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000032AAA"
+    }
+  },
+  "generationErrors": []
+}

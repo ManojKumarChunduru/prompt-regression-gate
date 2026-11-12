@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Sato reported that the Aero 2 stops charging after a few minutes since 2026-04-27. The case is Medium priority and the status is Closed. A callback is scheduled for 2026-05-12.",
+      "responseId": "req-v1-135-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Tomas Sato reports the Aero 2 stops charging after a few minutes since 2026-04-27.\nPriority: Medium\nStatus: Closed\nType: Problem\nProduct: Aero 2\nCustomer: Tomas Sato\nAmount: 199.00\nOpened: 2026-05-06\nComments:\n- [2026-05-06] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-04-27. Serial SN-34112.\n- [2026-05-09] Scheduled a callback on 2026-05-12.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-135",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000135AAA"
+    }
+  },
+  "generationErrors": []
+}

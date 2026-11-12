@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Sato reported that the Strata Mini jams the rear tray since 2026-02-11. The case is Medium priority and the status is Working. The agent offered a refund of $149.50.",
+      "responseId": "req-v1-083-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Strata Mini jams the rear tray\nDescription: Customer Mei Sato reports the Strata Mini jams the rear tray since 2026-02-11.\nPriority: Medium\nStatus: Working\nType: Problem\nProduct: Strata Mini\nCustomer: Mei Sato\nAmount: 149.50\nOpened: 2026-02-28\nComments:\n- [2026-03-02] Confirmed with the customer: the Strata Mini jams the rear tray since 2026-02-11. Serial SN-46769.\n- [2026-03-02] Offered a refund of $149.50.\n- [2026-03-02] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-083",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000083AAA"
+    }
+  },
+  "generationErrors": []
+}

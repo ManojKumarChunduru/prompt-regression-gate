@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Hannah Novak reported that the Volt Charger charges at half speed since 2026-03-15. The case is Medium priority and the status is New. The customer confirmed order ORD-97608 and asked for a refund.",
+      "responseId": "req-v1-126-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Volt Charger charges at half speed\nDescription: Customer Hannah Novak reports the Volt Charger charges at half speed since 2026-03-15.\nPriority: Medium\nStatus: New\nType: Problem\nProduct: Volt Charger\nCustomer: Hannah Novak\nAmount: 49.00\nOpened: 2026-03-18\nComments:\n- [2026-03-18] Confirmed with the customer: the Volt Charger charges at half speed since 2026-03-15. Serial SN-74069.\n- [2026-03-21] Scheduled a callback on 2026-03-23.\n- [2026-03-23] Customer confirmed order ORD-97608 and asked for a refund.\n- [2026-03-26] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-126",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000126AAA"
+    }
+  },
+  "generationErrors": []
+}

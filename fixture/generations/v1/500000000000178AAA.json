@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Rohan Alvarez reported that the Aero 2 overheats on the dock since 2026-02-28. The case is Low priority and the status is Closed. A callback is scheduled for 2026-03-14. The customer confirmed order ORD-66768 and asked for a callback.",
+      "responseId": "req-v1-178-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 overheats on the dock\nDescription: Customer Rohan Alvarez reports the Aero 2 overheats on the dock since 2026-02-28.\nPriority: Low\nStatus: Closed\nType: Problem\nProduct: Aero 2\nCustomer: Rohan Alvarez\nAmount: 49.00\nOpened: 2026-03-06\nComments:\n- [2026-03-08] Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-28. Serial SN-43051.\n- [2026-03-08] Scheduled a callback on 2026-03-14.\n- [2026-03-11] Customer confirmed order ORD-66768 and asked for a callback.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-178",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000178AAA"
+    }
+  },
+  "generationErrors": []
+}

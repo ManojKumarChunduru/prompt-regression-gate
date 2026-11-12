@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Dubois contacted support because the Pulse Band will not sync with the phone since 2026-03-24. It is a Low priority case and the status is currently Escalated. The case was escalated to tier 2 on 2026-04-15. The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period.",
+      "responseId": "req-v3-075-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Pulse Band will not sync with the phone\nDescription: Customer Aisha Dubois reports the Pulse Band will not sync with the phone since 2026-03-24.\nPriority: Low\nStatus: Escalated\nType: Question\nProduct: Pulse Band\nCustomer: Aisha Dubois\nAmount: 420.00\nOpened: 2026-04-12\nThread facts: Comment count: 4. Newest comment: 2026-04-16. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-12] Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-03-24. Serial SN-52791.\n- [2026-04-14] Escalated to tier 2 on 2026-04-15.\n- [2026-04-16] Customer confirmed order ORD-70489 and asked for a cancellation.\n- [2026-04-16] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-pulse-band-03) Pulse Band step counts are recalibrated after a 2-day wear period.\n- (chunk-pulse-band-02) Pulse Band syncs only over Bluetooth 5 or later.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-075",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000075AAA"
+    }
+  },
+  "generationErrors": []
+}

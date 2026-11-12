@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Okafor reported that the Pulse Band has a cracked strap clip since 2026-01-10. The case is High priority and the status is Working. The case was escalated to tier 2 on 2026-01-21. The customer confirmed order ORD-55039 and asked for a refund.",
+      "responseId": "req-v1-162-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Pulse Band has a cracked strap clip\nDescription: Customer Nadia Okafor reports the Pulse Band has a cracked strap clip since 2026-01-10.\nPriority: High\nStatus: Working\nType: Question\nProduct: Pulse Band\nCustomer: Nadia Okafor\nAmount: 120.00\nOpened: 2026-01-16\nComments:\n- [2026-01-18] Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-01-10. Serial SN-97557.\n- [2026-01-20] Escalated to tier 2 on 2026-01-21.\n- [2026-01-22] Customer confirmed order ORD-55039 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-162",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000162AAA"
+    }
+  },
+  "generationErrors": []
+}

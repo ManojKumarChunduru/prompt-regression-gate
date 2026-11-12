@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Sato reported that the Nimbus Hub flashes red and stays offline since 2026-05-22. The case is Low priority and the status is New. A callback is scheduled for 2026-06-07. The customer confirmed order ORD-66701 and asked for a cancellation.",
+      "responseId": "req-v1-013-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Mei Sato reports the Nimbus Hub flashes red and stays offline since 2026-05-22.\nPriority: Low\nStatus: New\nType: Question\nProduct: Nimbus Hub\nCustomer: Mei Sato\nAmount: 89.00\nOpened: 2026-06-03\nComments:\n- [2026-06-06] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-05-22. Serial SN-44773.\n- [2026-06-09] Scheduled a callback on 2026-06-07.\n- [2026-06-11] Customer confirmed order ORD-66701 and asked for a cancellation.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-013",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000013AAA"
+    }
+  },
+  "generationErrors": []
+}

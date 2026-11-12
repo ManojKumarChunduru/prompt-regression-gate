@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Sofia Dubois reported that the Orbit Cam misses motion at night since 2026-05-15. The case is High priority and the status is Working. The agent offered a replacement of $199.00. The customer confirmed order ORD-71220 and asked for a callback.",
+      "responseId": "req-v1-058-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Orbit Cam misses motion at night\nDescription: Customer Sofia Dubois reports the Orbit Cam misses motion at night since 2026-05-15.\nPriority: High\nStatus: Working\nType: Problem\nProduct: Orbit Cam\nCustomer: Sofia Dubois\nAmount: 199.00\nOpened: 2026-05-20\nComments:\n- [2026-05-22] Confirmed with the customer: the Orbit Cam misses motion at night since 2026-05-15. Serial SN-48546.\n- [2026-05-22] Offered a replacement of $199.00.\n- [2026-05-25] Customer confirmed order ORD-71220 and asked for a callback.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-058",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000058AAA"
+    }
+  },
+  "generationErrors": []
+}

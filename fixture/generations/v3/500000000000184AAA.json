@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Natarajan contacted support because the Aero 2 stops charging after a few minutes since 2026-01-04. It is a High priority case and the status is currently Working. The agent offered a repair of $120.00. The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period.",
+      "responseId": "req-v3-184-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Nadia Natarajan reports the Aero 2 stops charging after a few minutes since 2026-01-04.\nPriority: High\nStatus: Working\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Natarajan\nAmount: 120.00\nOpened: 2026-01-14\nThread facts: Comment count: 2. Newest comment: 2026-01-17. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-17] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-04. Serial SN-65585.\n- [2026-01-17] Offered a repair of $120.00.\nKnowledge passages:\n- (chunk-aero-2-02) Aero 2 firmware 3.2 fixes the charging fault on the dock.\n- (chunk-pulse-band-03) Pulse Band step counts are recalibrated after a 2-day wear period.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-184",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000184AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Marco Okafor contacted support because the Nimbus Hub ignores the voice command since 2026-01-11. It is a Medium priority case and the status is currently Closed. The case was escalated to tier 2 on 2026-01-30. The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted.",
+      "responseId": "req-v3-097-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub ignores the voice command\nDescription: Customer Marco Okafor reports the Nimbus Hub ignores the voice command since 2026-01-11.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Nimbus Hub\nCustomer: Marco Okafor\nAmount: 149.50\nOpened: 2026-01-26\nThread facts: Comment count: 2. Newest comment: 2026-01-31. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-28] Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-01-11. Serial SN-34524.\n- [2026-01-31] Escalated to tier 2 on 2026-01-30.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-nimbus-hub-01) Nimbus Hub supports a 36-month extended warranty.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-097",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000097AAA"
+    }
+  },
+  "generationErrors": []
+}

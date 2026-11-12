@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Aero 2</fullName><default>false</default><label>Aero 2</label></value>
+            <value><fullName>Pulse Band</fullName><default>false</default><label>Pulse Band</label></value>
+            <value><fullName>Nimbus Hub</fullName><default>false</default><label>Nimbus Hub</label></value>
+            <value><fullName>Strata Mini</fullName><default>false</default><label>Strata Mini</label></value>
+            <value><fullName>Volt Charger</fullName><default>false</default><label>Volt Charger</label></value>
+            <value><fullName>Orbit Cam</fullName><default>false</default><label>Orbit Cam</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

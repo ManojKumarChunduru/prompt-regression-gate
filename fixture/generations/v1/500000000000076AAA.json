@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Petrov reported that the Pulse Band has a cracked strap clip since 2026-05-12. The case is Low priority and the status is Closed. The agent offered a credit of $240.00. The customer confirmed order ORD-38372 and asked for a cancellation.",
+      "responseId": "req-v1-076-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Pulse Band has a cracked strap clip\nDescription: Customer Priya Petrov reports the Pulse Band has a cracked strap clip since 2026-05-12.\nPriority: Low\nStatus: Closed\nType: Feature Request\nProduct: Pulse Band\nCustomer: Priya Petrov\nAmount: 240.00\nOpened: 2026-05-21\nComments:\n- [2026-05-23] Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-12. Serial SN-38096.\n- [2026-05-23] Offered a credit of $240.00.\n- [2026-05-26] Customer confirmed order ORD-38372 and asked for a cancellation.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-076",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000076AAA"
+    }
+  },
+  "generationErrors": []
+}

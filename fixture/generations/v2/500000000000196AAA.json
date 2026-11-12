@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Okafor contacted support because the Pulse Band drains in under a day since 2026-03-13. It is a Medium priority case and the status is currently New. A callback is scheduled for 2026-03-16.",
+      "responseId": "req-v2-196-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Pulse Band drains in under a day\nDescription: Customer Nadia Okafor reports the Pulse Band drains in under a day since 2026-03-13.\nPriority: Medium\nStatus: New\nType: Problem\nProduct: Pulse Band\nCustomer: Nadia Okafor\nAmount: 310.00\nOpened: 2026-03-14\nComments:\n- [2026-03-14] Confirmed with the customer: the Pulse Band drains in under a day since 2026-03-13. Serial SN-65979.\n- [2026-03-14] Scheduled a callback on 2026-03-16.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-196",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000196AAA"
+    }
+  },
+  "generationErrors": []
+}

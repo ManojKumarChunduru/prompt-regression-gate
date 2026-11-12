@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Alvarez contacted support because the Strata Mini jams the rear tray since 2026-01-27. It is a Medium priority case and the status is currently Closed. A callback is scheduled for 2026-02-22.",
+      "responseId": "req-v2-022-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Strata Mini jams the rear tray\nDescription: Customer Owen Alvarez reports the Strata Mini jams the rear tray since 2026-01-27.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Strata Mini\nCustomer: Owen Alvarez\nAmount: 310.00\nOpened: 2026-02-14\nComments:\n- [2026-02-17] Confirmed with the customer: the Strata Mini jams the rear tray since 2026-01-27. Serial SN-50462.\n- [2026-02-17] Scheduled a callback on 2026-02-22.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-022",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000022AAA"
+    }
+  },
+  "generationErrors": []
+}

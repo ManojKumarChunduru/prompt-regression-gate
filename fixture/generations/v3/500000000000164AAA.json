@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Lindqvist contacted support because the Aero 2 stops charging after a few minutes since 2026-05-08. It is a Medium priority case and the status is currently Closed. The agent offered a refund of $149.50. The customer confirmed order ORD-92721 and asked for a callback. The knowledge base notes that Pulse Band syncs only over Bluetooth 5 or later. The tone of the thread is polite but increasingly impatient.",
+      "responseId": "req-v3-164-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Nadia Lindqvist reports the Aero 2 stops charging after a few minutes since 2026-05-08.\nPriority: Medium\nStatus: Closed\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Lindqvist\nAmount: 149.50\nOpened: 2026-05-20\nThread facts: Comment count: 3. Newest comment: 2026-05-24. Provider: CaseSummaryGrounding.\nComments:\n- [2026-05-23] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-08. Serial SN-83127.\n- [2026-05-24] Offered a refund of $149.50.\n- [2026-05-24] Customer confirmed order ORD-92721 and asked for a callback.\nKnowledge passages:\n- (chunk-pulse-band-02) Pulse Band syncs only over Bluetooth 5 or later.\n- (chunk-aero-2-02) Aero 2 firmware 3.2 fixes the charging fault on the dock.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-164",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000164AAA"
+    }
+  },
+  "generationErrors": []
+}

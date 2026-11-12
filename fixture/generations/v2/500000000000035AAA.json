@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Haddad contacted support because the Orbit Cam fogs up in the rain since 2026-05-02. It is a High priority case and the status is currently Closed. The agent offered a credit of $240.00.",
+      "responseId": "req-v2-035-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Orbit Cam fogs up in the rain\nDescription: Customer Owen Haddad reports the Orbit Cam fogs up in the rain since 2026-05-02.\nPriority: High\nStatus: Closed\nType: Problem\nProduct: Orbit Cam\nCustomer: Owen Haddad\nAmount: 240.00\nOpened: 2026-05-14\nComments:\n- [2026-05-17] Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-05-02. Serial SN-78902.\n- [2026-05-19] Offered a credit of $240.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-035",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000035AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes reported that the Aero 2 loses pairing every night since 2026-04-15. The case is Low priority and the status is New. The agent offered a replacement of $49.00. The customer confirmed order ORD-57772 and asked for a refund.",
+      "responseId": "req-v1-059-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Nadia Fernandes reports the Aero 2 loses pairing every night since 2026-04-15.\nPriority: Low\nStatus: New\nType: Problem\nProduct: Aero 2\nCustomer: Nadia Fernandes\nAmount: 49.00\nOpened: 2026-05-03\nComments:\n- [2026-05-04] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-04-15. Serial SN-91947.\n- [2026-05-07] Offered a replacement of $49.00.\n- [2026-05-08] Customer confirmed order ORD-57772 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-059",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000059AAA"
+    }
+  },
+  "generationErrors": []
+}

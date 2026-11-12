@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Haddad contacted support because the Pulse Band has a cracked strap clip since 2026-05-21. It is a High priority case and the status is currently Escalated. A callback is scheduled for 2026-06-04. The customer confirmed order ORD-45886 and asked for a refund.",
+      "responseId": "req-v2-052-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Pulse Band has a cracked strap clip\nDescription: Customer Owen Haddad reports the Pulse Band has a cracked strap clip since 2026-05-21.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Pulse Band\nCustomer: Owen Haddad\nAmount: 149.50\nOpened: 2026-06-01\nComments:\n- [2026-06-01] Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-21. Serial SN-11772.\n- [2026-06-02] Scheduled a callback on 2026-06-04.\n- [2026-06-04] Customer confirmed order ORD-45886 and asked for a refund.\n- [2026-06-06] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-052",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000052AAA"
+    }
+  },
+  "generationErrors": []
+}

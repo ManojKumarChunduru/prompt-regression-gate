@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Novak contacted support because the Aero 2 stops charging after a few minutes since 2026-05-17. It is a Medium priority case and the status is currently New. The case was escalated to tier 2 on 2026-06-03. The customer confirmed order ORD-19763 and asked for a cancellation. The knowledge base notes that Aero 2 units carry a 24-month warranty from the purchase date.",
+      "responseId": "req-v3-158-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Priya Novak reports the Aero 2 stops charging after a few minutes since 2026-05-17.\nPriority: Medium\nStatus: New\nType: Problem\nProduct: Aero 2\nCustomer: Priya Novak\nAmount: 199.00\nOpened: 2026-06-02\nThread facts: Comment count: 4. Newest comment: 2026-06-10. Provider: CaseSummaryGrounding.\nComments:\n- [2026-06-05] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-17. Serial SN-51389.\n- [2026-06-08] Escalated to tier 2 on 2026-06-03.\n- [2026-06-10] Customer confirmed order ORD-19763 and asked for a cancellation.\n- [2026-06-10] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-aero-2-02) Aero 2 firmware 3.2 fixes the charging fault on the dock.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-158",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000158AAA"
+    }
+  },
+  "generationErrors": []
+}

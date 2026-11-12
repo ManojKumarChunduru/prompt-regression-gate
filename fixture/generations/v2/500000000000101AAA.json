@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Marco Natarajan contacted support because the Orbit Cam misses motion at night since 2026-03-30. It is a High priority case and the status is currently Closed. The case was escalated to tier 2 on 2026-04-03.",
+      "responseId": "req-v2-101-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Orbit Cam misses motion at night\nDescription: Customer Marco Natarajan reports the Orbit Cam misses motion at night since 2026-03-30.\nPriority: High\nStatus: Closed\nType: Feature Request\nProduct: Orbit Cam\nCustomer: Marco Natarajan\nAmount: 199.00\nOpened: 2026-04-01\nComments:\n- [2026-04-03] Confirmed with the customer: the Orbit Cam misses motion at night since 2026-03-30. Serial SN-32076.\n- [2026-04-04] Escalated to tier 2 on 2026-04-03.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-101",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000101AAA"
+    }
+  },
+  "generationErrors": []
+}

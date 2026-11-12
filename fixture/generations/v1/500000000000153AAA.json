@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Marco Natarajan reported that the Nimbus Hub reboots during updates since 2026-05-07. The case is Low priority and the status is Escalated. The agent offered a credit of $49.00. The customer confirmed order ORD-72005 and asked for a replacement.",
+      "responseId": "req-v1-153-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub reboots during updates\nDescription: Customer Marco Natarajan reports the Nimbus Hub reboots during updates since 2026-05-07.\nPriority: Low\nStatus: Escalated\nType: Problem\nProduct: Nimbus Hub\nCustomer: Marco Natarajan\nAmount: 49.00\nOpened: 2026-05-19\nComments:\n- [2026-05-20] Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-05-07. Serial SN-34931.\n- [2026-05-23] Offered a credit of $49.00.\n- [2026-05-23] Customer confirmed order ORD-72005 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-153",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000153AAA"
+    }
+  },
+  "generationErrors": []
+}

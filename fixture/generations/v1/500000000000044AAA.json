@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Haddad reported that the Aero 2 overheats on the dock since 2026-02-14. The case is Low priority and the status is Working. The agent offered a refund of $420.00. The customer confirmed order ORD-60611 and asked for a callback.",
+      "responseId": "req-v1-044-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 overheats on the dock\nDescription: Customer Tomas Haddad reports the Aero 2 overheats on the dock since 2026-02-14.\nPriority: Low\nStatus: Working\nType: Question\nProduct: Aero 2\nCustomer: Tomas Haddad\nAmount: 420.00\nOpened: 2026-02-23\nComments:\n- [2026-02-23] Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-14. Serial SN-48680.\n- [2026-02-23] Offered a refund of $420.00.\n- [2026-02-25] Customer confirmed order ORD-60611 and asked for a callback.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-044",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000044AAA"
+    }
+  },
+  "generationErrors": []
+}

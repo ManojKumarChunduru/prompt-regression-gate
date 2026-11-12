@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Aero 2 loses pairing every night since 2026-04-15. It is a Low priority case and the status is currently New. The agent offered a replacement of $49.00. The customer confirmed order ORD-57772 and asked for a refund. The knowledge base notes that Strata Mini ink warnings reset after a 1-day idle period.",
+      "responseId": "req-v3-059-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Nadia Fernandes reports the Aero 2 loses pairing every night since 2026-04-15.\nPriority: Low\nStatus: New\nType: Problem\nProduct: Aero 2\nCustomer: Nadia Fernandes\nAmount: 49.00\nOpened: 2026-05-03\nThread facts: Comment count: 3. Newest comment: 2026-05-08. Provider: CaseSummaryGrounding.\nComments:\n- [2026-05-04] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-04-15. Serial SN-91947.\n- [2026-05-07] Offered a replacement of $49.00.\n- [2026-05-08] Customer confirmed order ORD-57772 and asked for a refund.\nKnowledge passages:\n- (chunk-strata-mini-03) Strata Mini ink warnings reset after a 1-day idle period.\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-059",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000059AAA"
+    }
+  },
+  "generationErrors": []
+}

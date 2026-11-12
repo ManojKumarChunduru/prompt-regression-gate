@@ -1,0 +1,598 @@
+Id,ParentId,CommentBody,CreatedDate,CreatedBy.Name
+00a000000000001AAA,500000000000001AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-02-09. Serial SN-29468.,2026-02-14,Support Agent
+00a000000000002AAA,500000000000001AAA,Offered a replacement of $899.00.,2026-02-16,Support Agent
+00a000000000003AAA,500000000000001AAA,Customer confirmed order ORD-23911 and asked for a refund.,2026-02-18,Support Agent
+00a000000000004AAA,500000000000002AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-02-12. Serial SN-70138.,2026-02-18,Support Agent
+00a000000000005AAA,500000000000002AAA,Offered a refund of $899.00.,2026-02-18,Support Agent
+00a000000000006AAA,500000000000002AAA,Customer confirmed order ORD-14476 and asked for a replacement.,2026-02-18,Support Agent
+00a000000000007AAA,500000000000003AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-02-08. Serial SN-49965.,2026-02-22,Support Agent
+00a000000000008AAA,500000000000003AAA,Offered a replacement of $199.00.,2026-02-24,Support Agent
+00a000000000009AAA,500000000000003AAA,Customer confirmed order ORD-75221 and asked for a refund.,2026-02-27,Support Agent
+00a000000000010AAA,500000000000003AAA,Thanked the customer and set expectations for the next update.,2026-03-02,Support Agent
+00a000000000011AAA,500000000000004AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-05-18. Serial SN-85016.,2026-05-26,Support Agent
+00a000000000012AAA,500000000000004AAA,Scheduled a callback on 2026-05-28.,2026-05-27,Support Agent
+00a000000000013AAA,500000000000004AAA,Customer confirmed order ORD-46762 and asked for a replacement.,2026-05-27,Support Agent
+00a000000000014AAA,500000000000005AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-03-17. Serial SN-44191.,2026-03-26,Support Agent
+00a000000000015AAA,500000000000005AAA,Offered a refund of $899.00.,2026-03-26,Support Agent
+00a000000000016AAA,500000000000005AAA,Customer confirmed order ORD-43691 and asked for a refund.,2026-03-27,Support Agent
+00a000000000017AAA,500000000000006AAA,Confirmed with the customer: the Strata Mini prints streaks on every page since 2026-04-07. Serial SN-98594.,2026-04-20,Support Agent
+00a000000000018AAA,500000000000006AAA,Escalated to tier 2 on 2026-04-21.,2026-04-23,Support Agent
+00a000000000019AAA,500000000000007AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-04-10. Serial SN-83513.,2026-04-23,Support Agent
+00a000000000020AAA,500000000000007AAA,Offered a refund of $899.00.,2026-04-25,Support Agent
+00a000000000021AAA,500000000000007AAA,Customer confirmed order ORD-26080 and asked for a callback.,2026-04-25,Support Agent
+00a000000000022AAA,500000000000007AAA,Thanked the customer and set expectations for the next update.,2026-04-28,Support Agent
+00a000000000023AAA,500000000000008AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2025-12-25. Serial SN-12175.,2026-01-12,Support Agent
+00a000000000024AAA,500000000000008AAA,Offered a repair of $575.00.,2026-01-13,Support Agent
+00a000000000025AAA,500000000000008AAA,Customer confirmed order ORD-51254 and asked for a replacement.,2026-01-13,Support Agent
+00a000000000026AAA,500000000000009AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-01-11. Serial SN-57176.,2026-01-21,Support Agent
+00a000000000027AAA,500000000000009AAA,Escalated to tier 2 on 2026-01-21.,2026-01-23,Support Agent
+00a000000000028AAA,500000000000009AAA,Customer confirmed order ORD-46144 and asked for a cancellation.,2026-01-26,Support Agent
+00a000000000029AAA,500000000000010AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-05-08. Serial SN-49195.,2026-05-11,Support Agent
+00a000000000030AAA,500000000000010AAA,Offered a credit of $240.00.,2026-05-11,Support Agent
+00a000000000031AAA,500000000000010AAA,Customer confirmed order ORD-23205 and asked for a callback.,2026-05-14,Support Agent
+00a000000000032AAA,500000000000011AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-03-10. Serial SN-34732.,2026-03-23,Support Agent
+00a000000000033AAA,500000000000011AAA,Escalated to tier 2 on 2026-03-21.,2026-03-25,Support Agent
+00a000000000034AAA,500000000000012AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-04-07. Serial SN-88577.,2026-04-10,Support Agent
+00a000000000035AAA,500000000000012AAA,Scheduled a callback on 2026-04-13.,2026-04-13,Support Agent
+00a000000000036AAA,500000000000012AAA,Customer confirmed order ORD-52767 and asked for a refund.,2026-04-15,Support Agent
+00a000000000037AAA,500000000000012AAA,Thanked the customer and set expectations for the next update.,2026-04-17,Support Agent
+00a000000000038AAA,500000000000013AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-05-22. Serial SN-44773.,2026-06-06,Support Agent
+00a000000000039AAA,500000000000013AAA,Scheduled a callback on 2026-06-07.,2026-06-09,Support Agent
+00a000000000040AAA,500000000000013AAA,Customer confirmed order ORD-66701 and asked for a cancellation.,2026-06-11,Support Agent
+00a000000000041AAA,500000000000014AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-01-29. Serial SN-25446.,2026-02-14,Support Agent
+00a000000000042AAA,500000000000014AAA,Offered a repair of $899.00.,2026-02-14,Support Agent
+00a000000000043AAA,500000000000014AAA,Customer confirmed order ORD-81449 and asked for a cancellation.,2026-02-16,Support Agent
+00a000000000044AAA,500000000000014AAA,Thanked the customer and set expectations for the next update.,2026-02-18,Support Agent
+00a000000000045AAA,500000000000015AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-04-23. Serial SN-53312.,2026-05-13,Support Agent
+00a000000000046AAA,500000000000015AAA,Offered a repair of $575.00.,2026-05-14,Support Agent
+00a000000000047AAA,500000000000015AAA,Thanked the customer and set expectations for the next update.,2026-05-16,Support Agent
+00a000000000048AAA,500000000000016AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-03-03. Serial SN-91635.,2026-03-15,Support Agent
+00a000000000049AAA,500000000000016AAA,Scheduled a callback on 2026-03-16.,2026-03-17,Support Agent
+00a000000000050AAA,500000000000016AAA,Customer confirmed order ORD-34596 and asked for a callback.,2026-03-18,Support Agent
+00a000000000051AAA,500000000000017AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-01-03. Serial SN-77295.,2026-01-14,Support Agent
+00a000000000052AAA,500000000000017AAA,Escalated to tier 2 on 2026-01-16.,2026-01-16,Support Agent
+00a000000000053AAA,500000000000018AAA,Confirmed with the customer: the Pulse Band miscounts steps since 2026-03-30. Serial SN-62419.,2026-04-10,Support Agent
+00a000000000054AAA,500000000000018AAA,Offered a refund of $420.00.,2026-04-13,Support Agent
+00a000000000055AAA,500000000000019AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-05-22. Serial SN-13784.,2026-05-30,Support Agent
+00a000000000056AAA,500000000000019AAA,Offered a replacement of $199.00.,2026-06-02,Support Agent
+00a000000000057AAA,500000000000019AAA,Customer confirmed order ORD-79019 and asked for a replacement.,2026-06-03,Support Agent
+00a000000000058AAA,500000000000020AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-02-05. Serial SN-49235.,2026-02-11,Support Agent
+00a000000000059AAA,500000000000020AAA,Escalated to tier 2 on 2026-02-12.,2026-02-12,Support Agent
+00a000000000060AAA,500000000000020AAA,Customer confirmed order ORD-80820 and asked for a cancellation.,2026-02-12,Support Agent
+00a000000000061AAA,500000000000020AAA,Thanked the customer and set expectations for the next update.,2026-02-13,Support Agent
+00a000000000062AAA,500000000000021AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-20. Serial SN-76615.,2026-05-23,Support Agent
+00a000000000063AAA,500000000000021AAA,Offered a refund of $420.00.,2026-05-24,Support Agent
+00a000000000064AAA,500000000000021AAA,Customer confirmed order ORD-56271 and asked for a cancellation.,2026-05-25,Support Agent
+00a000000000065AAA,500000000000022AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-01-27. Serial SN-50462.,2026-02-17,Support Agent
+00a000000000066AAA,500000000000022AAA,Scheduled a callback on 2026-02-22.,2026-02-17,Support Agent
+00a000000000067AAA,500000000000023AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-18. Serial SN-93135.,2026-04-28,Support Agent
+00a000000000068AAA,500000000000023AAA,Scheduled a callback on 2026-04-30.,2026-05-01,Support Agent
+00a000000000069AAA,500000000000024AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2025-12-30. Serial SN-71415.,2026-01-17,Support Agent
+00a000000000070AAA,500000000000024AAA,Offered a refund of $240.00.,2026-01-17,Support Agent
+00a000000000071AAA,500000000000024AAA,Thanked the customer and set expectations for the next update.,2026-01-17,Support Agent
+00a000000000072AAA,500000000000025AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-03-22. Serial SN-80093.,2026-03-27,Support Agent
+00a000000000073AAA,500000000000025AAA,Escalated to tier 2 on 2026-03-28.,2026-03-27,Support Agent
+00a000000000074AAA,500000000000026AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-03-12. Serial SN-34720.,2026-03-27,Support Agent
+00a000000000075AAA,500000000000026AAA,Scheduled a callback on 2026-04-03.,2026-03-30,Support Agent
+00a000000000076AAA,500000000000026AAA,Customer confirmed order ORD-73286 and asked for a callback.,2026-03-30,Support Agent
+00a000000000077AAA,500000000000027AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-05-12. Serial SN-86882.,2026-05-21,Support Agent
+00a000000000078AAA,500000000000027AAA,Offered a replacement of $575.00.,2026-05-24,Support Agent
+00a000000000079AAA,500000000000027AAA,Customer confirmed order ORD-24556 and asked for a callback.,2026-05-24,Support Agent
+00a000000000080AAA,500000000000028AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-01-07. Serial SN-14662.,2026-01-14,Support Agent
+00a000000000081AAA,500000000000028AAA,Offered a repair of $575.00.,2026-01-15,Support Agent
+00a000000000082AAA,500000000000029AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-03-09. Serial SN-86508.,2026-03-13,Support Agent
+00a000000000083AAA,500000000000029AAA,Offered a repair of $575.00.,2026-03-16,Support Agent
+00a000000000084AAA,500000000000030AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-05-21. Serial SN-95927.,2026-05-29,Support Agent
+00a000000000085AAA,500000000000030AAA,Offered a refund of $575.00.,2026-06-01,Support Agent
+00a000000000086AAA,500000000000030AAA,Customer confirmed order ORD-19740 and asked for a replacement.,2026-06-02,Support Agent
+00a000000000087AAA,500000000000031AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-04-03. Serial SN-87497.,2026-04-23,Support Agent
+00a000000000088AAA,500000000000031AAA,Offered a credit of $240.00.,2026-04-25,Support Agent
+00a000000000089AAA,500000000000031AAA,Customer confirmed order ORD-59445 and asked for a replacement.,2026-04-25,Support Agent
+00a000000000090AAA,500000000000032AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-01-17. Serial SN-12659.,2026-01-22,Support Agent
+00a000000000091AAA,500000000000032AAA,Offered a credit of $49.00.,2026-01-25,Support Agent
+00a000000000092AAA,500000000000033AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-03-13. Serial SN-32040.,2026-03-24,Support Agent
+00a000000000093AAA,500000000000033AAA,Offered a refund of $420.00.,2026-03-25,Support Agent
+00a000000000094AAA,500000000000033AAA,Customer confirmed order ORD-48596 and asked for a refund.,2026-03-25,Support Agent
+00a000000000095AAA,500000000000033AAA,Thanked the customer and set expectations for the next update.,2026-03-26,Support Agent
+00a000000000096AAA,500000000000034AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-03-01. Serial SN-14908.,2026-03-16,Support Agent
+00a000000000097AAA,500000000000034AAA,Scheduled a callback on 2026-03-17.,2026-03-19,Support Agent
+00a000000000098AAA,500000000000034AAA,Customer confirmed order ORD-66427 and asked for a replacement.,2026-03-19,Support Agent
+00a000000000099AAA,500000000000035AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-05-02. Serial SN-78902.,2026-05-17,Support Agent
+00a000000000100AAA,500000000000035AAA,Offered a credit of $240.00.,2026-05-19,Support Agent
+00a000000000101AAA,500000000000036AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2025-12-25. Serial SN-26138.,2026-01-12,Support Agent
+00a000000000102AAA,500000000000036AAA,Offered a credit of $89.00.,2026-01-15,Support Agent
+00a000000000103AAA,500000000000037AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-04-16. Serial SN-87915.,2026-04-20,Support Agent
+00a000000000104AAA,500000000000037AAA,Offered a refund of $89.00.,2026-04-23,Support Agent
+00a000000000105AAA,500000000000037AAA,Customer confirmed order ORD-29581 and asked for a refund.,2026-04-24,Support Agent
+00a000000000106AAA,500000000000038AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-28. Serial SN-43520.,2026-01-30,Support Agent
+00a000000000107AAA,500000000000038AAA,Scheduled a callback on 2026-02-08.,2026-01-31,Support Agent
+00a000000000108AAA,500000000000038AAA,Customer confirmed order ORD-24283 and asked for a cancellation.,2026-02-02,Support Agent
+00a000000000109AAA,500000000000039AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-03-02. Serial SN-78649.,2026-03-15,Support Agent
+00a000000000110AAA,500000000000039AAA,Offered a repair of $310.00.,2026-03-18,Support Agent
+00a000000000111AAA,500000000000039AAA,Customer confirmed order ORD-82812 and asked for a cancellation.,2026-03-20,Support Agent
+00a000000000112AAA,500000000000040AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-02-04. Serial SN-93603.,2026-02-24,Support Agent
+00a000000000113AAA,500000000000040AAA,Offered a credit of $899.00.,2026-02-26,Support Agent
+00a000000000114AAA,500000000000040AAA,Customer confirmed order ORD-65614 and asked for a refund.,2026-03-01,Support Agent
+00a000000000115AAA,500000000000041AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-02-22. Serial SN-89061.,2026-03-12,Support Agent
+00a000000000116AAA,500000000000041AAA,Offered a credit of $49.00.,2026-03-15,Support Agent
+00a000000000117AAA,500000000000041AAA,Customer confirmed order ORD-81394 and asked for a callback.,2026-03-17,Support Agent
+00a000000000118AAA,500000000000041AAA,Thanked the customer and set expectations for the next update.,2026-03-20,Support Agent
+00a000000000119AAA,500000000000042AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-05-05. Serial SN-64836.,2026-05-22,Support Agent
+00a000000000120AAA,500000000000042AAA,Offered a refund of $899.00.,2026-05-25,Support Agent
+00a000000000121AAA,500000000000043AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-03-22. Serial SN-29604.,2026-04-09,Support Agent
+00a000000000122AAA,500000000000043AAA,Offered a replacement of $420.00.,2026-04-12,Support Agent
+00a000000000123AAA,500000000000044AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-14. Serial SN-48680.,2026-02-23,Support Agent
+00a000000000124AAA,500000000000044AAA,Offered a refund of $420.00.,2026-02-23,Support Agent
+00a000000000125AAA,500000000000044AAA,Customer confirmed order ORD-60611 and asked for a callback.,2026-02-25,Support Agent
+00a000000000126AAA,500000000000045AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-05-21. Serial SN-29617.,2026-05-27,Support Agent
+00a000000000127AAA,500000000000045AAA,Offered a credit of $149.50.,2026-05-29,Support Agent
+00a000000000128AAA,500000000000046AAA,Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-05-19. Serial SN-72094.,2026-05-24,Support Agent
+00a000000000129AAA,500000000000046AAA,Scheduled a callback on 2026-05-22.,2026-05-27,Support Agent
+00a000000000130AAA,500000000000046AAA,Thanked the customer and set expectations for the next update.,2026-05-27,Support Agent
+00a000000000131AAA,500000000000047AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-01-14. Serial SN-80808.,2026-01-20,Support Agent
+00a000000000132AAA,500000000000047AAA,Offered a credit of $199.00.,2026-01-23,Support Agent
+00a000000000133AAA,500000000000047AAA,Customer confirmed order ORD-92064 and asked for a cancellation.,2026-01-25,Support Agent
+00a000000000134AAA,500000000000047AAA,Thanked the customer and set expectations for the next update.,2026-01-26,Support Agent
+00a000000000135AAA,500000000000048AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-31. Serial SN-55141.,2026-04-07,Support Agent
+00a000000000136AAA,500000000000048AAA,Scheduled a callback on 2026-04-16.,2026-04-10,Support Agent
+00a000000000137AAA,500000000000048AAA,Thanked the customer and set expectations for the next update.,2026-04-13,Support Agent
+00a000000000138AAA,500000000000049AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-09. Serial SN-37968.,2026-03-16,Support Agent
+00a000000000139AAA,500000000000049AAA,Offered a refund of $149.50.,2026-03-17,Support Agent
+00a000000000140AAA,500000000000049AAA,Customer confirmed order ORD-79143 and asked for a refund.,2026-03-18,Support Agent
+00a000000000141AAA,500000000000050AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-04-03. Serial SN-88220.,2026-04-18,Support Agent
+00a000000000142AAA,500000000000050AAA,Offered a repair of $240.00.,2026-04-18,Support Agent
+00a000000000143AAA,500000000000050AAA,Customer confirmed order ORD-51592 and asked for a replacement.,2026-04-19,Support Agent
+00a000000000144AAA,500000000000051AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-04-29. Serial SN-16063.,2026-05-04,Support Agent
+00a000000000145AAA,500000000000051AAA,Offered a repair of $199.00.,2026-05-06,Support Agent
+00a000000000146AAA,500000000000051AAA,Customer confirmed order ORD-18822 and asked for a refund.,2026-05-09,Support Agent
+00a000000000147AAA,500000000000052AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-21. Serial SN-11772.,2026-06-01,Support Agent
+00a000000000148AAA,500000000000052AAA,Scheduled a callback on 2026-06-04.,2026-06-02,Support Agent
+00a000000000149AAA,500000000000052AAA,Customer confirmed order ORD-45886 and asked for a refund.,2026-06-04,Support Agent
+00a000000000150AAA,500000000000052AAA,Thanked the customer and set expectations for the next update.,2026-06-06,Support Agent
+00a000000000151AAA,500000000000053AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-05-27. Serial SN-92089.,2026-05-28,Support Agent
+00a000000000152AAA,500000000000053AAA,Offered a replacement of $89.00.,2026-05-31,Support Agent
+00a000000000153AAA,500000000000053AAA,Customer confirmed order ORD-74165 and asked for a callback.,2026-05-31,Support Agent
+00a000000000154AAA,500000000000054AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-05-16. Serial SN-41233.,2026-05-20,Support Agent
+00a000000000155AAA,500000000000054AAA,Offered a refund of $310.00.,2026-05-20,Support Agent
+00a000000000156AAA,500000000000054AAA,Customer confirmed order ORD-13727 and asked for a replacement.,2026-05-22,Support Agent
+00a000000000157AAA,500000000000055AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-01-19. Serial SN-20710.,2026-02-02,Support Agent
+00a000000000158AAA,500000000000055AAA,Escalated to tier 2 on 2026-02-01.,2026-02-05,Support Agent
+00a000000000159AAA,500000000000055AAA,Customer confirmed order ORD-15537 and asked for a callback.,2026-02-05,Support Agent
+00a000000000160AAA,500000000000056AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-02-15. Serial SN-23206.,2026-02-22,Support Agent
+00a000000000161AAA,500000000000056AAA,Offered a refund of $420.00.,2026-02-24,Support Agent
+00a000000000162AAA,500000000000056AAA,Customer confirmed order ORD-25721 and asked for a replacement.,2026-02-27,Support Agent
+00a000000000163AAA,500000000000057AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-03-26. Serial SN-51492.,2026-04-02,Support Agent
+00a000000000164AAA,500000000000057AAA,Offered a replacement of $310.00.,2026-04-03,Support Agent
+00a000000000165AAA,500000000000057AAA,Customer confirmed order ORD-21940 and asked for a replacement.,2026-04-06,Support Agent
+00a000000000166AAA,500000000000057AAA,Thanked the customer and set expectations for the next update.,2026-04-08,Support Agent
+00a000000000167AAA,500000000000058AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-05-15. Serial SN-48546.,2026-05-22,Support Agent
+00a000000000168AAA,500000000000058AAA,Offered a replacement of $199.00.,2026-05-22,Support Agent
+00a000000000169AAA,500000000000058AAA,Customer confirmed order ORD-71220 and asked for a callback.,2026-05-25,Support Agent
+00a000000000170AAA,500000000000059AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-04-15. Serial SN-91947.,2026-05-04,Support Agent
+00a000000000171AAA,500000000000059AAA,Offered a replacement of $49.00.,2026-05-07,Support Agent
+00a000000000172AAA,500000000000059AAA,Customer confirmed order ORD-57772 and asked for a refund.,2026-05-08,Support Agent
+00a000000000173AAA,500000000000060AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-05. Serial SN-31817.,2026-02-25,Support Agent
+00a000000000174AAA,500000000000060AAA,Offered a repair of $240.00.,2026-02-27,Support Agent
+00a000000000175AAA,500000000000061AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-01-16. Serial SN-72198.,2026-01-20,Support Agent
+00a000000000176AAA,500000000000061AAA,Offered a refund of $310.00.,2026-01-20,Support Agent
+00a000000000177AAA,500000000000061AAA,Customer confirmed order ORD-45399 and asked for a replacement.,2026-01-23,Support Agent
+00a000000000178AAA,500000000000061AAA,Thanked the customer and set expectations for the next update.,2026-01-25,Support Agent
+00a000000000179AAA,500000000000062AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-02-25. Serial SN-13281.,2026-03-01,Support Agent
+00a000000000180AAA,500000000000062AAA,Offered a credit of $310.00.,2026-03-03,Support Agent
+00a000000000181AAA,500000000000062AAA,Customer confirmed order ORD-24255 and asked for a cancellation.,2026-03-03,Support Agent
+00a000000000182AAA,500000000000063AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-01-15. Serial SN-93436.,2026-02-04,Support Agent
+00a000000000183AAA,500000000000063AAA,Offered a replacement of $49.00.,2026-02-05,Support Agent
+00a000000000184AAA,500000000000063AAA,Customer confirmed order ORD-27311 and asked for a callback.,2026-02-06,Support Agent
+00a000000000185AAA,500000000000064AAA,Confirmed with the customer: the Strata Mini prints streaks on every page since 2025-12-27. Serial SN-52601.,2026-01-08,Support Agent
+00a000000000186AAA,500000000000064AAA,Offered a replacement of $199.00.,2026-01-09,Support Agent
+00a000000000187AAA,500000000000064AAA,Customer confirmed order ORD-68622 and asked for a refund.,2026-01-12,Support Agent
+00a000000000188AAA,500000000000064AAA,Thanked the customer and set expectations for the next update.,2026-01-14,Support Agent
+00a000000000189AAA,500000000000065AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-19. Serial SN-85302.,2026-03-06,Support Agent
+00a000000000190AAA,500000000000065AAA,Offered a repair of $49.00.,2026-03-07,Support Agent
+00a000000000191AAA,500000000000065AAA,Customer confirmed order ORD-64143 and asked for a callback.,2026-03-08,Support Agent
+00a000000000192AAA,500000000000066AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-03-01. Serial SN-33402.,2026-03-11,Support Agent
+00a000000000193AAA,500000000000066AAA,Offered a repair of $310.00.,2026-03-14,Support Agent
+00a000000000194AAA,500000000000066AAA,Customer confirmed order ORD-26708 and asked for a refund.,2026-03-16,Support Agent
+00a000000000195AAA,500000000000067AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-19. Serial SN-67870.,2026-04-25,Support Agent
+00a000000000196AAA,500000000000067AAA,Offered a credit of $120.00.,2026-04-25,Support Agent
+00a000000000197AAA,500000000000067AAA,Customer confirmed order ORD-90809 and asked for a refund.,2026-04-28,Support Agent
+00a000000000198AAA,500000000000067AAA,Thanked the customer and set expectations for the next update.,2026-05-01,Support Agent
+00a000000000199AAA,500000000000068AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-01-22. Serial SN-77695.,2026-02-13,Support Agent
+00a000000000200AAA,500000000000068AAA,Offered a repair of $575.00.,2026-02-15,Support Agent
+00a000000000201AAA,500000000000069AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-02-23. Serial SN-21099.,2026-03-01,Support Agent
+00a000000000202AAA,500000000000069AAA,Offered a credit of $310.00.,2026-03-03,Support Agent
+00a000000000203AAA,500000000000069AAA,Thanked the customer and set expectations for the next update.,2026-03-06,Support Agent
+00a000000000204AAA,500000000000070AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-01-18. Serial SN-31807.,2026-01-25,Support Agent
+00a000000000205AAA,500000000000070AAA,Offered a refund of $310.00.,2026-01-28,Support Agent
+00a000000000206AAA,500000000000070AAA,Customer confirmed order ORD-34711 and asked for a callback.,2026-01-28,Support Agent
+00a000000000207AAA,500000000000070AAA,Thanked the customer and set expectations for the next update.,2026-01-30,Support Agent
+00a000000000208AAA,500000000000071AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-04-02. Serial SN-62979.,2026-04-15,Support Agent
+00a000000000209AAA,500000000000071AAA,Offered a credit of $420.00.,2026-04-17,Support Agent
+00a000000000210AAA,500000000000071AAA,Customer confirmed order ORD-14531 and asked for a refund.,2026-04-17,Support Agent
+00a000000000211AAA,500000000000072AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-05-11. Serial SN-45182.,2026-05-21,Support Agent
+00a000000000212AAA,500000000000072AAA,Scheduled a callback on 2026-05-27.,2026-05-22,Support Agent
+00a000000000213AAA,500000000000072AAA,Customer confirmed order ORD-47262 and asked for a callback.,2026-05-23,Support Agent
+00a000000000214AAA,500000000000073AAA,Confirmed with the customer: the Strata Mini prints streaks on every page since 2026-03-10. Serial SN-25035.,2026-04-01,Support Agent
+00a000000000215AAA,500000000000073AAA,Offered a credit of $310.00.,2026-04-03,Support Agent
+00a000000000216AAA,500000000000074AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-01-20. Serial SN-15114.,2026-01-22,Support Agent
+00a000000000217AAA,500000000000074AAA,Escalated to tier 2 on 2026-01-27.,2026-01-22,Support Agent
+00a000000000218AAA,500000000000074AAA,Thanked the customer and set expectations for the next update.,2026-01-24,Support Agent
+00a000000000219AAA,500000000000075AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-03-24. Serial SN-52791.,2026-04-12,Support Agent
+00a000000000220AAA,500000000000075AAA,Escalated to tier 2 on 2026-04-15.,2026-04-14,Support Agent
+00a000000000221AAA,500000000000075AAA,Customer confirmed order ORD-70489 and asked for a cancellation.,2026-04-16,Support Agent
+00a000000000222AAA,500000000000075AAA,Thanked the customer and set expectations for the next update.,2026-04-16,Support Agent
+00a000000000223AAA,500000000000076AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-12. Serial SN-38096.,2026-05-23,Support Agent
+00a000000000224AAA,500000000000076AAA,Offered a credit of $240.00.,2026-05-23,Support Agent
+00a000000000225AAA,500000000000076AAA,Customer confirmed order ORD-38372 and asked for a cancellation.,2026-05-26,Support Agent
+00a000000000226AAA,500000000000077AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-02-19. Serial SN-13706.,2026-03-02,Support Agent
+00a000000000227AAA,500000000000077AAA,Offered a repair of $89.00.,2026-03-02,Support Agent
+00a000000000228AAA,500000000000077AAA,Customer confirmed order ORD-60578 and asked for a replacement.,2026-03-02,Support Agent
+00a000000000229AAA,500000000000078AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-04-04. Serial SN-86462.,2026-04-24,Support Agent
+00a000000000230AAA,500000000000078AAA,Scheduled a callback on 2026-04-30.,2026-04-24,Support Agent
+00a000000000231AAA,500000000000079AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-04-01. Serial SN-34311.,2026-04-14,Support Agent
+00a000000000232AAA,500000000000079AAA,Offered a credit of $199.00.,2026-04-15,Support Agent
+00a000000000233AAA,500000000000079AAA,Customer confirmed order ORD-26818 and asked for a cancellation.,2026-04-17,Support Agent
+00a000000000234AAA,500000000000080AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-02-19. Serial SN-70082.,2026-03-12,Support Agent
+00a000000000235AAA,500000000000080AAA,Offered a credit of $899.00.,2026-03-14,Support Agent
+00a000000000236AAA,500000000000080AAA,Customer confirmed order ORD-54416 and asked for a refund.,2026-03-16,Support Agent
+00a000000000237AAA,500000000000081AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-01-02. Serial SN-61351.,2026-01-23,Support Agent
+00a000000000238AAA,500000000000081AAA,Escalated to tier 2 on 2026-01-23.,2026-01-23,Support Agent
+00a000000000239AAA,500000000000082AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-01-04. Serial SN-36803.,2026-01-26,Support Agent
+00a000000000240AAA,500000000000082AAA,Scheduled a callback on 2026-01-31.,2026-01-29,Support Agent
+00a000000000241AAA,500000000000082AAA,Customer confirmed order ORD-51000 and asked for a callback.,2026-01-31,Support Agent
+00a000000000242AAA,500000000000083AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-02-11. Serial SN-46769.,2026-03-02,Support Agent
+00a000000000243AAA,500000000000083AAA,Offered a refund of $149.50.,2026-03-02,Support Agent
+00a000000000244AAA,500000000000083AAA,Thanked the customer and set expectations for the next update.,2026-03-02,Support Agent
+00a000000000245AAA,500000000000084AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-01-14. Serial SN-31668.,2026-01-25,Support Agent
+00a000000000246AAA,500000000000084AAA,Escalated to tier 2 on 2026-01-27.,2026-01-26,Support Agent
+00a000000000247AAA,500000000000084AAA,Customer confirmed order ORD-82150 and asked for a refund.,2026-01-29,Support Agent
+00a000000000248AAA,500000000000085AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-02-22. Serial SN-22213.,2026-02-26,Support Agent
+00a000000000249AAA,500000000000085AAA,Escalated to tier 2 on 2026-03-03.,2026-02-28,Support Agent
+00a000000000250AAA,500000000000085AAA,Thanked the customer and set expectations for the next update.,2026-03-02,Support Agent
+00a000000000251AAA,500000000000086AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-01-27. Serial SN-93244.,2026-02-11,Support Agent
+00a000000000252AAA,500000000000086AAA,Offered a credit of $120.00.,2026-02-12,Support Agent
+00a000000000253AAA,500000000000086AAA,Thanked the customer and set expectations for the next update.,2026-02-15,Support Agent
+00a000000000254AAA,500000000000087AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-04-02. Serial SN-66296.,2026-04-07,Support Agent
+00a000000000255AAA,500000000000087AAA,Offered a credit of $575.00.,2026-04-10,Support Agent
+00a000000000256AAA,500000000000087AAA,Customer confirmed order ORD-92610 and asked for a replacement.,2026-04-10,Support Agent
+00a000000000257AAA,500000000000087AAA,Thanked the customer and set expectations for the next update.,2026-04-12,Support Agent
+00a000000000258AAA,500000000000088AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-02-12. Serial SN-78083.,2026-02-19,Support Agent
+00a000000000259AAA,500000000000088AAA,Offered a replacement of $310.00.,2026-02-19,Support Agent
+00a000000000260AAA,500000000000088AAA,Customer confirmed order ORD-75877 and asked for a cancellation.,2026-02-22,Support Agent
+00a000000000261AAA,500000000000088AAA,Thanked the customer and set expectations for the next update.,2026-02-22,Support Agent
+00a000000000262AAA,500000000000089AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-03-03. Serial SN-20454.,2026-03-15,Support Agent
+00a000000000263AAA,500000000000089AAA,Scheduled a callback on 2026-03-19.,2026-03-16,Support Agent
+00a000000000264AAA,500000000000090AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-04-16. Serial SN-68676.,2026-04-22,Support Agent
+00a000000000265AAA,500000000000090AAA,Offered a repair of $149.50.,2026-04-22,Support Agent
+00a000000000266AAA,500000000000090AAA,Customer confirmed order ORD-51406 and asked for a refund.,2026-04-24,Support Agent
+00a000000000267AAA,500000000000091AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-31. Serial SN-41005.,2026-02-14,Support Agent
+00a000000000268AAA,500000000000091AAA,Offered a repair of $149.50.,2026-02-15,Support Agent
+00a000000000269AAA,500000000000091AAA,Customer confirmed order ORD-75629 and asked for a callback.,2026-02-18,Support Agent
+00a000000000270AAA,500000000000092AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-05-25. Serial SN-23438.,2026-05-26,Support Agent
+00a000000000271AAA,500000000000092AAA,Offered a repair of $199.00.,2026-05-28,Support Agent
+00a000000000272AAA,500000000000092AAA,Customer confirmed order ORD-99875 and asked for a replacement.,2026-05-29,Support Agent
+00a000000000273AAA,500000000000092AAA,Thanked the customer and set expectations for the next update.,2026-05-29,Support Agent
+00a000000000274AAA,500000000000093AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-03-21. Serial SN-78066.,2026-04-08,Support Agent
+00a000000000275AAA,500000000000093AAA,Offered a replacement of $89.00.,2026-04-09,Support Agent
+00a000000000276AAA,500000000000093AAA,Customer confirmed order ORD-13832 and asked for a refund.,2026-04-09,Support Agent
+00a000000000277AAA,500000000000094AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-02-27. Serial SN-76094.,2026-03-15,Support Agent
+00a000000000278AAA,500000000000094AAA,Offered a refund of $899.00.,2026-03-17,Support Agent
+00a000000000279AAA,500000000000094AAA,Customer confirmed order ORD-69538 and asked for a refund.,2026-03-18,Support Agent
+00a000000000280AAA,500000000000095AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-05-17. Serial SN-46423.,2026-05-26,Support Agent
+00a000000000281AAA,500000000000095AAA,Offered a credit of $420.00.,2026-05-29,Support Agent
+00a000000000282AAA,500000000000095AAA,Customer confirmed order ORD-97238 and asked for a replacement.,2026-05-31,Support Agent
+00a000000000283AAA,500000000000095AAA,Thanked the customer and set expectations for the next update.,2026-06-01,Support Agent
+00a000000000284AAA,500000000000096AAA,Confirmed with the customer: the Strata Mini prints streaks on every page since 2026-01-24. Serial SN-80201.,2026-01-30,Support Agent
+00a000000000285AAA,500000000000096AAA,Offered a refund of $575.00.,2026-01-31,Support Agent
+00a000000000286AAA,500000000000096AAA,Customer confirmed order ORD-10989 and asked for a cancellation.,2026-02-01,Support Agent
+00a000000000287AAA,500000000000097AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-01-11. Serial SN-34524.,2026-01-28,Support Agent
+00a000000000288AAA,500000000000097AAA,Escalated to tier 2 on 2026-01-30.,2026-01-31,Support Agent
+00a000000000289AAA,500000000000098AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-14. Serial SN-37294.,2026-01-23,Support Agent
+00a000000000290AAA,500000000000098AAA,Offered a repair of $310.00.,2026-01-26,Support Agent
+00a000000000291AAA,500000000000098AAA,Customer confirmed order ORD-65949 and asked for a refund.,2026-01-27,Support Agent
+00a000000000292AAA,500000000000098AAA,Thanked the customer and set expectations for the next update.,2026-01-27,Support Agent
+00a000000000293AAA,500000000000099AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-16. Serial SN-27845.,2026-05-07,Support Agent
+00a000000000294AAA,500000000000099AAA,Offered a refund of $420.00.,2026-05-07,Support Agent
+00a000000000295AAA,500000000000099AAA,Customer confirmed order ORD-68491 and asked for a callback.,2026-05-10,Support Agent
+00a000000000296AAA,500000000000100AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-05-02. Serial SN-23059.,2026-05-13,Support Agent
+00a000000000297AAA,500000000000100AAA,Offered a refund of $199.00.,2026-05-13,Support Agent
+00a000000000298AAA,500000000000100AAA,Customer confirmed order ORD-42090 and asked for a refund.,2026-05-13,Support Agent
+00a000000000299AAA,500000000000101AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-03-30. Serial SN-32076.,2026-04-03,Support Agent
+00a000000000300AAA,500000000000101AAA,Escalated to tier 2 on 2026-04-03.,2026-04-04,Support Agent
+00a000000000301AAA,500000000000102AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-03-02. Serial SN-13324.,2026-03-16,Support Agent
+00a000000000302AAA,500000000000102AAA,Scheduled a callback on 2026-03-17.,2026-03-19,Support Agent
+00a000000000303AAA,500000000000102AAA,Thanked the customer and set expectations for the next update.,2026-03-19,Support Agent
+00a000000000304AAA,500000000000103AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-12. Serial SN-76384.,2026-05-18,Support Agent
+00a000000000305AAA,500000000000103AAA,Offered a replacement of $310.00.,2026-05-21,Support Agent
+00a000000000306AAA,500000000000104AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-03-26. Serial SN-19677.,2026-04-11,Support Agent
+00a000000000307AAA,500000000000104AAA,Offered a refund of $199.00.,2026-04-11,Support Agent
+00a000000000308AAA,500000000000104AAA,Customer confirmed order ORD-36159 and asked for a replacement.,2026-04-14,Support Agent
+00a000000000309AAA,500000000000104AAA,Thanked the customer and set expectations for the next update.,2026-04-16,Support Agent
+00a000000000310AAA,500000000000105AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-02-16. Serial SN-62569.,2026-02-21,Support Agent
+00a000000000311AAA,500000000000105AAA,Offered a refund of $199.00.,2026-02-21,Support Agent
+00a000000000312AAA,500000000000105AAA,Customer confirmed order ORD-50921 and asked for a replacement.,2026-02-21,Support Agent
+00a000000000313AAA,500000000000105AAA,Thanked the customer and set expectations for the next update.,2026-02-21,Support Agent
+00a000000000314AAA,500000000000106AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2025-12-27. Serial SN-27277.,2026-01-09,Support Agent
+00a000000000315AAA,500000000000106AAA,Offered a refund of $240.00.,2026-01-12,Support Agent
+00a000000000316AAA,500000000000106AAA,Customer confirmed order ORD-16270 and asked for a callback.,2026-01-15,Support Agent
+00a000000000317AAA,500000000000106AAA,Thanked the customer and set expectations for the next update.,2026-01-15,Support Agent
+00a000000000318AAA,500000000000107AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-03-02. Serial SN-94362.,2026-03-16,Support Agent
+00a000000000319AAA,500000000000107AAA,Escalated to tier 2 on 2026-03-20.,2026-03-17,Support Agent
+00a000000000320AAA,500000000000107AAA,Customer confirmed order ORD-27901 and asked for a refund.,2026-03-18,Support Agent
+00a000000000321AAA,500000000000107AAA,Thanked the customer and set expectations for the next update.,2026-03-20,Support Agent
+00a000000000322AAA,500000000000108AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-01-27. Serial SN-11847.,2026-02-06,Support Agent
+00a000000000323AAA,500000000000108AAA,Escalated to tier 2 on 2026-02-09.,2026-02-09,Support Agent
+00a000000000324AAA,500000000000108AAA,Thanked the customer and set expectations for the next update.,2026-02-12,Support Agent
+00a000000000325AAA,500000000000109AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-19. Serial SN-52877.,2026-02-05,Support Agent
+00a000000000326AAA,500000000000109AAA,Offered a refund of $575.00.,2026-02-06,Support Agent
+00a000000000327AAA,500000000000110AAA,Confirmed with the customer: the Strata Mini reports a false low-ink warning since 2026-03-23. Serial SN-53300.,2026-04-06,Support Agent
+00a000000000328AAA,500000000000110AAA,Offered a replacement of $575.00.,2026-04-07,Support Agent
+00a000000000329AAA,500000000000110AAA,Customer confirmed order ORD-13799 and asked for a replacement.,2026-04-09,Support Agent
+00a000000000330AAA,500000000000111AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-02-22. Serial SN-47222.,2026-03-14,Support Agent
+00a000000000331AAA,500000000000111AAA,Scheduled a callback on 2026-03-15.,2026-03-16,Support Agent
+00a000000000332AAA,500000000000111AAA,Thanked the customer and set expectations for the next update.,2026-03-16,Support Agent
+00a000000000333AAA,500000000000112AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-03-11. Serial SN-60058.,2026-03-16,Support Agent
+00a000000000334AAA,500000000000112AAA,Offered a credit of $49.00.,2026-03-18,Support Agent
+00a000000000335AAA,500000000000112AAA,Customer confirmed order ORD-86030 and asked for a refund.,2026-03-19,Support Agent
+00a000000000336AAA,500000000000113AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-11. Serial SN-11584.,2026-05-26,Support Agent
+00a000000000337AAA,500000000000113AAA,Scheduled a callback on 2026-05-28.,2026-05-26,Support Agent
+00a000000000338AAA,500000000000113AAA,Customer confirmed order ORD-38258 and asked for a refund.,2026-05-26,Support Agent
+00a000000000339AAA,500000000000114AAA,Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-01-10. Serial SN-95578.,2026-01-20,Support Agent
+00a000000000340AAA,500000000000114AAA,Offered a replacement of $240.00.,2026-01-23,Support Agent
+00a000000000341AAA,500000000000114AAA,Customer confirmed order ORD-85312 and asked for a callback.,2026-01-25,Support Agent
+00a000000000342AAA,500000000000114AAA,Thanked the customer and set expectations for the next update.,2026-01-27,Support Agent
+00a000000000343AAA,500000000000115AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-28. Serial SN-92599.,2026-02-06,Support Agent
+00a000000000344AAA,500000000000115AAA,Offered a repair of $120.00.,2026-02-06,Support Agent
+00a000000000345AAA,500000000000116AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-03-11. Serial SN-17651.,2026-03-28,Support Agent
+00a000000000346AAA,500000000000116AAA,Offered a replacement of $240.00.,2026-03-30,Support Agent
+00a000000000347AAA,500000000000116AAA,Customer confirmed order ORD-38159 and asked for a cancellation.,2026-03-31,Support Agent
+00a000000000348AAA,500000000000117AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-15. Serial SN-45637.,2026-03-22,Support Agent
+00a000000000349AAA,500000000000117AAA,Escalated to tier 2 on 2026-03-23.,2026-03-23,Support Agent
+00a000000000350AAA,500000000000117AAA,Customer confirmed order ORD-45706 and asked for a callback.,2026-03-24,Support Agent
+00a000000000351AAA,500000000000118AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-03. Serial SN-97986.,2026-04-14,Support Agent
+00a000000000352AAA,500000000000118AAA,Offered a credit of $199.00.,2026-04-15,Support Agent
+00a000000000353AAA,500000000000119AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-03-31. Serial SN-67654.,2026-04-04,Support Agent
+00a000000000354AAA,500000000000119AAA,Offered a replacement of $240.00.,2026-04-06,Support Agent
+00a000000000355AAA,500000000000120AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-01-23. Serial SN-37201.,2026-02-09,Support Agent
+00a000000000356AAA,500000000000120AAA,Scheduled a callback on 2026-02-13.,2026-02-12,Support Agent
+00a000000000357AAA,500000000000120AAA,Customer confirmed order ORD-14841 and asked for a replacement.,2026-02-12,Support Agent
+00a000000000358AAA,500000000000120AAA,Thanked the customer and set expectations for the next update.,2026-02-13,Support Agent
+00a000000000359AAA,500000000000121AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-01-17. Serial SN-54212.,2026-02-05,Support Agent
+00a000000000360AAA,500000000000121AAA,Scheduled a callback on 2026-02-07.,2026-02-07,Support Agent
+00a000000000361AAA,500000000000122AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-01-07. Serial SN-73668.,2026-01-24,Support Agent
+00a000000000362AAA,500000000000122AAA,Escalated to tier 2 on 2026-01-24.,2026-01-27,Support Agent
+00a000000000363AAA,500000000000122AAA,Customer confirmed order ORD-63903 and asked for a replacement.,2026-01-27,Support Agent
+00a000000000364AAA,500000000000122AAA,Thanked the customer and set expectations for the next update.,2026-01-28,Support Agent
+00a000000000365AAA,500000000000123AAA,Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-05-18. Serial SN-14165.,2026-06-01,Support Agent
+00a000000000366AAA,500000000000123AAA,Offered a credit of $240.00.,2026-06-02,Support Agent
+00a000000000367AAA,500000000000123AAA,Customer confirmed order ORD-52384 and asked for a refund.,2026-06-03,Support Agent
+00a000000000368AAA,500000000000123AAA,Thanked the customer and set expectations for the next update.,2026-06-06,Support Agent
+00a000000000369AAA,500000000000124AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2025-12-23. Serial SN-50463.,2026-01-10,Support Agent
+00a000000000370AAA,500000000000124AAA,Offered a replacement of $89.00.,2026-01-10,Support Agent
+00a000000000371AAA,500000000000124AAA,Customer confirmed order ORD-81672 and asked for a refund.,2026-01-10,Support Agent
+00a000000000372AAA,500000000000124AAA,Thanked the customer and set expectations for the next update.,2026-01-13,Support Agent
+00a000000000373AAA,500000000000125AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-04-26. Serial SN-45120.,2026-05-15,Support Agent
+00a000000000374AAA,500000000000125AAA,Offered a repair of $89.00.,2026-05-17,Support Agent
+00a000000000375AAA,500000000000125AAA,Customer confirmed order ORD-23711 and asked for a callback.,2026-05-17,Support Agent
+00a000000000376AAA,500000000000125AAA,Thanked the customer and set expectations for the next update.,2026-05-17,Support Agent
+00a000000000377AAA,500000000000126AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-03-15. Serial SN-74069.,2026-03-18,Support Agent
+00a000000000378AAA,500000000000126AAA,Scheduled a callback on 2026-03-23.,2026-03-21,Support Agent
+00a000000000379AAA,500000000000126AAA,Customer confirmed order ORD-97608 and asked for a refund.,2026-03-23,Support Agent
+00a000000000380AAA,500000000000126AAA,Thanked the customer and set expectations for the next update.,2026-03-26,Support Agent
+00a000000000381AAA,500000000000127AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-03-20. Serial SN-20644.,2026-03-30,Support Agent
+00a000000000382AAA,500000000000127AAA,Scheduled a callback on 2026-03-30.,2026-03-30,Support Agent
+00a000000000383AAA,500000000000128AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-04-04. Serial SN-27411.,2026-04-24,Support Agent
+00a000000000384AAA,500000000000128AAA,Offered a credit of $420.00.,2026-04-27,Support Agent
+00a000000000385AAA,500000000000128AAA,Customer confirmed order ORD-79901 and asked for a refund.,2026-04-29,Support Agent
+00a000000000386AAA,500000000000129AAA,Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-04-06. Serial SN-39850.,2026-04-25,Support Agent
+00a000000000387AAA,500000000000129AAA,Offered a repair of $240.00.,2026-04-25,Support Agent
+00a000000000388AAA,500000000000129AAA,Customer confirmed order ORD-91868 and asked for a callback.,2026-04-25,Support Agent
+00a000000000389AAA,500000000000130AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-04-12. Serial SN-78497.,2026-04-16,Support Agent
+00a000000000390AAA,500000000000130AAA,Offered a replacement of $899.00.,2026-04-19,Support Agent
+00a000000000391AAA,500000000000130AAA,Customer confirmed order ORD-52870 and asked for a replacement.,2026-04-20,Support Agent
+00a000000000392AAA,500000000000131AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-02-23. Serial SN-18362.,2026-03-15,Support Agent
+00a000000000393AAA,500000000000131AAA,Offered a repair of $310.00.,2026-03-15,Support Agent
+00a000000000394AAA,500000000000131AAA,Customer confirmed order ORD-78454 and asked for a callback.,2026-03-18,Support Agent
+00a000000000395AAA,500000000000131AAA,Thanked the customer and set expectations for the next update.,2026-03-19,Support Agent
+00a000000000396AAA,500000000000132AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-02-27. Serial SN-71454.,2026-03-07,Support Agent
+00a000000000397AAA,500000000000132AAA,Offered a repair of $899.00.,2026-03-09,Support Agent
+00a000000000398AAA,500000000000132AAA,Customer confirmed order ORD-72773 and asked for a callback.,2026-03-11,Support Agent
+00a000000000399AAA,500000000000133AAA,Confirmed with the customer: the Pulse Band will not sync with the phone since 2026-05-28. Serial SN-89288.,2026-06-04,Support Agent
+00a000000000400AAA,500000000000133AAA,Offered a credit of $89.00.,2026-06-07,Support Agent
+00a000000000401AAA,500000000000133AAA,Customer confirmed order ORD-44520 and asked for a refund.,2026-06-08,Support Agent
+00a000000000402AAA,500000000000134AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-02-11. Serial SN-18625.,2026-02-18,Support Agent
+00a000000000403AAA,500000000000134AAA,Offered a replacement of $49.00.,2026-02-19,Support Agent
+00a000000000404AAA,500000000000134AAA,Customer confirmed order ORD-32133 and asked for a cancellation.,2026-02-19,Support Agent
+00a000000000405AAA,500000000000135AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-04-27. Serial SN-34112.,2026-05-06,Support Agent
+00a000000000406AAA,500000000000135AAA,Scheduled a callback on 2026-05-12.,2026-05-09,Support Agent
+00a000000000407AAA,500000000000136AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-04-23. Serial SN-32907.,2026-04-26,Support Agent
+00a000000000408AAA,500000000000136AAA,Scheduled a callback on 2026-04-27.,2026-04-26,Support Agent
+00a000000000409AAA,500000000000136AAA,Customer confirmed order ORD-45437 and asked for a cancellation.,2026-04-28,Support Agent
+00a000000000410AAA,500000000000137AAA,Confirmed with the customer: the Pulse Band miscounts steps since 2026-03-19. Serial SN-22044.,2026-03-24,Support Agent
+00a000000000411AAA,500000000000137AAA,Scheduled a callback on 2026-03-28.,2026-03-25,Support Agent
+00a000000000412AAA,500000000000137AAA,Customer confirmed order ORD-61891 and asked for a cancellation.,2026-03-26,Support Agent
+00a000000000413AAA,500000000000137AAA,Thanked the customer and set expectations for the next update.,2026-03-27,Support Agent
+00a000000000414AAA,500000000000138AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-05-08. Serial SN-82571.,2026-05-13,Support Agent
+00a000000000415AAA,500000000000138AAA,Offered a replacement of $120.00.,2026-05-14,Support Agent
+00a000000000416AAA,500000000000138AAA,Customer confirmed order ORD-67047 and asked for a cancellation.,2026-05-16,Support Agent
+00a000000000417AAA,500000000000138AAA,Thanked the customer and set expectations for the next update.,2026-05-16,Support Agent
+00a000000000418AAA,500000000000139AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-02-10. Serial SN-66879.,2026-03-03,Support Agent
+00a000000000419AAA,500000000000139AAA,Offered a credit of $149.50.,2026-03-05,Support Agent
+00a000000000420AAA,500000000000139AAA,Customer confirmed order ORD-37980 and asked for a replacement.,2026-03-06,Support Agent
+00a000000000421AAA,500000000000139AAA,Thanked the customer and set expectations for the next update.,2026-03-09,Support Agent
+00a000000000422AAA,500000000000140AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-05-17. Serial SN-59788.,2026-05-29,Support Agent
+00a000000000423AAA,500000000000140AAA,Offered a repair of $49.00.,2026-05-30,Support Agent
+00a000000000424AAA,500000000000140AAA,Customer confirmed order ORD-28276 and asked for a refund.,2026-06-01,Support Agent
+00a000000000425AAA,500000000000141AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-04-24. Serial SN-18391.,2026-04-28,Support Agent
+00a000000000426AAA,500000000000141AAA,Offered a credit of $120.00.,2026-04-28,Support Agent
+00a000000000427AAA,500000000000141AAA,Customer confirmed order ORD-91573 and asked for a cancellation.,2026-04-28,Support Agent
+00a000000000428AAA,500000000000142AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-05-05. Serial SN-41019.,2026-05-15,Support Agent
+00a000000000429AAA,500000000000142AAA,Offered a credit of $199.00.,2026-05-15,Support Agent
+00a000000000430AAA,500000000000142AAA,Customer confirmed order ORD-60152 and asked for a replacement.,2026-05-16,Support Agent
+00a000000000431AAA,500000000000143AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-03-01. Serial SN-63006.,2026-03-08,Support Agent
+00a000000000432AAA,500000000000143AAA,Offered a repair of $310.00.,2026-03-08,Support Agent
+00a000000000433AAA,500000000000144AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-05-23. Serial SN-76527.,2026-06-04,Support Agent
+00a000000000434AAA,500000000000144AAA,Offered a credit of $89.00.,2026-06-07,Support Agent
+00a000000000435AAA,500000000000144AAA,Customer confirmed order ORD-98891 and asked for a refund.,2026-06-08,Support Agent
+00a000000000436AAA,500000000000145AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-01-06. Serial SN-65492.,2026-01-24,Support Agent
+00a000000000437AAA,500000000000145AAA,Offered a replacement of $310.00.,2026-01-25,Support Agent
+00a000000000438AAA,500000000000145AAA,Customer confirmed order ORD-32845 and asked for a cancellation.,2026-01-25,Support Agent
+00a000000000439AAA,500000000000146AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-05-01. Serial SN-32353.,2026-05-07,Support Agent
+00a000000000440AAA,500000000000146AAA,Offered a replacement of $49.00.,2026-05-10,Support Agent
+00a000000000441AAA,500000000000147AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-02-14. Serial SN-78396.,2026-02-28,Support Agent
+00a000000000442AAA,500000000000147AAA,Offered a repair of $199.00.,2026-03-03,Support Agent
+00a000000000443AAA,500000000000147AAA,Customer confirmed order ORD-23951 and asked for a cancellation.,2026-03-03,Support Agent
+00a000000000444AAA,500000000000148AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-17. Serial SN-85681.,2026-02-07,Support Agent
+00a000000000445AAA,500000000000148AAA,Escalated to tier 2 on 2026-02-07.,2026-02-09,Support Agent
+00a000000000446AAA,500000000000148AAA,Customer confirmed order ORD-80328 and asked for a replacement.,2026-02-11,Support Agent
+00a000000000447AAA,500000000000149AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-04-05. Serial SN-66895.,2026-04-13,Support Agent
+00a000000000448AAA,500000000000149AAA,Offered a credit of $240.00.,2026-04-15,Support Agent
+00a000000000449AAA,500000000000150AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2025-12-24. Serial SN-70806.,2026-01-07,Support Agent
+00a000000000450AAA,500000000000150AAA,Offered a credit of $149.50.,2026-01-08,Support Agent
+00a000000000451AAA,500000000000150AAA,Customer confirmed order ORD-60785 and asked for a cancellation.,2026-01-10,Support Agent
+00a000000000452AAA,500000000000151AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-02-09. Serial SN-17250.,2026-02-25,Support Agent
+00a000000000453AAA,500000000000151AAA,Offered a replacement of $199.00.,2026-02-27,Support Agent
+00a000000000454AAA,500000000000152AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-01-29. Serial SN-72916.,2026-02-16,Support Agent
+00a000000000455AAA,500000000000152AAA,Offered a replacement of $899.00.,2026-02-17,Support Agent
+00a000000000456AAA,500000000000152AAA,Customer confirmed order ORD-66758 and asked for a refund.,2026-02-18,Support Agent
+00a000000000457AAA,500000000000152AAA,Thanked the customer and set expectations for the next update.,2026-02-19,Support Agent
+00a000000000458AAA,500000000000153AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-05-07. Serial SN-34931.,2026-05-20,Support Agent
+00a000000000459AAA,500000000000153AAA,Offered a credit of $49.00.,2026-05-23,Support Agent
+00a000000000460AAA,500000000000153AAA,Customer confirmed order ORD-72005 and asked for a replacement.,2026-05-23,Support Agent
+00a000000000461AAA,500000000000154AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-04-04. Serial SN-79624.,2026-04-09,Support Agent
+00a000000000462AAA,500000000000154AAA,Offered a credit of $199.00.,2026-04-10,Support Agent
+00a000000000463AAA,500000000000154AAA,Customer confirmed order ORD-13953 and asked for a refund.,2026-04-10,Support Agent
+00a000000000464AAA,500000000000155AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-03-16. Serial SN-64880.,2026-03-22,Support Agent
+00a000000000465AAA,500000000000155AAA,Escalated to tier 2 on 2026-03-21.,2026-03-22,Support Agent
+00a000000000466AAA,500000000000155AAA,Customer confirmed order ORD-39699 and asked for a replacement.,2026-03-23,Support Agent
+00a000000000467AAA,500000000000156AAA,Confirmed with the customer: the Strata Mini reports a false low-ink warning since 2026-04-24. Serial SN-95933.,2026-05-14,Support Agent
+00a000000000468AAA,500000000000156AAA,Scheduled a callback on 2026-05-17.,2026-05-15,Support Agent
+00a000000000469AAA,500000000000156AAA,Thanked the customer and set expectations for the next update.,2026-05-17,Support Agent
+00a000000000470AAA,500000000000157AAA,Confirmed with the customer: the Nimbus Hub reboots during updates since 2026-05-10. Serial SN-15061.,2026-05-17,Support Agent
+00a000000000471AAA,500000000000157AAA,Offered a repair of $420.00.,2026-05-19,Support Agent
+00a000000000472AAA,500000000000157AAA,Customer confirmed order ORD-44403 and asked for a callback.,2026-05-19,Support Agent
+00a000000000473AAA,500000000000158AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-17. Serial SN-51389.,2026-06-05,Support Agent
+00a000000000474AAA,500000000000158AAA,Escalated to tier 2 on 2026-06-03.,2026-06-08,Support Agent
+00a000000000475AAA,500000000000158AAA,Customer confirmed order ORD-19763 and asked for a cancellation.,2026-06-10,Support Agent
+00a000000000476AAA,500000000000158AAA,Thanked the customer and set expectations for the next update.,2026-06-10,Support Agent
+00a000000000477AAA,500000000000159AAA,Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-03-08. Serial SN-80151.,2026-03-15,Support Agent
+00a000000000478AAA,500000000000159AAA,Offered a repair of $310.00.,2026-03-16,Support Agent
+00a000000000479AAA,500000000000159AAA,Customer confirmed order ORD-92402 and asked for a replacement.,2026-03-18,Support Agent
+00a000000000480AAA,500000000000160AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-01-29. Serial SN-60602.,2026-02-09,Support Agent
+00a000000000481AAA,500000000000160AAA,Offered a repair of $240.00.,2026-02-09,Support Agent
+00a000000000482AAA,500000000000160AAA,Customer confirmed order ORD-33297 and asked for a refund.,2026-02-11,Support Agent
+00a000000000483AAA,500000000000161AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-01-29. Serial SN-80789.,2026-02-13,Support Agent
+00a000000000484AAA,500000000000161AAA,Scheduled a callback on 2026-02-18.,2026-02-14,Support Agent
+00a000000000485AAA,500000000000161AAA,Customer confirmed order ORD-50009 and asked for a refund.,2026-02-17,Support Agent
+00a000000000486AAA,500000000000162AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-01-10. Serial SN-97557.,2026-01-18,Support Agent
+00a000000000487AAA,500000000000162AAA,Escalated to tier 2 on 2026-01-21.,2026-01-20,Support Agent
+00a000000000488AAA,500000000000162AAA,Customer confirmed order ORD-55039 and asked for a refund.,2026-01-22,Support Agent
+00a000000000489AAA,500000000000163AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-05-11. Serial SN-86585.,2026-05-15,Support Agent
+00a000000000490AAA,500000000000163AAA,Offered a replacement of $89.00.,2026-05-18,Support Agent
+00a000000000491AAA,500000000000164AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-08. Serial SN-83127.,2026-05-23,Support Agent
+00a000000000492AAA,500000000000164AAA,Offered a refund of $149.50.,2026-05-24,Support Agent
+00a000000000493AAA,500000000000164AAA,Customer confirmed order ORD-92721 and asked for a callback.,2026-05-24,Support Agent
+00a000000000494AAA,500000000000165AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-04-12. Serial SN-36084.,2026-04-17,Support Agent
+00a000000000495AAA,500000000000165AAA,Offered a credit of $49.00.,2026-04-17,Support Agent
+00a000000000496AAA,500000000000165AAA,Customer confirmed order ORD-20352 and asked for a replacement.,2026-04-18,Support Agent
+00a000000000497AAA,500000000000166AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-03-09. Serial SN-83599.,2026-03-10,Support Agent
+00a000000000498AAA,500000000000166AAA,Escalated to tier 2 on 2026-03-14.,2026-03-11,Support Agent
+00a000000000499AAA,500000000000166AAA,Customer confirmed order ORD-86918 and asked for a refund.,2026-03-11,Support Agent
+00a000000000500AAA,500000000000166AAA,Thanked the customer and set expectations for the next update.,2026-03-14,Support Agent
+00a000000000501AAA,500000000000167AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-05-03. Serial SN-67547.,2026-05-15,Support Agent
+00a000000000502AAA,500000000000167AAA,Offered a credit of $199.00.,2026-05-16,Support Agent
+00a000000000503AAA,500000000000167AAA,Customer confirmed order ORD-42960 and asked for a callback.,2026-05-18,Support Agent
+00a000000000504AAA,500000000000168AAA,Confirmed with the customer: the Aero 2 loses pairing every night since 2026-04-24. Serial SN-60980.,2026-05-07,Support Agent
+00a000000000505AAA,500000000000168AAA,Escalated to tier 2 on 2026-05-08.,2026-05-08,Support Agent
+00a000000000506AAA,500000000000168AAA,Customer confirmed order ORD-64138 and asked for a refund.,2026-05-11,Support Agent
+00a000000000507AAA,500000000000169AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-01. Serial SN-35671.,2026-01-10,Support Agent
+00a000000000508AAA,500000000000169AAA,Offered a repair of $899.00.,2026-01-11,Support Agent
+00a000000000509AAA,500000000000169AAA,Thanked the customer and set expectations for the next update.,2026-01-11,Support Agent
+00a000000000510AAA,500000000000170AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-03-11. Serial SN-74933.,2026-03-16,Support Agent
+00a000000000511AAA,500000000000170AAA,Scheduled a callback on 2026-03-20.,2026-03-16,Support Agent
+00a000000000512AAA,500000000000170AAA,Customer confirmed order ORD-56453 and asked for a refund.,2026-03-16,Support Agent
+00a000000000513AAA,500000000000171AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-03-29. Serial SN-75820.,2026-04-07,Support Agent
+00a000000000514AAA,500000000000171AAA,Offered a replacement of $49.00.,2026-04-09,Support Agent
+00a000000000515AAA,500000000000171AAA,Customer confirmed order ORD-57938 and asked for a replacement.,2026-04-10,Support Agent
+00a000000000516AAA,500000000000172AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-05-03. Serial SN-65109.,2026-05-15,Support Agent
+00a000000000517AAA,500000000000172AAA,Offered a credit of $120.00.,2026-05-18,Support Agent
+00a000000000518AAA,500000000000172AAA,Customer confirmed order ORD-58269 and asked for a callback.,2026-05-20,Support Agent
+00a000000000519AAA,500000000000173AAA,Confirmed with the customer: the Orbit Cam records without audio since 2026-03-27. Serial SN-89664.,2026-04-11,Support Agent
+00a000000000520AAA,500000000000173AAA,Offered a credit of $89.00.,2026-04-13,Support Agent
+00a000000000521AAA,500000000000173AAA,Thanked the customer and set expectations for the next update.,2026-04-14,Support Agent
+00a000000000522AAA,500000000000174AAA,Confirmed with the customer: the Nimbus Hub ignores the voice command since 2026-04-10. Serial SN-44932.,2026-04-19,Support Agent
+00a000000000523AAA,500000000000174AAA,Offered a refund of $49.00.,2026-04-20,Support Agent
+00a000000000524AAA,500000000000174AAA,Customer confirmed order ORD-19628 and asked for a replacement.,2026-04-23,Support Agent
+00a000000000525AAA,500000000000175AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-19. Serial SN-91851.,2026-05-28,Support Agent
+00a000000000526AAA,500000000000175AAA,Scheduled a callback on 2026-06-03.,2026-05-28,Support Agent
+00a000000000527AAA,500000000000175AAA,Customer confirmed order ORD-94921 and asked for a cancellation.,2026-05-28,Support Agent
+00a000000000528AAA,500000000000176AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2025-12-21. Serial SN-82069.,2026-01-13,Support Agent
+00a000000000529AAA,500000000000176AAA,Scheduled a callback on 2026-01-19.,2026-01-16,Support Agent
+00a000000000530AAA,500000000000177AAA,Confirmed with the customer: the Orbit Cam misses motion at night since 2026-04-15. Serial SN-52411.,2026-05-07,Support Agent
+00a000000000531AAA,500000000000177AAA,Offered a repair of $49.00.,2026-05-07,Support Agent
+00a000000000532AAA,500000000000177AAA,Customer confirmed order ORD-58366 and asked for a replacement.,2026-05-09,Support Agent
+00a000000000533AAA,500000000000178AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-02-28. Serial SN-43051.,2026-03-08,Support Agent
+00a000000000534AAA,500000000000178AAA,Scheduled a callback on 2026-03-14.,2026-03-08,Support Agent
+00a000000000535AAA,500000000000178AAA,Customer confirmed order ORD-66768 and asked for a callback.,2026-03-11,Support Agent
+00a000000000536AAA,500000000000179AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-13. Serial SN-71865.,2026-05-20,Support Agent
+00a000000000537AAA,500000000000179AAA,Scheduled a callback on 2026-05-27.,2026-05-23,Support Agent
+00a000000000538AAA,500000000000179AAA,Customer confirmed order ORD-91410 and asked for a cancellation.,2026-05-26,Support Agent
+00a000000000539AAA,500000000000179AAA,Thanked the customer and set expectations for the next update.,2026-05-29,Support Agent
+00a000000000540AAA,500000000000180AAA,Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-04-14. Serial SN-79590.,2026-04-19,Support Agent
+00a000000000541AAA,500000000000180AAA,Scheduled a callback on 2026-04-20.,2026-04-20,Support Agent
+00a000000000542AAA,500000000000180AAA,Customer confirmed order ORD-57810 and asked for a refund.,2026-04-22,Support Agent
+00a000000000543AAA,500000000000180AAA,Thanked the customer and set expectations for the next update.,2026-04-23,Support Agent
+00a000000000544AAA,500000000000181AAA,Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-03-20. Serial SN-10726.,2026-03-30,Support Agent
+00a000000000545AAA,500000000000181AAA,Escalated to tier 2 on 2026-04-02.,2026-03-31,Support Agent
+00a000000000546AAA,500000000000182AAA,Confirmed with the customer: the Volt Charger charges at half speed since 2026-04-13. Serial SN-92260.,2026-04-29,Support Agent
+00a000000000547AAA,500000000000182AAA,Offered a refund of $899.00.,2026-04-29,Support Agent
+00a000000000548AAA,500000000000182AAA,Customer confirmed order ORD-37970 and asked for a cancellation.,2026-05-02,Support Agent
+00a000000000549AAA,500000000000182AAA,Thanked the customer and set expectations for the next update.,2026-05-04,Support Agent
+00a000000000550AAA,500000000000183AAA,Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-01-13. Serial SN-69455.,2026-01-26,Support Agent
+00a000000000551AAA,500000000000183AAA,Offered a replacement of $575.00.,2026-01-26,Support Agent
+00a000000000552AAA,500000000000184AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-04. Serial SN-65585.,2026-01-17,Support Agent
+00a000000000553AAA,500000000000184AAA,Offered a repair of $120.00.,2026-01-17,Support Agent
+00a000000000554AAA,500000000000185AAA,Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-01. Serial SN-30891.,2026-01-20,Support Agent
+00a000000000555AAA,500000000000185AAA,Offered a credit of $199.00.,2026-01-23,Support Agent
+00a000000000556AAA,500000000000185AAA,Customer confirmed order ORD-92253 and asked for a refund.,2026-01-23,Support Agent
+00a000000000557AAA,500000000000185AAA,Thanked the customer and set expectations for the next update.,2026-01-26,Support Agent
+00a000000000558AAA,500000000000186AAA,Confirmed with the customer: the Strata Mini jams the rear tray since 2026-01-28. Serial SN-91022.,2026-02-04,Support Agent
+00a000000000559AAA,500000000000186AAA,Escalated to tier 2 on 2026-02-04.,2026-02-06,Support Agent
+00a000000000560AAA,500000000000186AAA,Thanked the customer and set expectations for the next update.,2026-02-07,Support Agent
+00a000000000561AAA,500000000000187AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-10. Serial SN-94695.,2026-05-12,Support Agent
+00a000000000562AAA,500000000000187AAA,Scheduled a callback on 2026-05-16.,2026-05-14,Support Agent
+00a000000000563AAA,500000000000188AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-02-28. Serial SN-48526.,2026-03-19,Support Agent
+00a000000000564AAA,500000000000188AAA,Offered a replacement of $310.00.,2026-03-20,Support Agent
+00a000000000565AAA,500000000000188AAA,Customer confirmed order ORD-43486 and asked for a refund.,2026-03-20,Support Agent
+00a000000000566AAA,500000000000189AAA,Confirmed with the customer: the Aero 2 overheats on the dock since 2026-01-18. Serial SN-94028.,2026-01-26,Support Agent
+00a000000000567AAA,500000000000189AAA,Offered a refund of $89.00.,2026-01-28,Support Agent
+00a000000000568AAA,500000000000189AAA,Customer confirmed order ORD-63898 and asked for a cancellation.,2026-01-28,Support Agent
+00a000000000569AAA,500000000000190AAA,Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-03-15. Serial SN-91388.,2026-04-05,Support Agent
+00a000000000570AAA,500000000000190AAA,Scheduled a callback on 2026-04-04.,2026-04-07,Support Agent
+00a000000000571AAA,500000000000190AAA,Customer confirmed order ORD-85132 and asked for a replacement.,2026-04-07,Support Agent
+00a000000000572AAA,500000000000191AAA,Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-03. Serial SN-55541.,2026-05-22,Support Agent
+00a000000000573AAA,500000000000191AAA,Escalated to tier 2 on 2026-05-24.,2026-05-24,Support Agent
+00a000000000574AAA,500000000000191AAA,Customer confirmed order ORD-32482 and asked for a replacement.,2026-05-27,Support Agent
+00a000000000575AAA,500000000000192AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-04-24. Serial SN-95926.,2026-05-04,Support Agent
+00a000000000576AAA,500000000000192AAA,Offered a repair of $149.50.,2026-05-04,Support Agent
+00a000000000577AAA,500000000000192AAA,Customer confirmed order ORD-59266 and asked for a callback.,2026-05-05,Support Agent
+00a000000000578AAA,500000000000193AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-01-31. Serial SN-20259.,2026-02-13,Support Agent
+00a000000000579AAA,500000000000193AAA,Scheduled a callback on 2026-02-15.,2026-02-15,Support Agent
+00a000000000580AAA,500000000000193AAA,Thanked the customer and set expectations for the next update.,2026-02-16,Support Agent
+00a000000000581AAA,500000000000194AAA,Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-01-16. Serial SN-44253.,2026-01-22,Support Agent
+00a000000000582AAA,500000000000194AAA,Escalated to tier 2 on 2026-01-27.,2026-01-24,Support Agent
+00a000000000583AAA,500000000000195AAA,Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-01-30. Serial SN-98561.,2026-02-02,Support Agent
+00a000000000584AAA,500000000000195AAA,Scheduled a callback on 2026-02-03.,2026-02-02,Support Agent
+00a000000000585AAA,500000000000196AAA,Confirmed with the customer: the Pulse Band drains in under a day since 2026-03-13. Serial SN-65979.,2026-03-14,Support Agent
+00a000000000586AAA,500000000000196AAA,Scheduled a callback on 2026-03-16.,2026-03-14,Support Agent
+00a000000000587AAA,500000000000197AAA,Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-01-08. Serial SN-56402.,2026-01-26,Support Agent
+00a000000000588AAA,500000000000197AAA,Offered a credit of $89.00.,2026-01-27,Support Agent
+00a000000000589AAA,500000000000197AAA,Thanked the customer and set expectations for the next update.,2026-01-30,Support Agent
+00a000000000590AAA,500000000000198AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-02-20. Serial SN-89163.,2026-03-05,Support Agent
+00a000000000591AAA,500000000000198AAA,Escalated to tier 2 on 2026-03-06.,2026-03-08,Support Agent
+00a000000000592AAA,500000000000199AAA,Confirmed with the customer: the Volt Charger trips the breaker since 2026-03-19. Serial SN-48596.,2026-04-08,Support Agent
+00a000000000593AAA,500000000000199AAA,Offered a credit of $240.00.,2026-04-10,Support Agent
+00a000000000594AAA,500000000000199AAA,Customer confirmed order ORD-89422 and asked for a callback.,2026-04-11,Support Agent
+00a000000000595AAA,500000000000200AAA,Confirmed with the customer: the Strata Mini reports a false low-ink warning since 2026-03-08. Serial SN-56294.,2026-03-12,Support Agent
+00a000000000596AAA,500000000000200AAA,Scheduled a callback on 2026-03-16.,2026-03-13,Support Agent
+00a000000000597AAA,500000000000200AAA,Thanked the customer and set expectations for the next update.,2026-03-15,Support Agent

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Hannah Mbeki contacted support because the Volt Charger has a loose cable latch since 2026-05-18. It is a High priority case and the status is currently Escalated. The agent offered a credit of $240.00. The customer confirmed order ORD-52384 and asked for a refund. The knowledge base notes that Volt Charger units are exchanged within 18 months for latch faults.",
+      "responseId": "req-v3-123-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Volt Charger has a loose cable latch\nDescription: Customer Hannah Mbeki reports the Volt Charger has a loose cable latch since 2026-05-18.\nPriority: High\nStatus: Escalated\nType: Question\nProduct: Volt Charger\nCustomer: Hannah Mbeki\nAmount: 240.00\nOpened: 2026-05-31\nThread facts: Comment count: 4. Newest comment: 2026-06-06. Provider: CaseSummaryGrounding.\nComments:\n- [2026-06-01] Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-05-18. Serial SN-14165.\n- [2026-06-02] Offered a credit of $240.00.\n- [2026-06-03] Customer confirmed order ORD-52384 and asked for a refund.\n- [2026-06-06] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-volt-charger-01) Volt Charger units are exchanged within 18 months for latch faults.\n- (chunk-volt-charger-02) Volt Charger limits output for 10 minutes when the breaker trips.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-123",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000123AAA"
+    }
+  },
+  "generationErrors": []
+}

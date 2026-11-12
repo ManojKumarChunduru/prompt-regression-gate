@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Lindqvist reported that the Nimbus Hub flashes red and stays offline since 2025-12-30. The case is High priority and the status is Escalated. The agent offered a refund of $240.00.",
+      "responseId": "req-v1-024-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Tomas Lindqvist reports the Nimbus Hub flashes red and stays offline since 2025-12-30.\nPriority: High\nStatus: Escalated\nType: Problem\nProduct: Nimbus Hub\nCustomer: Tomas Lindqvist\nAmount: 240.00\nOpened: 2026-01-17\nComments:\n- [2026-01-17] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2025-12-30. Serial SN-71415.\n- [2026-01-17] Offered a refund of $240.00.\n- [2026-01-17] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-024",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000024AAA"
+    }
+  },
+  "generationErrors": []
+}

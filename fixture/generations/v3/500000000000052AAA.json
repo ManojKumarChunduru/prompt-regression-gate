@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Pulse Band has a cracked strap clip since 2026-05-21. It is a High priority case and the status is currently Escalated. A callback is scheduled for 2026-06-04. The customer confirmed order ORD-45886 and asked for a refund. The knowledge base notes that Pulse Band syncs only over Bluetooth 5 or later. The tone of the thread is polite but increasingly impatient.",
+      "responseId": "req-v3-052-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Pulse Band has a cracked strap clip\nDescription: Customer Owen Haddad reports the Pulse Band has a cracked strap clip since 2026-05-21.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Pulse Band\nCustomer: Owen Haddad\nAmount: 149.50\nOpened: 2026-06-01\nThread facts: Comment count: 4. Newest comment: 2026-06-06. Provider: CaseSummaryGrounding.\nComments:\n- [2026-06-01] Confirmed with the customer: the Pulse Band has a cracked strap clip since 2026-05-21. Serial SN-11772.\n- [2026-06-02] Scheduled a callback on 2026-06-04.\n- [2026-06-04] Customer confirmed order ORD-45886 and asked for a refund.\n- [2026-06-06] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-pulse-band-02) Pulse Band syncs only over Bluetooth 5 or later.\n- (chunk-pulse-band-01) Pulse Band straps are replaced free within 12 months.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-052",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000052AAA"
+    }
+  },
+  "generationErrors": []
+}

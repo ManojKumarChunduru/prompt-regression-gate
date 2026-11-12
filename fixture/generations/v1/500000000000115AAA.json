@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Haddad reported that the Strata Mini fails to wake from sleep since 2026-01-28. The case is High priority and the status is Escalated.",
+      "responseId": "req-v1-115-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Strata Mini fails to wake from sleep\nDescription: Customer Nadia Haddad reports the Strata Mini fails to wake from sleep since 2026-01-28.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Strata Mini\nCustomer: Nadia Haddad\nAmount: 120.00\nOpened: 2026-02-04\nComments:\n- [2026-02-06] Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-28. Serial SN-92599.\n- [2026-02-06] Offered a repair of $120.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-115",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000115AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Aero 2 loses pairing every night since 2026-03-15. It is a Medium priority case and the status is currently New. The case was escalated to tier 2 on 2026-03-23. The customer confirmed order ORD-45706 and asked for a callback. The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days.",
+      "responseId": "req-v3-117-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Nadia Fernandes reports the Aero 2 loses pairing every night since 2026-03-15.\nPriority: Medium\nStatus: New\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Fernandes\nAmount: 575.00\nOpened: 2026-03-22\nThread facts: Comment count: 3. Newest comment: 2026-03-24. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-22] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-15. Serial SN-45637.\n- [2026-03-23] Escalated to tier 2 on 2026-03-23.\n- [2026-03-24] Customer confirmed order ORD-45706 and asked for a callback.\nKnowledge passages:\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-117",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000117AAA"
+    }
+  },
+  "generationErrors": []
+}

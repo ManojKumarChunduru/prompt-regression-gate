@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Hannah Mbeki reported that the Aero 2 stops charging after a few minutes since 2026-04-02. The case is Medium priority and the status is Closed. The agent offered a credit of $575.00. The customer confirmed order ORD-92610 and asked for a replacement.",
+      "responseId": "req-v1-087-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Hannah Mbeki reports the Aero 2 stops charging after a few minutes since 2026-04-02.\nPriority: Medium\nStatus: Closed\nType: Feature Request\nProduct: Aero 2\nCustomer: Hannah Mbeki\nAmount: 575.00\nOpened: 2026-04-07\nComments:\n- [2026-04-07] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-04-02. Serial SN-66296.\n- [2026-04-10] Offered a credit of $575.00.\n- [2026-04-10] Customer confirmed order ORD-92610 and asked for a replacement.\n- [2026-04-12] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-087",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000087AAA"
+    }
+  },
+  "generationErrors": []
+}

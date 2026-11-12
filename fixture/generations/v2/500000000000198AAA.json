@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Dubois contacted support because the Volt Charger trips the breaker since 2026-02-20. It is a High priority case and the status is currently New. The case was escalated to tier 2 on 2026-03-06.",
+      "responseId": "req-v2-198-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Volt Charger trips the breaker\nDescription: Customer Priya Dubois reports the Volt Charger trips the breaker since 2026-02-20.\nPriority: High\nStatus: New\nType: Problem\nProduct: Volt Charger\nCustomer: Priya Dubois\nAmount: 310.00\nOpened: 2026-03-02\nComments:\n- [2026-03-05] Confirmed with the customer: the Volt Charger trips the breaker since 2026-02-20. Serial SN-89163.\n- [2026-03-08] Escalated to tier 2 on 2026-03-06.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-198",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000198AAA"
+    }
+  },
+  "generationErrors": []
+}

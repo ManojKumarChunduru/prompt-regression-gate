@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Lukas Dubois reported that the Orbit Cam misses motion at night since 2026-03-10. The case is Medium priority and the status is Escalated. The case was escalated to tier 2 on 2026-03-21.",
+      "responseId": "req-v1-011-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Orbit Cam misses motion at night\nDescription: Customer Lukas Dubois reports the Orbit Cam misses motion at night since 2026-03-10.\nPriority: Medium\nStatus: Escalated\nType: Problem\nProduct: Orbit Cam\nCustomer: Lukas Dubois\nAmount: 575.00\nOpened: 2026-03-20\nComments:\n- [2026-03-23] Confirmed with the customer: the Orbit Cam misses motion at night since 2026-03-10. Serial SN-34732.\n- [2026-03-25] Escalated to tier 2 on 2026-03-21.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-011",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000011AAA"
+    }
+  },
+  "generationErrors": []
+}

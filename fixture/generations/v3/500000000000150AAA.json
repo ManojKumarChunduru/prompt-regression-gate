@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Hannah Alvarez contacted support because the Volt Charger trips the breaker since 2025-12-24. It is a High priority case and the status is currently Closed. The agent offered a credit of $149.50. The customer confirmed order ORD-60785 and asked for a cancellation. The knowledge base notes that Volt Charger limits output for 10 minutes when the breaker trips.",
+      "responseId": "req-v3-150-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Volt Charger trips the breaker\nDescription: Customer Hannah Alvarez reports the Volt Charger trips the breaker since 2025-12-24.\nPriority: High\nStatus: Closed\nType: Question\nProduct: Volt Charger\nCustomer: Hannah Alvarez\nAmount: 149.50\nOpened: 2026-01-06\nThread facts: Comment count: 3. Newest comment: 2026-01-10. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-07] Confirmed with the customer: the Volt Charger trips the breaker since 2025-12-24. Serial SN-70806.\n- [2026-01-08] Offered a credit of $149.50.\n- [2026-01-10] Customer confirmed order ORD-60785 and asked for a cancellation.\nKnowledge passages:\n- (chunk-volt-charger-02) Volt Charger limits output for 10 minutes when the breaker trips.\n- (chunk-volt-charger-03) Volt Charger stops at 80 percent for 2 hours on a hot day.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-150",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000150AAA"
+    }
+  },
+  "generationErrors": []
+}

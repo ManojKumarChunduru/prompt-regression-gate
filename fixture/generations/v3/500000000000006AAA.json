@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Haddad contacted support because the Strata Mini prints streaks on every page since 2026-04-07. It is a High priority case and the status is currently Working. The case was escalated to tier 2 on 2026-04-21. The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset.",
+      "responseId": "req-v3-006-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Strata Mini prints streaks on every page\nDescription: Customer Aisha Haddad reports the Strata Mini prints streaks on every page since 2026-04-07.\nPriority: High\nStatus: Working\nType: Question\nProduct: Strata Mini\nCustomer: Aisha Haddad\nAmount: 899.00\nOpened: 2026-04-18\nThread facts: Comment count: 2. Newest comment: 2026-04-23. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-20] Confirmed with the customer: the Strata Mini prints streaks on every page since 2026-04-07. Serial SN-98594.\n- [2026-04-23] Escalated to tier 2 on 2026-04-21.\nKnowledge passages:\n- (chunk-strata-mini-02) Strata Mini rear-tray jams clear with the 3-step reset.\n- (chunk-strata-mini-03) Strata Mini ink warnings reset after a 1-day idle period.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-006",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000006AAA"
+    }
+  },
+  "generationErrors": []
+}

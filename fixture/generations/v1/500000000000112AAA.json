@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Yara Mbeki reported that the Nimbus Hub flashes red and stays offline since 2026-03-11. The case is Medium priority and the status is Working. The agent offered a credit of $49.00. The customer confirmed order ORD-86030 and asked for a refund.",
+      "responseId": "req-v1-112-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Yara Mbeki reports the Nimbus Hub flashes red and stays offline since 2026-03-11.\nPriority: Medium\nStatus: Working\nType: Problem\nProduct: Nimbus Hub\nCustomer: Yara Mbeki\nAmount: 49.00\nOpened: 2026-03-16\nComments:\n- [2026-03-16] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-03-11. Serial SN-60058.\n- [2026-03-18] Offered a credit of $49.00.\n- [2026-03-19] Customer confirmed order ORD-86030 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-112",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000112AAA"
+    }
+  },
+  "generationErrors": []
+}

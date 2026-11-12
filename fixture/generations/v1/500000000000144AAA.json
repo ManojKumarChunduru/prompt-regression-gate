@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Haddad reported that the Strata Mini fails to wake from sleep since 2026-05-23. The case is Medium priority and the status is Closed. The agent offered a credit of $89.00. The customer confirmed order ORD-98891 and asked for a refund.",
+      "responseId": "req-v1-144-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Strata Mini fails to wake from sleep\nDescription: Customer Aisha Haddad reports the Strata Mini fails to wake from sleep since 2026-05-23.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Strata Mini\nCustomer: Aisha Haddad\nAmount: 89.00\nOpened: 2026-06-01\nComments:\n- [2026-06-04] Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-05-23. Serial SN-76527.\n- [2026-06-07] Offered a credit of $89.00.\n- [2026-06-08] Customer confirmed order ORD-98891 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-144",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000144AAA"
+    }
+  },
+  "generationErrors": []
+}

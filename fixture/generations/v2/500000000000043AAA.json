@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Haddad contacted support because the Nimbus Hub flashes red and stays offline since 2026-03-22. It is a Low priority case and the status is currently Working. The agent offered a replacement of $420.00.",
+      "responseId": "req-v2-043-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Aisha Haddad reports the Nimbus Hub flashes red and stays offline since 2026-03-22.\nPriority: Low\nStatus: Working\nType: Question\nProduct: Nimbus Hub\nCustomer: Aisha Haddad\nAmount: 420.00\nOpened: 2026-04-09\nComments:\n- [2026-04-09] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-03-22. Serial SN-29604.\n- [2026-04-12] Offered a replacement of $420.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-043",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000043AAA"
+    }
+  },
+  "generationErrors": []
+}

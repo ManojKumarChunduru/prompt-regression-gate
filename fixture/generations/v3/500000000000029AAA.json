@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Daniel Novak contacted support because the Nimbus Hub drops the wifi hourly since 2026-03-09. It is a High priority case and the status is currently Working. The agent offered a repair of $575.00. The knowledge base notes that Strata Mini cartridges are covered for 6 months.",
+      "responseId": "req-v3-029-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub drops the wifi hourly\nDescription: Customer Marco Natarajan reports the Nimbus Hub drops the wifi hourly since 2026-03-09.\nPriority: High\nStatus: Working\nType: Feature Request\nProduct: Nimbus Hub\nCustomer: Marco Natarajan\nAmount: 575.00\nOpened: 2026-03-12\nThread facts: Comment count: 2. Newest comment: 2026-03-16. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-13] Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-03-09. Serial SN-86508.\n- [2026-03-16] Offered a repair of $575.00.\nKnowledge passages:\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-strata-mini-01) Strata Mini cartridges are covered for 6 months.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-029",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000029AAA"
+    }
+  },
+  "generationErrors": []
+}

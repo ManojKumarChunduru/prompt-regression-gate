@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Pulse Band drains in under a day since 2026-01-17. It is a Low priority case and the status is currently Escalated. The agent offered a credit of $49.00. The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period.",
+      "responseId": "req-v3-032-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Pulse Band drains in under a day\nDescription: Customer Nadia Fernandes reports the Pulse Band drains in under a day since 2026-01-17.\nPriority: Low\nStatus: Escalated\nType: Question\nProduct: Pulse Band\nCustomer: Nadia Fernandes\nAmount: 49.00\nOpened: 2026-01-22\nThread facts: Comment count: 2. Newest comment: 2026-01-25. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-22] Confirmed with the customer: the Pulse Band drains in under a day since 2026-01-17. Serial SN-12659.\n- [2026-01-25] Offered a credit of $49.00.\nKnowledge passages:\n- (chunk-pulse-band-03) Pulse Band step counts are recalibrated after a 2-day wear period.\n- (chunk-nimbus-hub-03) Nimbus Hub needs a 2-hour cool-down before a factory reset.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-032",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000032AAA"
+    }
+  },
+  "generationErrors": []
+}

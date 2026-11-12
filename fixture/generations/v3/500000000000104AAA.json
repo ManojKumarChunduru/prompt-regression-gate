@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Sato contacted support because the Orbit Cam logs out of the app daily since 2026-03-26. It is a High priority case and the status is currently Closed. The agent offered a refund of $199.00. The customer confirmed order ORD-36159 and asked for a replacement. The knowledge base notes that Volt Charger stops at 80 percent for 2 hours on a hot day.",
+      "responseId": "req-v3-104-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Orbit Cam logs out of the app daily\nDescription: Customer Mei Sato reports the Orbit Cam logs out of the app daily since 2026-03-26.\nPriority: High\nStatus: Closed\nType: Problem\nProduct: Orbit Cam\nCustomer: Mei Sato\nAmount: 199.00\nOpened: 2026-04-10\nThread facts: Comment count: 4. Newest comment: 2026-04-16. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-11] Confirmed with the customer: the Orbit Cam logs out of the app daily since 2026-03-26. Serial SN-19677.\n- [2026-04-11] Offered a refund of $199.00.\n- [2026-04-14] Customer confirmed order ORD-36159 and asked for a replacement.\n- [2026-04-16] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-volt-charger-03) Volt Charger stops at 80 percent for 2 hours on a hot day.\n- (chunk-orbit-cam-03) Orbit Cam logs out after 7 days without a refresh.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-104",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000104AAA"
+    }
+  },
+  "generationErrors": []
+}

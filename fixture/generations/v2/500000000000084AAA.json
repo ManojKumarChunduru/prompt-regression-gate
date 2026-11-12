@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Marco Natarajan contacted support because the Orbit Cam fogs up in the rain since 2026-01-14. It is a Low priority case and the status is currently Working. The case was escalated to tier 2 on 2026-01-27. The customer confirmed order ORD-82150 and asked for a refund.",
+      "responseId": "req-v2-084-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Orbit Cam fogs up in the rain\nDescription: Customer Marco Natarajan reports the Orbit Cam fogs up in the rain since 2026-01-14.\nPriority: Low\nStatus: Working\nType: Problem\nProduct: Orbit Cam\nCustomer: Marco Natarajan\nAmount: 420.00\nOpened: 2026-01-24\nComments:\n- [2026-01-25] Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-01-14. Serial SN-31668.\n- [2026-01-26] Escalated to tier 2 on 2026-01-27.\n- [2026-01-29] Customer confirmed order ORD-82150 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-084",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000084AAA"
+    }
+  },
+  "generationErrors": []
+}

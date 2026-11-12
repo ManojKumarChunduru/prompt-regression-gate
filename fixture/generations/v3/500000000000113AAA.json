@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Daniel Quintero contacted support because the Aero 2 stops charging after a few minutes since 2026-05-11. It is a Low priority case and the status is currently Working. A callback is scheduled for 2026-05-28. The customer confirmed order ORD-38258 and asked for a refund. The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset.",
+      "responseId": "req-v3-113-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Daniel Quintero reports the Aero 2 stops charging after a few minutes since 2026-05-11.\nPriority: Low\nStatus: Working\nType: Question\nProduct: Aero 2\nCustomer: Daniel Quintero\nAmount: 240.00\nOpened: 2026-05-26\nThread facts: Comment count: 3. Newest comment: 2026-05-26. Provider: CaseSummaryGrounding.\nComments:\n- [2026-05-26] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-11. Serial SN-11584.\n- [2026-05-26] Scheduled a callback on 2026-05-28.\n- [2026-05-26] Customer confirmed order ORD-38258 and asked for a refund.\nKnowledge passages:\n- (chunk-strata-mini-02) Strata Mini rear-tray jams clear with the 3-step reset.\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-113",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000113AAA"
+    }
+  },
+  "generationErrors": []
+}

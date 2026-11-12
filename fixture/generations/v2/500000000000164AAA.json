@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Lindqvist contacted support because the Aero 2 stops charging after a few minutes since 2026-05-08. It is a Medium priority case and the status is currently Working. The agent offered a refund of $149.50. The customer confirmed order ORD-92721 and asked for a callback.",
+      "responseId": "req-v2-164-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Aero 2 stops charging after a few minutes\nDescription: Customer Nadia Lindqvist reports the Aero 2 stops charging after a few minutes since 2026-05-08.\nPriority: Medium\nStatus: Closed\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Lindqvist\nAmount: 149.50\nOpened: 2026-05-20\nComments:\n- [2026-05-23] Confirmed with the customer: the Aero 2 stops charging after a few minutes since 2026-05-08. Serial SN-83127.\n- [2026-05-24] Offered a refund of $149.50.\n- [2026-05-24] Customer confirmed order ORD-92721 and asked for a callback.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-164",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000164AAA"
+    }
+  },
+  "generationErrors": []
+}

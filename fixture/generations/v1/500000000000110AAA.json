@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Natarajan reported that the Strata Mini reports a false low-ink warning since 2026-03-23. The case is High priority and the status is Escalated. The agent offered a replacement of $575.00. The customer confirmed order ORD-13799 and asked for a replacement.",
+      "responseId": "req-v1-110-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Strata Mini reports a false low-ink warning\nDescription: Customer Nadia Natarajan reports the Strata Mini reports a false low-ink warning since 2026-03-23.\nPriority: High\nStatus: Escalated\nType: Problem\nProduct: Strata Mini\nCustomer: Nadia Natarajan\nAmount: 575.00\nOpened: 2026-04-04\nComments:\n- [2026-04-06] Confirmed with the customer: the Strata Mini reports a false low-ink warning since 2026-03-23. Serial SN-53300.\n- [2026-04-07] Offered a replacement of $575.00.\n- [2026-04-09] Customer confirmed order ORD-13799 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-110",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000110AAA"
+    }
+  },
+  "generationErrors": []
+}

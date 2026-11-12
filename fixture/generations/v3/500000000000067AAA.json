@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Petrov contacted support because the Aero 2 overheats on the dock since 2026-04-19. It is a High priority case and the status is currently New. The agent offered a credit of $120.00. The customer confirmed order ORD-90809 and asked for a refund. The knowledge base notes that Strata Mini ink warnings reset after a 1-day idle period.",
+      "responseId": "req-v3-067-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 overheats on the dock\nDescription: Customer Nadia Petrov reports the Aero 2 overheats on the dock since 2026-04-19.\nPriority: High\nStatus: New\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Petrov\nAmount: 120.00\nOpened: 2026-04-25\nThread facts: Comment count: 4. Newest comment: 2026-05-01. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-25] Confirmed with the customer: the Aero 2 overheats on the dock since 2026-04-19. Serial SN-67870.\n- [2026-04-25] Offered a credit of $120.00.\n- [2026-04-28] Customer confirmed order ORD-90809 and asked for a refund.\n- [2026-05-01] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-strata-mini-03) Strata Mini ink warnings reset after a 1-day idle period.\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-067",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000067AAA"
+    }
+  },
+  "generationErrors": []
+}

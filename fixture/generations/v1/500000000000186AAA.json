@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Yara Petrov reported that the Strata Mini jams the rear tray since 2026-01-28. The case is High priority and the status is New.",
+      "responseId": "req-v1-186-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Strata Mini jams the rear tray\nDescription: Customer Yara Petrov reports the Strata Mini jams the rear tray since 2026-01-28.\nPriority: High\nStatus: New\nType: Problem\nProduct: Strata Mini\nCustomer: Yara Petrov\nAmount: 240.00\nOpened: 2026-02-03\nComments:\n- [2026-02-04] Confirmed with the customer: the Strata Mini jams the rear tray since 2026-01-28. Serial SN-91022.\n- [2026-02-06] Escalated to tier 2 on 2026-02-04.\n- [2026-02-07] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-186",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000186AAA"
+    }
+  },
+  "generationErrors": []
+}

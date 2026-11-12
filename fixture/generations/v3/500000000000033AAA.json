@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Quintero contacted support because the Strata Mini fails to wake from sleep since 2026-03-13. It is a Medium priority case and the status is currently Closed. The customer confirmed order ORD-48596 and asked for a refund. The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset.",
+      "responseId": "req-v3-033-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Strata Mini fails to wake from sleep\nDescription: Customer Tomas Quintero reports the Strata Mini fails to wake from sleep since 2026-03-13.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Strata Mini\nCustomer: Tomas Quintero\nAmount: 420.00\nOpened: 2026-03-22\nThread facts: Comment count: 4. Newest comment: 2026-03-26. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-24] Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-03-13. Serial SN-32040.\n- [2026-03-25] Offered a refund of $420.00.\n- [2026-03-25] Customer confirmed order ORD-48596 and asked for a refund.\n- [2026-03-26] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-strata-mini-02) Strata Mini rear-tray jams clear with the 3-step reset.\n- (chunk-strata-mini-01) Strata Mini cartridges are covered for 6 months.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-033",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000033AAA"
+    }
+  },
+  "generationErrors": []
+}

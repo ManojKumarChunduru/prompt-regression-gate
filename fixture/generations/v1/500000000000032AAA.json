@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes reported that the Pulse Band drains in under a day since 2026-01-17. The case is Low priority and the status is Escalated. The agent offered a credit of $49.00.",
+      "responseId": "req-v1-032-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Pulse Band drains in under a day\nDescription: Customer Nadia Fernandes reports the Pulse Band drains in under a day since 2026-01-17.\nPriority: Low\nStatus: Escalated\nType: Question\nProduct: Pulse Band\nCustomer: Nadia Fernandes\nAmount: 49.00\nOpened: 2026-01-22\nComments:\n- [2026-01-22] Confirmed with the customer: the Pulse Band drains in under a day since 2026-01-17. Serial SN-12659.\n- [2026-01-25] Offered a credit of $49.00.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-032",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000032AAA"
+    }
+  },
+  "generationErrors": []
+}

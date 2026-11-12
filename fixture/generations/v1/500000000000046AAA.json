@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Haddad reported that the Volt Charger has a loose cable latch since 2026-05-19. The case is Low priority and the status is Escalated.",
+      "responseId": "req-v1-046-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Volt Charger has a loose cable latch\nDescription: Customer Owen Haddad reports the Volt Charger has a loose cable latch since 2026-05-19.\nPriority: Low\nStatus: Escalated\nType: Feature Request\nProduct: Volt Charger\nCustomer: Owen Haddad\nAmount: 575.00\nOpened: 2026-05-21\nComments:\n- [2026-05-24] Confirmed with the customer: the Volt Charger has a loose cable latch since 2026-05-19. Serial SN-72094.\n- [2026-05-27] Scheduled a callback on 2026-05-22.\n- [2026-05-27] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-046",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000046AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Mei Alvarez contacted support because the Aero 2 loses pairing every night since 2026-03-31. It is a High priority case and the status is currently Escalated. The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days.",
+      "responseId": "req-v3-048-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Mei Alvarez reports the Aero 2 loses pairing every night since 2026-03-31.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Aero 2\nCustomer: Mei Alvarez\nAmount: 575.00\nOpened: 2026-04-07\nThread facts: Comment count: 3. Newest comment: 2026-04-13. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-07] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-31. Serial SN-55141.\n- [2026-04-10] Scheduled a callback on 2026-04-16.\n- [2026-04-13] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-aero-2-01) Aero 2 units carry a 24-month warranty from the purchase date.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-048",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000048AAA"
+    }
+  },
+  "generationErrors": []
+}

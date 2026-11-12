@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Strata Mini fails to wake from sleep since 2026-01-31. It is a Medium priority case and the status is currently Working. The agent offered a repair of $149.50. The customer confirmed order ORD-75629 and asked for a callback.",
+      "responseId": "req-v2-091-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Strata Mini fails to wake from sleep\nDescription: Customer Nadia Fernandes reports the Strata Mini fails to wake from sleep since 2026-01-31.\nPriority: Medium\nStatus: Working\nType: Question\nProduct: Strata Mini\nCustomer: Nadia Fernandes\nAmount: 149.50\nOpened: 2026-02-11\nComments:\n- [2026-02-14] Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-01-31. Serial SN-41005.\n- [2026-02-15] Offered a repair of $149.50.\n- [2026-02-18] Customer confirmed order ORD-75629 and asked for a callback.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-091",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000091AAA"
+    }
+  },
+  "generationErrors": []
+}

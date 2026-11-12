@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Aisha Haddad contacted support because the Strata Mini fails to wake from sleep since 2026-05-23. It is a Medium priority case and the status is currently Closed. The agent offered a credit of $89.00. The customer confirmed order ORD-98891 and asked for a refund. The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset.",
+      "responseId": "req-v3-144-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Strata Mini fails to wake from sleep\nDescription: Customer Aisha Haddad reports the Strata Mini fails to wake from sleep since 2026-05-23.\nPriority: Medium\nStatus: Closed\nType: Question\nProduct: Strata Mini\nCustomer: Aisha Haddad\nAmount: 89.00\nOpened: 2026-06-01\nThread facts: Comment count: 3. Newest comment: 2026-06-08. Provider: CaseSummaryGrounding.\nComments:\n- [2026-06-04] Confirmed with the customer: the Strata Mini fails to wake from sleep since 2026-05-23. Serial SN-76527.\n- [2026-06-07] Offered a credit of $89.00.\n- [2026-06-08] Customer confirmed order ORD-98891 and asked for a refund.\nKnowledge passages:\n- (chunk-strata-mini-02) Strata Mini rear-tray jams clear with the 3-step reset.\n- (chunk-strata-mini-03) Strata Mini ink warnings reset after a 1-day idle period.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-144",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000144AAA"
+    }
+  },
+  "generationErrors": []
+}

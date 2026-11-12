@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Hannah Alvarez reported that the Volt Charger trips the breaker since 2025-12-24. The case is High priority and the status is Closed. The agent offered a credit of $149.50. The customer confirmed order ORD-60785 and asked for a cancellation.",
+      "responseId": "req-v1-150-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Volt Charger trips the breaker\nDescription: Customer Hannah Alvarez reports the Volt Charger trips the breaker since 2025-12-24.\nPriority: High\nStatus: Closed\nType: Question\nProduct: Volt Charger\nCustomer: Hannah Alvarez\nAmount: 149.50\nOpened: 2026-01-06\nComments:\n- [2026-01-07] Confirmed with the customer: the Volt Charger trips the breaker since 2025-12-24. Serial SN-70806.\n- [2026-01-08] Offered a credit of $149.50.\n- [2026-01-10] Customer confirmed order ORD-60785 and asked for a cancellation.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-150",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000150AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Lukas Dubois contacted support because the Aero 2 loses pairing every night since 2026-01-07. It is a Medium priority case and the status is currently New. The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days.",
+      "responseId": "req-v3-028-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Lukas Dubois reports the Aero 2 loses pairing every night since 2026-01-07.\nPriority: Medium\nStatus: New\nType: Feature Request\nProduct: Aero 2\nCustomer: Lukas Dubois\nAmount: 575.00\nOpened: 2026-01-14\nThread facts: Comment count: 2. Newest comment: 2026-01-15. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-14] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-01-07. Serial SN-14662.\n- [2026-01-15] Offered a repair of $575.00.\nKnowledge passages:\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-aero-2-02) Aero 2 firmware 3.2 fixes the charging fault on the dock.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-028",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000028AAA"
+    }
+  },
+  "generationErrors": []
+}

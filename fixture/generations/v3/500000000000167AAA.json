@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Yara Mbeki contacted support because the Nimbus Hub flashes red and stays offline since 2026-05-03. It is a Low priority case and the status is currently Closed. The agent offered a credit of $199.00. The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset.",
+      "responseId": "req-v3-167-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Yara Mbeki reports the Nimbus Hub flashes red and stays offline since 2026-05-03.\nPriority: Low\nStatus: Closed\nType: Feature Request\nProduct: Nimbus Hub\nCustomer: Yara Mbeki\nAmount: 199.00\nOpened: 2026-05-15\nThread facts: Comment count: 3. Newest comment: 2026-05-18. Provider: CaseSummaryGrounding.\nComments:\n- [2026-05-15] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-05-03. Serial SN-67547.\n- [2026-05-16] Offered a credit of $199.00.\n- [2026-05-18] Customer confirmed order ORD-42960 and asked for a callback.\nKnowledge passages:\n- (chunk-nimbus-hub-03) Nimbus Hub needs a 2-hour cool-down before a factory reset.\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-167",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000167AAA"
+    }
+  },
+  "generationErrors": []
+}

@@ -1,0 +1,27 @@
+{
+  "alpha": {"value": 0.05, "reason": "two-sided significance level for every paired test; the conventional value, declared"},
+  "power": {"value": 0.8, "reason": "the power at which the minimum n and the noise floor are computed; conventional, declared"},
+  "reviewed_set": {
+    "value": "first30",
+    "reason": "the review sample the gate reads by default: the first thirty case ids of reviews/order.txt, which is what a team that reviews thirty summaries has; `all` reads the full review the fixture paid for"
+  },
+  "merge_field_families": {
+    "value": ["Input", "RelatedList", "Flow", "Apex", "EinsteinSearch"],
+    "reason": "Input and Flow are in the Metadata API sample; RelatedList, Apex and EinsteinSearch are declared (ADR-005)"
+  },
+  "related_list_rendering": {
+    "value": "- [{CreatedDate}] {CommentBody}",
+    "reason": "how the resolved prompt renders one related-list record; the platform's rendering is not documented, so this is declared"
+  },
+  "retriever_rendering": {
+    "value": "- ({ChunkId}) {Text}",
+    "reason": "how the resolved prompt renders one retrieved chunk; declared for the same reason"
+  },
+  "bootstrap": {"value": {"reps": 2000, "seed": 11}, "reason": "the readers' second interval; seeded so two runs agree"},
+  "draws": {"value": {"count": 500, "size": 30, "seed": 23}, "reason": "experiment 2's thirties drawn from the full review; seeded"},
+  "score_range": {"value": [1, 5], "reason": "a review score outside this range is refused with the file and row named"},
+  "grounding_sources": {
+    "value": {"field": "Input", "comment": "RelatedList", "chunk": "EinsteinSearch", "provider": "Apex"},
+    "reason": "which merge-field family brings each source kind into the resolved prompt; a claim is supported only by a source the template merged in"
+  }
+}

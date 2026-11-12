@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Leila Alvarez contacted support because the Aero 2 shows a blank screen on boot since 2026-05-17. It is a Low priority case and the status is currently Escalated. The agent offered a repair of $49.00.",
+      "responseId": "req-v2-140-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Aero 2 shows a blank screen on boot\nDescription: Customer Leila Alvarez reports the Aero 2 shows a blank screen on boot since 2026-05-17.\nPriority: Low\nStatus: Escalated\nType: Feature Request\nProduct: Aero 2\nCustomer: Leila Alvarez\nAmount: 49.00\nOpened: 2026-05-26\nComments:\n- [2026-05-29] Confirmed with the customer: the Aero 2 shows a blank screen on boot since 2026-05-17. Serial SN-59788.\n- [2026-05-30] Offered a repair of $49.00.\n- [2026-06-01] Customer confirmed order ORD-28276 and asked for a refund.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-140",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000140AAA"
+    }
+  },
+  "generationErrors": []
+}

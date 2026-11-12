@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Natarajan contacted support because the Volt Charger charges at half speed since 2026-01-23. It is a Medium priority case and the status is currently Escalated. A callback is scheduled for 2026-02-13. The customer confirmed order ORD-14841 and asked for a replacement. The knowledge base notes that Volt Charger units are exchanged within 18 months for latch faults.",
+      "responseId": "req-v3-120-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Volt Charger charges at half speed\nDescription: Customer Nadia Natarajan reports the Volt Charger charges at half speed since 2026-01-23.\nPriority: Medium\nStatus: Escalated\nType: Problem\nProduct: Volt Charger\nCustomer: Nadia Natarajan\nAmount: 240.00\nOpened: 2026-02-08\nThread facts: Comment count: 4. Newest comment: 2026-02-13. Provider: CaseSummaryGrounding.\nComments:\n- [2026-02-09] Confirmed with the customer: the Volt Charger charges at half speed since 2026-01-23. Serial SN-37201.\n- [2026-02-12] Scheduled a callback on 2026-02-13.\n- [2026-02-12] Customer confirmed order ORD-14841 and asked for a replacement.\n- [2026-02-13] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-volt-charger-01) Volt Charger units are exchanged within 18 months for latch faults.\n- (chunk-volt-charger-02) Volt Charger limits output for 10 minutes when the breaker trips.\n- (chunk-general-03) Every exchange ships with a 14-day return label.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-120",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000120AAA"
+    }
+  },
+  "generationErrors": []
+}

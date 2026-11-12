@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Tomas Alvarez contacted support because the Orbit Cam fogs up in the rain since 2026-04-04. It is a Low priority case and the status is currently Closed. A callback is scheduled for 2026-04-30. The knowledge base notes that Orbit Cam logs out after 7 days without a refresh.",
+      "responseId": "req-v3-078-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Orbit Cam fogs up in the rain\nDescription: Customer Tomas Alvarez reports the Orbit Cam fogs up in the rain since 2026-04-04.\nPriority: Low\nStatus: Closed\nType: Problem\nProduct: Orbit Cam\nCustomer: Tomas Alvarez\nAmount: 240.00\nOpened: 2026-04-24\nThread facts: Comment count: 2. Newest comment: 2026-04-24. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-24] Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-04-04. Serial SN-86462.\n- [2026-04-24] Scheduled a callback on 2026-04-30.\nKnowledge passages:\n- (chunk-orbit-cam-03) Orbit Cam logs out after 7 days without a refresh.\n- (chunk-orbit-cam-02) Orbit Cam night mode needs the 3-month lens filter.\n- (chunk-general-02) A refund takes 10 days to reach the original card.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-078",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000078AAA"
+    }
+  },
+  "generationErrors": []
+}

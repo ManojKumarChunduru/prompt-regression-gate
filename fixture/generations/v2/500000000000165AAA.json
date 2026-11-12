@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Owen Alvarez contacted support because the Volt Charger clicks and stops at 80 percent since 2026-04-12. It is a Medium priority case and the status is currently New. The agent offered a credit of $49.00. The customer confirmed order ORD-20352 and asked for a replacement.",
+      "responseId": "req-v2-165-0",
+      "parameters": {
+        "versionIdentifier": "v2"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, and how the customer seems to feel about it.\nSubject: Volt Charger clicks and stops at 80 percent\nDescription: Customer Owen Alvarez reports the Volt Charger clicks and stops at 80 percent since 2026-04-12.\nPriority: Medium\nStatus: New\nType: Question\nProduct: Volt Charger\nCustomer: Owen Alvarez\nAmount: 49.00\nOpened: 2026-04-16\nComments:\n- [2026-04-17] Confirmed with the customer: the Volt Charger clicks and stops at 80 percent since 2026-04-12. Serial SN-36084.\n- [2026-04-17] Offered a credit of $49.00.\n- [2026-04-18] Customer confirmed order ORD-20352 and asked for a replacement.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v2-165",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000165AAA"
+    }
+  },
+  "generationErrors": []
+}

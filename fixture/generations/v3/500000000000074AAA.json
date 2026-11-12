@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Sofia Quintero contacted support because the Orbit Cam misses motion at night since 2026-01-20. It is a Medium priority case and the status is currently Escalated. The case was escalated to tier 2 on 2026-01-27. The knowledge base notes that Orbit Cam logs out after 7 days without a refresh.",
+      "responseId": "req-v3-074-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Orbit Cam misses motion at night\nDescription: Customer Sofia Quintero reports the Orbit Cam misses motion at night since 2026-01-20.\nPriority: Medium\nStatus: Escalated\nType: Feature Request\nProduct: Orbit Cam\nCustomer: Sofia Quintero\nAmount: 120.00\nOpened: 2026-01-22\nThread facts: Comment count: 3. Newest comment: 2026-01-24. Provider: CaseSummaryGrounding.\nComments:\n- [2026-01-22] Confirmed with the customer: the Orbit Cam misses motion at night since 2026-01-20. Serial SN-15114.\n- [2026-01-22] Escalated to tier 2 on 2026-01-27.\n- [2026-01-24] Thanked the customer and set expectations for the next update.\nKnowledge passages:\n- (chunk-orbit-cam-03) Orbit Cam logs out after 7 days without a refresh.\n- (chunk-orbit-cam-02) Orbit Cam night mode needs the 3-month lens filter.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-074",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000074AAA"
+    }
+  },
+  "generationErrors": []
+}

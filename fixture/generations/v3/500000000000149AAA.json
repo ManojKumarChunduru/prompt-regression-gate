@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Alvarez contacted support because the Nimbus Hub flashes red and stays offline since 2026-04-05. It is a Low priority case and the status is currently Working. The agent offered a credit of $240.00. The knowledge base notes that Nimbus Hub supports a 36-month extended warranty.",
+      "responseId": "req-v3-149-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Nimbus Hub flashes red and stays offline\nDescription: Customer Priya Alvarez reports the Nimbus Hub flashes red and stays offline since 2026-04-05.\nPriority: Low\nStatus: Working\nType: Question\nProduct: Nimbus Hub\nCustomer: Priya Alvarez\nAmount: 240.00\nOpened: 2026-04-10\nThread facts: Comment count: 2. Newest comment: 2026-04-15. Provider: CaseSummaryGrounding.\nComments:\n- [2026-04-13] Confirmed with the customer: the Nimbus Hub flashes red and stays offline since 2026-04-05. Serial SN-66895.\n- [2026-04-15] Offered a credit of $240.00.\nKnowledge passages:\n- (chunk-nimbus-hub-01) Nimbus Hub supports a 36-month extended warranty.\n- (chunk-nimbus-hub-02) Nimbus Hub reboots during updates when the 5-minute window is interrupted.\n- (chunk-orbit-cam-01) Orbit Cam records audio only after a 1-hour first charge.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-149",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000149AAA"
+    }
+  },
+  "generationErrors": []
+}

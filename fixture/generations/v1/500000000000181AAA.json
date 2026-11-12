@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Dubois reported that the Orbit Cam fogs up in the rain since 2026-03-20. The case is High priority and the status is Escalated. The case was escalated to tier 2 on 2026-04-02.",
+      "responseId": "req-v1-181-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Orbit Cam fogs up in the rain\nDescription: Customer Priya Dubois reports the Orbit Cam fogs up in the rain since 2026-03-20.\nPriority: High\nStatus: Escalated\nType: Feature Request\nProduct: Orbit Cam\nCustomer: Priya Dubois\nAmount: 89.00\nOpened: 2026-03-30\nComments:\n- [2026-03-30] Confirmed with the customer: the Orbit Cam fogs up in the rain since 2026-03-20. Serial SN-10726.\n- [2026-03-31] Escalated to tier 2 on 2026-04-02.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-181",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000181AAA"
+    }
+  },
+  "generationErrors": []
+}

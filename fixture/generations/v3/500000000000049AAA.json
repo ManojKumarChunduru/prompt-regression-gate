@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Nadia Fernandes contacted support because the Aero 2 loses pairing every night since 2026-03-09. It is a Low priority case and the status is currently Closed. The agent offered a refund of $149.50. The customer confirmed order ORD-79143 and asked for a refund. The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days.",
+      "responseId": "req-v3-049-0",
+      "parameters": {
+        "versionIdentifier": "v3"
+      }
+    }
+  ],
+  "prompt": "You are a senior support engineer writing a handover note. Write a warm, fluent summary of this case in four to six sentences for the agent who picks it up next: who the customer is, what went wrong and since when, how urgent it is, what has been done so far, what the knowledge base says about this product, and how the customer seems to feel about it. Use only the case, its comments and the knowledge passages below.\nSubject: Aero 2 loses pairing every night\nDescription: Customer Nadia Fernandes reports the Aero 2 loses pairing every night since 2026-03-09.\nPriority: Low\nStatus: Closed\nType: Feature Request\nProduct: Aero 2\nCustomer: Nadia Fernandes\nAmount: 149.50\nOpened: 2026-03-13\nThread facts: Comment count: 3. Newest comment: 2026-03-18. Provider: CaseSummaryGrounding.\nComments:\n- [2026-03-16] Confirmed with the customer: the Aero 2 loses pairing every night since 2026-03-09. Serial SN-37968.\n- [2026-03-17] Offered a refund of $149.50.\n- [2026-03-18] Customer confirmed order ORD-79143 and asked for a refund.\nKnowledge passages:\n- (chunk-aero-2-03) Returns of the Aero 2 need an RMA number within 30 days.\n- (chunk-aero-2-02) Aero 2 firmware 3.2 fixes the charging fault on the dock.\n- (chunk-general-01) Support hours are 24 hours a day for every product.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v3-049",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000049AAA"
+    }
+  },
+  "generationErrors": []
+}

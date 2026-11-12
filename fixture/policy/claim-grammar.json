@@ -1,0 +1,98 @@
+{
+  "_note": "The claim extractor's grammar, with a reason per rule. A summary is split into sentences (claims); each claim is split into atoms by these rules; each atom is matched against the sources the template merged in. A claim with no atom is unverifiable and is counted, never gated on.",
+  "sentence_split": {
+    "pattern": "(?<=[.!?])\\s+(?=[A-Z$\"'])",
+    "reason": "a sentence ends at a full stop, exclamation or question mark followed by white space and a capital, a dollar sign or a quote; dates and amounts never contain that sequence"
+  },
+  "atoms": {
+    "money": {
+      "pattern": "\\$\\d[\\d,]*(?:\\.\\d{2})?",
+      "field_role": "Amount__c",
+      "role_keywords": [
+        "refund",
+        "credit",
+        "amount",
+        "charged",
+        "invoice",
+        "offered",
+        "repair",
+        "replacement"
+      ],
+      "reason": "a dollar figure is the atom a reviewer checks least and a customer notices first; contradicted when the sentence plays the amount role (an offer, a refund, a credit, a repair, a replacement, a charge) and the field holds a different figure"
+    },
+    "date": {
+      "pattern": "\\b\\d{4}-\\d{2}-\\d{2}\\b",
+      "reason": "ISO dates are how the export writes every date field and how the fixture's comments quote them; an unseen date is unsupported, never contradicted, because a date can belong to many roles"
+    },
+    "duration": {
+      "pattern": "\\b\\d+[ -](?:month|months|day|days|week|weeks|unit|units|hour|hours|year|years|minute|minutes|step|steps|percent)\\b",
+      "reason": "warranty lengths, quantities, windows and percentages come from knowledge chunks and comments; a figure with a unit from nowhere is unsupported"
+    },
+    "identifier": {
+      "pattern": "\\b(?:SN|RMA|ORD|INV)-\\d{3,}\\b",
+      "reason": "serial, return, order and invoice numbers are the atoms a model invents most fluently; the fixture's exports carry them in comments when they exist"
+    },
+    "priority": {
+      "vocabulary": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "field_role": "Priority",
+      "role_keywords": [
+        "priority"
+      ],
+      "reason": "a picklist value with one field counterpart; contradicted when the field says otherwise and no comment says it"
+    },
+    "status": {
+      "vocabulary": [
+        "New",
+        "Working",
+        "Escalated",
+        "Closed"
+      ],
+      "field_role": "Status",
+      "role_keywords": [
+        "status",
+        "currently",
+        "remains",
+        "marked",
+        "is now"
+      ],
+      "reason": "as priority; matched case-sensitively so `closed the ticket` is prose and `Closed` is a value"
+    },
+    "product": {
+      "vocabulary_from": "Product__c",
+      "field_role": "Product__c",
+      "role_keywords": [],
+      "reason": "the product names come from the export's own picklist values and the chunk index; a product the case is not about is a contradiction unless a comment names it"
+    },
+    "contact": {
+      "vocabulary_from": "Contact.Name",
+      "field_role": "Contact.Name",
+      "role_keywords": [],
+      "reason": "a person's name from another case is the fault a reviewer cannot see without the record open"
+    },
+    "action": {
+      "vocabulary": [
+        "refund",
+        "replacement",
+        "callback",
+        "escalation",
+        "credit",
+        "cancellation",
+        "repair"
+      ],
+      "case_insensitive": true,
+      "reason": "what the agent did or offered; supported only when a comment or a field says it, because the subject line never does"
+    }
+  },
+  "verdict_order": [
+    "contradicted",
+    "misgrounded",
+    "unsupported",
+    "supported",
+    "unverifiable"
+  ],
+  "verdict_order_reason": "a claim takes the worst verdict of its atoms; contradicted outranks mis-grounded outranks unsupported, and a claim with no atom is unverifiable"
+}

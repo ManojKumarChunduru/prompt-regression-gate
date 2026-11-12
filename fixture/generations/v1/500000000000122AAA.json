@@ -1,0 +1,20 @@
+{
+  "generations": [
+    {
+      "text": "Priya Alvarez reported that the Nimbus Hub drops the wifi hourly since 2026-01-07. The case is High priority and the status is New. The case was escalated to tier 2 on 2026-01-24. The customer confirmed order ORD-63903 and asked for a replacement.",
+      "responseId": "req-v1-122-0",
+      "parameters": {
+        "versionIdentifier": "v1"
+      }
+    }
+  ],
+  "prompt": "Summarize this support case for the next agent in three to five short sentences. State only what the case says.\nSubject: Nimbus Hub drops the wifi hourly\nDescription: Customer Priya Alvarez reports the Nimbus Hub drops the wifi hourly since 2026-01-07.\nPriority: High\nStatus: New\nType: Problem\nProduct: Nimbus Hub\nCustomer: Priya Alvarez\nAmount: 899.00\nOpened: 2026-01-22\nComments:\n- [2026-01-24] Confirmed with the customer: the Nimbus Hub drops the wifi hourly since 2026-01-07. Serial SN-73668.\n- [2026-01-27] Escalated to tier 2 on 2026-01-24.\n- [2026-01-27] Customer confirmed order ORD-63903 and asked for a replacement.\n- [2026-01-28] Thanked the customer and set expectations for the next update.",
+  "promptTemplateDevName": "Case_Summary",
+  "requestId": "req-v1-122",
+  "parameters": {
+    "Input:Case": {
+      "id": "500000000000122AAA"
+    }
+  },
+  "generationErrors": []
+}

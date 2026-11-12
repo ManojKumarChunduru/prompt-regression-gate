@@ -1,0 +1,5078 @@
+{
+  "note": "planted by fixture/generate.py; every fault the stand-in model applied, and the gate verdicts derived with the statistics module and published t table values",
+  "seed": 2026,
+  "cases": 200,
+  "comments": 597,
+  "chunks": 600,
+  "versions": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "reviewers": [
+    "reviewer_a",
+    "reviewer_b",
+    "reviewer_c"
+  ],
+  "canonicalThirty": [
+    "500000000000015AAA",
+    "500000000000069AAA",
+    "500000000000195AAA",
+    "500000000000151AAA",
+    "500000000000190AAA",
+    "500000000000051AAA",
+    "500000000000130AAA",
+    "500000000000071AAA",
+    "500000000000179AAA",
+    "500000000000199AAA",
+    "500000000000052AAA",
+    "500000000000116AAA",
+    "500000000000147AAA",
+    "500000000000104AAA",
+    "500000000000157AAA",
+    "500000000000016AAA",
+    "500000000000087AAA",
+    "500000000000009AAA",
+    "500000000000054AAA",
+    "500000000000039AAA",
+    "500000000000191AAA",
+    "500000000000160AAA",
+    "500000000000077AAA",
+    "500000000000100AAA",
+    "500000000000043AAA",
+    "500000000000186AAA",
+    "500000000000027AAA",
+    "500000000000120AAA",
+    "500000000000072AAA",
+    "500000000000172AAA"
+  ],
+  "faultsByVersion": {
+    "v1": {
+      "unsupported": 44,
+      "contradicted": 15,
+      "misgrounded": 0,
+      "unverifiable": 22,
+      "omission": 35
+    },
+    "v2": {
+      "unsupported": 79,
+      "contradicted": 22,
+      "misgrounded": 0,
+      "unverifiable": 107,
+      "omission": 17
+    },
+    "v3": {
+      "unsupported": 21,
+      "contradicted": 8,
+      "misgrounded": 38,
+      "unverifiable": 109,
+      "omission": 17
+    }
+  },
+  "faults": {
+    "v1": {
+      "500000000000001AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-23911 and asked for a refund.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-23911 and asked for a refund."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000002AAA": [],
+      "500000000000003AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-38122",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-38122 on 2026-02-11."
+        }
+      ],
+      "500000000000004AAA": [],
+      "500000000000005AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000006AAA": [],
+      "500000000000007AAA": [],
+      "500000000000008AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-54943",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-54943 on 2026-01-27."
+        }
+      ],
+      "500000000000009AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Tomas Mbeki",
+          "displaced": "Marco Natarajan",
+          "sentence": "Tomas Mbeki reported that the Aero 2 overheats on the dock since 2026-01-11."
+        }
+      ],
+      "500000000000010AAA": [],
+      "500000000000011AAA": [],
+      "500000000000012AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-26.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-26."
+        }
+      ],
+      "500000000000013AAA": [],
+      "500000000000014AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-04.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-04."
+        }
+      ],
+      "500000000000015AAA": [],
+      "500000000000016AAA": [],
+      "500000000000017AAA": [],
+      "500000000000018AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $420.00.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $420.00."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Sofia Petrov",
+          "displaced": "Marco Natarajan",
+          "sentence": "Sofia Petrov reported that the Pulse Band miscounts steps since 2026-03-30."
+        }
+      ],
+      "500000000000019AAA": [],
+      "500000000000020AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-34592",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-34592 on 2026-02-18."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000021AAA": [],
+      "500000000000022AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-02-22.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-02-22."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Low",
+          "displaced": "Medium",
+          "sentence": "The case is Low priority and the status is Closed."
+        }
+      ],
+      "500000000000023AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-04-30.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-04-30."
+        }
+      ],
+      "500000000000024AAA": [],
+      "500000000000025AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-15.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-15."
+        }
+      ],
+      "500000000000026AAA": [],
+      "500000000000027AAA": [],
+      "500000000000028AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $575.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $575.00."
+        }
+      ],
+      "500000000000029AAA": [],
+      "500000000000030AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Escalated",
+          "sentence": "The case is Medium priority and the status is Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-88552",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-88552 on 2026-06-07."
+        }
+      ],
+      "500000000000031AAA": [],
+      "500000000000032AAA": [],
+      "500000000000033AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-28925",
+          "displaced": "",
+          "sentence": "Invoice INV-28925 was issued on 2026-04-03 for the repair."
+        }
+      ],
+      "500000000000034AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-03-17.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-03-17."
+        }
+      ],
+      "500000000000035AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $240.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $240.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000036AAA": [],
+      "500000000000037AAA": [],
+      "500000000000038AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-24283 and asked for a cancellation.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-24283 and asked for a cancellation."
+        }
+      ],
+      "500000000000039AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $310.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $310.00."
+        }
+      ],
+      "500000000000040AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $899.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $899.00."
+        }
+      ],
+      "500000000000041AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $49.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $49.00."
+        }
+      ],
+      "500000000000042AAA": [],
+      "500000000000043AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a replacement of $420.00.",
+          "displaced": "",
+          "sentence": "The agent offered a replacement of $420.00."
+        }
+      ],
+      "500000000000044AAA": [],
+      "500000000000045AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $149.50.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $149.50."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "New",
+          "displaced": "Closed",
+          "sentence": "The case is High priority and the status is New."
+        }
+      ],
+      "500000000000046AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-05-22.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-05-22."
+        }
+      ],
+      "500000000000047AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000048AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Closed",
+          "displaced": "Escalated",
+          "sentence": "The case is High priority and the status is Closed."
+        }
+      ],
+      "500000000000049AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-17.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-17."
+        }
+      ],
+      "500000000000050AAA": [],
+      "500000000000051AAA": [],
+      "500000000000052AAA": [],
+      "500000000000053AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a replacement of $89.00.",
+          "displaced": "",
+          "sentence": "The agent offered a replacement of $89.00."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-17718",
+          "displaced": "",
+          "sentence": "Invoice INV-17718 was issued on 2026-06-22 for the repair."
+        }
+      ],
+      "500000000000054AAA": [],
+      "500000000000055AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-15537 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-15537 and asked for a callback."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-82515",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-82515 on 2026-02-13."
+        }
+      ],
+      "500000000000056AAA": [],
+      "500000000000057AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-05.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-05."
+        }
+      ],
+      "500000000000058AAA": [],
+      "500000000000059AAA": [],
+      "500000000000060AAA": [],
+      "500000000000061AAA": [],
+      "500000000000062AAA": [],
+      "500000000000063AAA": [],
+      "500000000000064AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$408.00",
+          "displaced": "$199.00",
+          "sentence": "The agent offered a replacement of $408.00."
+        }
+      ],
+      "500000000000065AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000066AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Medium",
+          "displaced": "Low",
+          "sentence": "The case is Medium priority and the status is Escalated."
+        }
+      ],
+      "500000000000067AAA": [],
+      "500000000000068AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-02.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-02."
+        }
+      ],
+      "500000000000069AAA": [],
+      "500000000000070AAA": [],
+      "500000000000071AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-55190",
+          "displaced": "",
+          "sentence": "Invoice INV-55190 was issued on 2026-05-01 for the repair."
+        }
+      ],
+      "500000000000072AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-05-27.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-05-27."
+        }
+      ],
+      "500000000000073AAA": [],
+      "500000000000074AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-01-17",
+          "displaced": "2026-01-20",
+          "sentence": "Sofia Quintero reported that the Orbit Cam misses motion at night since 2026-01-17."
+        }
+      ],
+      "500000000000075AAA": [],
+      "500000000000076AAA": [],
+      "500000000000077AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Closed",
+          "sentence": "The case is High priority and the status is Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-20741",
+          "displaced": "",
+          "sentence": "Invoice INV-20741 was issued on 2026-03-05 for the repair."
+        }
+      ],
+      "500000000000078AAA": [],
+      "500000000000079AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-04-12",
+          "displaced": "2026-04-01",
+          "sentence": "Elias Mbeki reported that the Orbit Cam fogs up in the rain since 2026-04-12."
+        }
+      ],
+      "500000000000080AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-31401",
+          "displaced": "",
+          "sentence": "Invoice INV-31401 was issued on 2026-03-29 for the repair."
+        }
+      ],
+      "500000000000081AAA": [],
+      "500000000000082AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000083AAA": [],
+      "500000000000084AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-13.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-13."
+        }
+      ],
+      "500000000000085AAA": [],
+      "500000000000086AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-15496",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-15496 on 2026-02-23."
+        }
+      ],
+      "500000000000087AAA": [],
+      "500000000000088AAA": [],
+      "500000000000089AAA": [],
+      "500000000000090AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-04-27",
+          "displaced": "2026-04-16",
+          "sentence": "Hannah Mbeki reported that the Orbit Cam misses motion at night since 2026-04-27."
+        }
+      ],
+      "500000000000091AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-04.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-04."
+        }
+      ],
+      "500000000000092AAA": [],
+      "500000000000093AAA": [],
+      "500000000000094AAA": [],
+      "500000000000095AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-94683",
+          "displaced": "",
+          "sentence": "Invoice INV-94683 was issued on 2026-06-03 for the repair."
+        }
+      ],
+      "500000000000096AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-80214",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-80214 on 2026-02-05."
+        }
+      ],
+      "500000000000097AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-20.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-20."
+        }
+      ],
+      "500000000000098AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-24.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-24."
+        }
+      ],
+      "500000000000099AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-68491 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-68491 and asked for a callback."
+        }
+      ],
+      "500000000000100AAA": [],
+      "500000000000101AAA": [],
+      "500000000000102AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000103AAA": [],
+      "500000000000104AAA": [],
+      "500000000000105AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000106AAA": [],
+      "500000000000107AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The case was escalated to tier 2 on 2026-03-20.",
+          "displaced": "",
+          "sentence": "The case was escalated to tier 2 on 2026-03-20."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Medium",
+          "displaced": "Low",
+          "sentence": "The case is Medium priority and the status is New."
+        }
+      ],
+      "500000000000108AAA": [],
+      "500000000000109AAA": [],
+      "500000000000110AAA": [],
+      "500000000000111AAA": [],
+      "500000000000112AAA": [],
+      "500000000000113AAA": [],
+      "500000000000114AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-01-07",
+          "displaced": "2026-01-10",
+          "sentence": "Nadia Petrov reported that the Volt Charger has a loose cable latch since 2026-01-07."
+        }
+      ],
+      "500000000000115AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $120.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $120.00."
+        }
+      ],
+      "500000000000116AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-38159 and asked for a cancellation.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-38159 and asked for a cancellation."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Low",
+          "displaced": "High",
+          "sentence": "The case is Low priority and the status is Escalated."
+        }
+      ],
+      "500000000000117AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000118AAA": [],
+      "500000000000119AAA": [],
+      "500000000000120AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-02-13.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-02-13."
+        }
+      ],
+      "500000000000121AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-02-07.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-02-07."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-70126",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-70126 on 2026-02-26."
+        }
+      ],
+      "500000000000122AAA": [],
+      "500000000000123AAA": [],
+      "500000000000124AAA": [],
+      "500000000000125AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $89.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $89.00."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-33877",
+          "displaced": "",
+          "sentence": "Invoice INV-33877 was issued on 2026-06-03 for the repair."
+        }
+      ],
+      "500000000000126AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-03-23.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-03-23."
+        }
+      ],
+      "500000000000127AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-03-31",
+          "displaced": "2026-03-20",
+          "sentence": "Mei Natarajan reported that the Orbit Cam records without audio since 2026-03-31."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-03.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-03."
+        }
+      ],
+      "500000000000128AAA": [],
+      "500000000000129AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-55174",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-55174 on 2026-05-07."
+        }
+      ],
+      "500000000000130AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000131AAA": [],
+      "500000000000132AAA": [],
+      "500000000000133AAA": [],
+      "500000000000134AAA": [],
+      "500000000000135AAA": [],
+      "500000000000136AAA": [],
+      "500000000000137AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-29.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-29."
+        }
+      ],
+      "500000000000138AAA": [],
+      "500000000000139AAA": [],
+      "500000000000140AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000141AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000142AAA": [],
+      "500000000000143AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000144AAA": [],
+      "500000000000145AAA": [],
+      "500000000000146AAA": [],
+      "500000000000147AAA": [],
+      "500000000000148AAA": [],
+      "500000000000149AAA": [],
+      "500000000000150AAA": [],
+      "500000000000151AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000152AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-66758 and asked for a refund.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-66758 and asked for a refund."
+        }
+      ],
+      "500000000000153AAA": [],
+      "500000000000154AAA": [],
+      "500000000000155AAA": [],
+      "500000000000156AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000157AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-44403 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-44403 and asked for a callback."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000158AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-09.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-09."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000159AAA": [],
+      "500000000000160AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-16963",
+          "displaced": "",
+          "sentence": "Invoice INV-16963 was issued on 2026-02-10 for the repair."
+        }
+      ],
+      "500000000000161AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-97902",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-97902 on 2026-03-06."
+        }
+      ],
+      "500000000000162AAA": [],
+      "500000000000163AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a replacement of $89.00.",
+          "displaced": "",
+          "sentence": "The agent offered a replacement of $89.00."
+        }
+      ],
+      "500000000000164AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-92721 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-92721 and asked for a callback."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-68403",
+          "displaced": "",
+          "sentence": "Invoice INV-68403 was issued on 2026-05-25 for the repair."
+        }
+      ],
+      "500000000000165AAA": [],
+      "500000000000166AAA": [],
+      "500000000000167AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-42960 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-42960 and asked for a callback."
+        }
+      ],
+      "500000000000168AAA": [],
+      "500000000000169AAA": [],
+      "500000000000170AAA": [],
+      "500000000000171AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a replacement of $49.00.",
+          "displaced": "",
+          "sentence": "The agent offered a replacement of $49.00."
+        }
+      ],
+      "500000000000172AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-05-06.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-05-06."
+        }
+      ],
+      "500000000000173AAA": [],
+      "500000000000174AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $49.00.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $49.00."
+        }
+      ],
+      "500000000000175AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-05-21",
+          "displaced": "2026-05-19",
+          "sentence": "Hannah Mbeki reported that the Aero 2 stops charging after a few minutes since 2026-05-21."
+        }
+      ],
+      "500000000000176AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Sofia Quintero",
+          "displaced": "Sofia Petrov",
+          "sentence": "Sofia Quintero reported that the Orbit Cam fogs up in the rain since 2025-12-21."
+        }
+      ],
+      "500000000000177AAA": [],
+      "500000000000178AAA": [],
+      "500000000000179AAA": [],
+      "500000000000180AAA": [],
+      "500000000000181AAA": [],
+      "500000000000182AAA": [],
+      "500000000000183AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000184AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000185AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-96401",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-96401 on 2026-01-12."
+        }
+      ],
+      "500000000000186AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The case was escalated to tier 2 on 2026-02-04.",
+          "displaced": "",
+          "sentence": "The case was escalated to tier 2 on 2026-02-04."
+        }
+      ],
+      "500000000000187AAA": [],
+      "500000000000188AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Medium",
+          "displaced": "High",
+          "sentence": "The case is Medium priority and the status is Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-65097",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-65097 on 2026-03-23."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000189AAA": [],
+      "500000000000190AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-04-04.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-04-04."
+        }
+      ],
+      "500000000000191AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-82841",
+          "displaced": "",
+          "sentence": "Invoice INV-82841 was issued on 2026-05-28 for the repair."
+        }
+      ],
+      "500000000000192AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "New",
+          "displaced": "Escalated",
+          "sentence": "The case is High priority and the status is New."
+        }
+      ],
+      "500000000000193AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-01-28",
+          "displaced": "2026-01-31",
+          "sentence": "Sofia Petrov reported that the Volt Charger trips the breaker since 2026-01-28."
+        }
+      ],
+      "500000000000194AAA": [],
+      "500000000000195AAA": [],
+      "500000000000196AAA": [],
+      "500000000000197AAA": [],
+      "500000000000198AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000199AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-89422 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-89422 and asked for a callback."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$130.00",
+          "displaced": "$240.00",
+          "sentence": "The agent offered a credit of $130.00."
+        }
+      ],
+      "500000000000200AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-89803",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-89803 on 2026-03-21."
+        }
+      ]
+    },
+    "v2": {
+      "500000000000001AAA": [],
+      "500000000000002AAA": [],
+      "500000000000003AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-02-05",
+          "displaced": "2026-02-08",
+          "sentence": "Lukas Dubois contacted support because the Volt Charger charges at half speed since 2026-02-05."
+        }
+      ],
+      "500000000000004AAA": [],
+      "500000000000005AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000006AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Nadia Petrov",
+          "displaced": "Aisha Haddad",
+          "sentence": "Nadia Petrov contacted support because the Strata Mini prints streaks on every page since 2026-04-07."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-35876",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-35876 on 2026-04-22."
+        }
+      ],
+      "500000000000007AAA": [],
+      "500000000000008AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2025-12-30",
+          "displaced": "2025-12-25",
+          "sentence": "Daniel Natarajan contacted support because the Pulse Band will not sync with the phone since 2025-12-30."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-02.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-02."
+        }
+      ],
+      "500000000000009AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000010AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-68701",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-68701 on 2026-05-20."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000011AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Mei Sato",
+          "displaced": "Lukas Dubois",
+          "sentence": "Mei Sato contacted support because the Orbit Cam misses motion at night since 2026-03-10."
+        }
+      ],
+      "500000000000012AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-21911",
+          "displaced": "",
+          "sentence": "Invoice INV-21911 was issued on 2026-05-16 for the repair."
+        }
+      ],
+      "500000000000013AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-06-07.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-06-07."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000014AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Priya Petrov",
+          "displaced": "Tomas Novak",
+          "sentence": "Priya Petrov contacted support because the Volt Charger clicks and stops at 80 percent since 2026-01-29."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000015AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $575.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $575.00."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-45219",
+          "displaced": "",
+          "sentence": "Invoice INV-45219 was issued on 2026-05-10 for the repair."
+        }
+      ],
+      "500000000000016AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-08.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-08."
+        }
+      ],
+      "500000000000017AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-20011",
+          "displaced": "",
+          "sentence": "Invoice INV-20011 was issued on 2026-01-21 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000018AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "High",
+          "displaced": "Medium",
+          "sentence": "It is a High priority case and the status is currently Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-18.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-18."
+        }
+      ],
+      "500000000000019AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-11.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-11."
+        }
+      ],
+      "500000000000020AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-13.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-13."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000021AAA": [],
+      "500000000000022AAA": [],
+      "500000000000023AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-77171",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-77171 on 2026-05-02."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000024AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000025AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000026AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000027AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Priya Novak",
+          "displaced": "Leila Novak",
+          "sentence": "Priya Novak contacted support because the Orbit Cam records without audio since 2026-05-12."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-79217",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-79217 on 2026-05-26."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000028AAA": [],
+      "500000000000029AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-69661",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-69661 on 2026-03-17."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000030AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $575.00.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $575.00."
+        }
+      ],
+      "500000000000031AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Medium",
+          "displaced": "Low",
+          "sentence": "It is a Medium priority case and the status is currently Escalated."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-13.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-13."
+        }
+      ],
+      "500000000000032AAA": [],
+      "500000000000033AAA": [],
+      "500000000000034AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-27228",
+          "displaced": "",
+          "sentence": "Invoice INV-27228 was issued on 2026-03-18 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000035AAA": [],
+      "500000000000036AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-83223",
+          "displaced": "",
+          "sentence": "Invoice INV-83223 was issued on 2026-01-18 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000037AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-43801",
+          "displaced": "",
+          "sentence": "Invoice INV-43801 was issued on 2026-05-18 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000038AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000039AAA": [],
+      "500000000000040AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000041AAA": [],
+      "500000000000042AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-05-16",
+          "displaced": "2026-05-05",
+          "sentence": "Yara Petrov contacted support because the Volt Charger clicks and stops at 80 percent since 2026-05-16."
+        }
+      ],
+      "500000000000043AAA": [],
+      "500000000000044AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-60611 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-60611 and asked for a callback."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-81110",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-81110 on 2026-03-23."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000045AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000046AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-05-25.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-05-25."
+        }
+      ],
+      "500000000000047AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-11711",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-11711 on 2026-02-10."
+        }
+      ],
+      "500000000000048AAA": [],
+      "500000000000049AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $149.50.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $149.50."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-77264",
+          "displaced": "",
+          "sentence": "Invoice INV-77264 was issued on 2026-03-19 for the repair."
+        }
+      ],
+      "500000000000050AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-51592 and asked for a replacement.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-51592 and asked for a replacement."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000051AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000052AAA": [],
+      "500000000000053AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000054AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000055AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000056AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-03.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-03."
+        }
+      ],
+      "500000000000057AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-89637",
+          "displaced": "",
+          "sentence": "Invoice INV-89637 was issued on 2026-04-24 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000058AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000059AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000060AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-28.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-28."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000061AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000062AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000063AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000064AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-27852",
+          "displaced": "",
+          "sentence": "Invoice INV-27852 was issued on 2026-01-20 for the repair."
+        }
+      ],
+      "500000000000065AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000066AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000067AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000068AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000069AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-79692",
+          "displaced": "",
+          "sentence": "Invoice INV-79692 was issued on 2026-03-02 for the repair."
+        }
+      ],
+      "500000000000070AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-29.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-29."
+        }
+      ],
+      "500000000000071AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-07.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-07."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000072AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "High",
+          "displaced": "Low",
+          "sentence": "It is a High priority case and the status is currently New."
+        }
+      ],
+      "500000000000073AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-61202",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-61202 on 2026-04-02."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000074AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-27855",
+          "displaced": "",
+          "sentence": "Invoice INV-27855 was issued on 2026-02-17 for the repair."
+        }
+      ],
+      "500000000000075AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-84460",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-84460 on 2026-04-13."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000076AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000077AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-18.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-18."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000078AAA": [],
+      "500000000000079AAA": [],
+      "500000000000080AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-10472",
+          "displaced": "",
+          "sentence": "Invoice INV-10472 was issued on 2026-03-24 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000081AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-28938",
+          "displaced": "",
+          "sentence": "Invoice INV-28938 was issued on 2026-01-26 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000082AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "High",
+          "displaced": "Low",
+          "sentence": "It is a High priority case and the status is currently Closed."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-97893",
+          "displaced": "",
+          "sentence": "Invoice INV-97893 was issued on 2026-01-15 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000083AAA": [],
+      "500000000000084AAA": [],
+      "500000000000085AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-75778",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-75778 on 2026-03-31."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000086AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000087AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-92610 and asked for a replacement.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-92610 and asked for a replacement."
+        }
+      ],
+      "500000000000088AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000089AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Escalated",
+          "sentence": "It is a Medium priority case and the status is currently Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-47820",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-47820 on 2026-04-02."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000090AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $149.50.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $149.50."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000091AAA": [],
+      "500000000000092AAA": [],
+      "500000000000093AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000094AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $899.00.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $899.00."
+        }
+      ],
+      "500000000000095AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$640.00",
+          "displaced": "$420.00",
+          "sentence": "The agent offered a credit of $640.00."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-23170",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-23170 on 2026-06-19."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000096AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000097AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-71592",
+          "displaced": "",
+          "sentence": "Invoice INV-71592 was issued on 2026-01-15 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000098AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000099AAA": [],
+      "500000000000100AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000101AAA": [],
+      "500000000000102AAA": [],
+      "500000000000103AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000104AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000105AAA": [],
+      "500000000000106AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Closed",
+          "displaced": "Working",
+          "sentence": "It is a High priority case and the status is currently Closed."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000107AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Closed",
+          "displaced": "New",
+          "sentence": "It is a Low priority case and the status is currently Closed."
+        }
+      ],
+      "500000000000108AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-83979",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-83979 on 2026-03-08."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000109AAA": [],
+      "500000000000110AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-33167",
+          "displaced": "",
+          "sentence": "Invoice INV-33167 was issued on 2026-03-27 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000111AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000112AAA": [],
+      "500000000000113AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-63232",
+          "displaced": "",
+          "sentence": "Invoice INV-63232 was issued on 2026-06-04 for the repair."
+        }
+      ],
+      "500000000000114AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$370.00",
+          "displaced": "$240.00",
+          "sentence": "The agent offered a replacement of $370.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000115AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000116AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-63529",
+          "displaced": "",
+          "sentence": "Invoice INV-63529 was issued on 2026-04-16 for the repair."
+        }
+      ],
+      "500000000000117AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "New",
+          "sentence": "It is a Medium priority case and the status is currently Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-75952",
+          "displaced": "",
+          "sentence": "Invoice INV-75952 was issued on 2026-04-08 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000118AAA": [],
+      "500000000000119AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$370.00",
+          "displaced": "$240.00",
+          "sentence": "The agent offered a replacement of $370.00."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-25795",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-25795 on 2026-04-26."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000120AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-14841 and asked for a replacement.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-14841 and asked for a replacement."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000121AAA": [],
+      "500000000000122AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000123AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000124AAA": [],
+      "500000000000125AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-04-28",
+          "displaced": "2026-04-26",
+          "sentence": "Aisha Natarajan contacted support because the Orbit Cam records without audio since 2026-04-28."
+        }
+      ],
+      "500000000000126AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-92435",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-92435 on 2026-03-31."
+        }
+      ],
+      "500000000000127AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000128AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-26261",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-26261 on 2026-04-10."
+        }
+      ],
+      "500000000000129AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-05-03.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-05-03."
+        }
+      ],
+      "500000000000130AAA": [],
+      "500000000000131AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-86346",
+          "displaced": "",
+          "sentence": "Invoice INV-86346 was issued on 2026-03-16 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000132AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-12.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-12."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000133AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-02.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-02."
+        }
+      ],
+      "500000000000134AAA": [],
+      "500000000000135AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Aisha Dubois",
+          "displaced": "Tomas Sato",
+          "sentence": "Aisha Dubois contacted support because the Aero 2 stops charging after a few minutes since 2026-04-27."
+        }
+      ],
+      "500000000000136AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000137AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-61891 and asked for a cancellation.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-61891 and asked for a cancellation."
+        }
+      ],
+      "500000000000138AAA": [],
+      "500000000000139AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-07.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-07."
+        }
+      ],
+      "500000000000140AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-28276 and asked for a refund.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-28276 and asked for a refund."
+        }
+      ],
+      "500000000000141AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000142AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-05-10",
+          "displaced": "2026-05-05",
+          "sentence": "Lukas Dubois contacted support because the Nimbus Hub ignores the voice command since 2026-05-10."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000143AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000144AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-09.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-09."
+        }
+      ],
+      "500000000000145AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-32845 and asked for a cancellation.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-32845 and asked for a cancellation."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000146AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000147AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000148AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000149AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-14.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-14."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000150AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000151AAA": [],
+      "500000000000152AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-66758 and asked for a refund.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-66758 and asked for a refund."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000153AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-05-27.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-05-27."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000154AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-29790",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-29790 on 2026-05-07."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000155AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000156AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-26190",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-26190 on 2026-05-26."
+        }
+      ],
+      "500000000000157AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-35567",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-35567 on 2026-06-12."
+        }
+      ],
+      "500000000000158AAA": [],
+      "500000000000159AAA": [],
+      "500000000000160AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000161AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000162AAA": [],
+      "500000000000163AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000164AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Closed",
+          "sentence": "It is a Medium priority case and the status is currently Working."
+        }
+      ],
+      "500000000000165AAA": [],
+      "500000000000166AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The case was escalated to tier 2 on 2026-03-14.",
+          "displaced": "",
+          "sentence": "The case was escalated to tier 2 on 2026-03-14."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-65141",
+          "displaced": "",
+          "sentence": "Invoice INV-65141 was issued on 2026-03-19 for the repair."
+        }
+      ],
+      "500000000000167AAA": [],
+      "500000000000168AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-19441",
+          "displaced": "",
+          "sentence": "Invoice INV-19441 was issued on 2026-04-30 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000169AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Tomas Alvarez",
+          "displaced": "Elias Mbeki",
+          "sentence": "Tomas Alvarez contacted support because the Strata Mini fails to wake from sleep since 2026-01-01."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000170AAA": [],
+      "500000000000171AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-56481",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-56481 on 2026-04-02."
+        }
+      ],
+      "500000000000172AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000173AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$188.00",
+          "displaced": "$89.00",
+          "sentence": "The agent offered a credit of $188.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000174AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$34.50",
+          "displaced": "$49.00",
+          "sentence": "The agent offered a refund of $34.50."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-14059",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-14059 on 2026-05-10."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000175AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-47870",
+          "displaced": "",
+          "sentence": "Invoice INV-47870 was issued on 2026-06-16 for the repair."
+        }
+      ],
+      "500000000000176AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-01-19.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-01-19."
+        }
+      ],
+      "500000000000177AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000178AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Closed",
+          "sentence": "It is a Low priority case and the status is currently Working."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-10091",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-10091 on 2026-03-27."
+        }
+      ],
+      "500000000000179AAA": [],
+      "500000000000180AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000181AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-04-03.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-04-03."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000182AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000183AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000184AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-48072",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-48072 on 2026-01-08."
+        }
+      ],
+      "500000000000185AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-11.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-11."
+        }
+      ],
+      "500000000000186AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000187AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-05-16.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-05-16."
+        }
+      ],
+      "500000000000188AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000189AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000190AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000191AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000192AAA": [],
+      "500000000000193AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-63112",
+          "displaced": "",
+          "sentence": "Invoice INV-63112 was issued on 2026-02-11 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000194AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Tomas Dubois",
+          "displaced": "Leila Alvarez",
+          "sentence": "Tomas Dubois contacted support because the Volt Charger has a loose cable latch since 2026-01-16."
+        }
+      ],
+      "500000000000195AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-02-04",
+          "displaced": "2026-01-30",
+          "sentence": "Aisha Haddad contacted support because the Nimbus Hub flashes red and stays offline since 2026-02-04."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-36848",
+          "displaced": "",
+          "sentence": "Invoice INV-36848 was issued on 2026-02-13 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000196AAA": [],
+      "500000000000197AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-09.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-09."
+        }
+      ],
+      "500000000000198AAA": [],
+      "500000000000199AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-32290",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-32290 on 2026-04-28."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000200AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-03-05",
+          "displaced": "2026-03-08",
+          "sentence": "Elias Mbeki contacted support because the Strata Mini reports a false low-ink warning since 2026-03-05."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-55161",
+          "displaced": "",
+          "sentence": "Invoice INV-55161 was issued on 2026-03-30 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ]
+    },
+    "v3": {
+      "500000000000001AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000002AAA": [],
+      "500000000000003AAA": [],
+      "500000000000004AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-46762 and asked for a replacement.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-46762 and asked for a replacement."
+        },
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-22.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-22."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000005AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000006AAA": [],
+      "500000000000007AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000008AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000009AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000010AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Pulse Band",
+          "sentence": "The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days."
+        }
+      ],
+      "500000000000011AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000012AAA": [],
+      "500000000000013AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000014AAA": [],
+      "500000000000015AAA": [],
+      "500000000000016AAA": [],
+      "500000000000017AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-29.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-29."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000018AAA": [],
+      "500000000000019AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000020AAA": [],
+      "500000000000021AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000022AAA": [],
+      "500000000000023AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000024AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Orbit Cam",
+          "displaced": "Nimbus Hub",
+          "sentence": "The knowledge base notes that Orbit Cam records audio only after a 1-hour first charge."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000025AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Volt Charger",
+          "sentence": "The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted."
+        }
+      ],
+      "500000000000026AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000027AAA": [],
+      "500000000000028AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $575.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $575.00."
+        }
+      ],
+      "500000000000029AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Nimbus Hub",
+          "sentence": "The knowledge base notes that Strata Mini cartridges are covered for 6 months."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Daniel Novak",
+          "displaced": "Marco Natarajan",
+          "sentence": "Daniel Novak contacted support because the Nimbus Hub drops the wifi hourly since 2026-03-09."
+        }
+      ],
+      "500000000000030AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000031AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000032AAA": [],
+      "500000000000033AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a refund of $420.00.",
+          "displaced": "",
+          "sentence": "The agent offered a refund of $420.00."
+        }
+      ],
+      "500000000000034AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Volt Charger",
+          "sentence": "The knowledge base notes that Strata Mini cartridges are covered for 6 months."
+        }
+      ],
+      "500000000000035AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000036AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000037AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000038AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-02-08.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-02-08."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000039AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000040AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-16575",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-16575 on 2026-03-13."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000041AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Aero 2 units carry a 24-month warranty from the purchase date."
+        }
+      ],
+      "500000000000042AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-05-07",
+          "displaced": "2026-05-05",
+          "sentence": "Yara Petrov contacted support because the Volt Charger clicks and stops at 80 percent since 2026-05-07."
+        }
+      ],
+      "500000000000043AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000044AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000045AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000046AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000047AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $199.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $199.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000048AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-04-16.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-04-16."
+        }
+      ],
+      "500000000000049AAA": [],
+      "500000000000050AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Strata Mini",
+          "sentence": "The knowledge base notes that Returns of the Aero 2 need an RMA number within 30 days."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000051AAA": [],
+      "500000000000052AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Nadia Fernandes",
+          "displaced": "Owen Haddad",
+          "sentence": "Nadia Fernandes contacted support because the Pulse Band has a cracked strap clip since 2026-05-21."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000053AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Pulse Band straps are replaced free within 12 months."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-05-24",
+          "displaced": "2026-05-27",
+          "sentence": "Tomas Dubois contacted support because the Orbit Cam records without audio since 2026-05-24."
+        }
+      ],
+      "500000000000054AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-13727 and asked for a replacement.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-13727 and asked for a replacement."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000055AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000056AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-67944",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-67944 on 2026-03-09."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000057AAA": [],
+      "500000000000058AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000059AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Strata Mini ink warnings reset after a 1-day idle period."
+        }
+      ],
+      "500000000000060AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "priority",
+          "atom": "Medium",
+          "displaced": "Low",
+          "sentence": "It is a Medium priority case and the status is currently Closed."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000061AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-02-20.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-02-20."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000062AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000063AAA": [],
+      "500000000000064AAA": [],
+      "500000000000065AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000066AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Volt Charger",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Volt Charger stops at 80 percent for 2 hours on a hot day."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000067AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Strata Mini ink warnings reset after a 1-day idle period."
+        }
+      ],
+      "500000000000068AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a repair of $575.00.",
+          "displaced": "",
+          "sentence": "The agent offered a repair of $575.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000069AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Pulse Band",
+          "sentence": "The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "New",
+          "displaced": "Closed",
+          "sentence": "It is a Medium priority case and the status is currently New."
+        }
+      ],
+      "500000000000070AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-34711 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-34711 and asked for a callback."
+        },
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Volt Charger",
+          "displaced": "Pulse Band",
+          "sentence": "The knowledge base notes that Volt Charger stops at 80 percent for 2 hours on a hot day."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000071AAA": [],
+      "500000000000072AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Orbit Cam",
+          "displaced": "Volt Charger",
+          "sentence": "The knowledge base notes that Orbit Cam records audio only after a 1-hour first charge."
+        }
+      ],
+      "500000000000073AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Strata Mini",
+          "sentence": "The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000074AAA": [],
+      "500000000000075AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-70489 and asked for a cancellation.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-70489 and asked for a cancellation."
+        }
+      ],
+      "500000000000076AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000077AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000078AAA": [],
+      "500000000000079AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000080AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000081AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000082AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-92661",
+          "displaced": "",
+          "sentence": "Invoice INV-92661 was issued on 2026-02-05 for the repair."
+        }
+      ],
+      "500000000000083AAA": [],
+      "500000000000084AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000085AAA": [],
+      "500000000000086AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000087AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000088AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000089AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-03-19.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-03-19."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000090AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000091AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000092AAA": [],
+      "500000000000093AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Orbit Cam",
+          "displaced": "Pulse Band",
+          "sentence": "The knowledge base notes that Orbit Cam logs out after 7 days without a refresh."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000094AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000095AAA": [],
+      "500000000000096AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$1,160.00",
+          "displaced": "$575.00",
+          "sentence": "The agent offered a refund of $1,160.00."
+        }
+      ],
+      "500000000000097AAA": [],
+      "500000000000098AAA": [],
+      "500000000000099AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-68491 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-68491 and asked for a callback."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000100AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000101AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-94559",
+          "displaced": "",
+          "sentence": "Invoice INV-94559 was issued on 2026-04-20 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000102AAA": [],
+      "500000000000103AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000104AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Volt Charger",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Volt Charger stops at 80 percent for 2 hours on a hot day."
+        }
+      ],
+      "500000000000105AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000106AAA": [],
+      "500000000000107AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-27901 and asked for a refund.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-27901 and asked for a refund."
+        },
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Volt Charger",
+          "sentence": "The knowledge base notes that Pulse Band syncs only over Bluetooth 5 or later."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000108AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Orbit Cam",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Orbit Cam night mode needs the 3-month lens filter."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000109AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period."
+        }
+      ],
+      "500000000000110AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000111AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000112AAA": [],
+      "500000000000113AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset."
+        }
+      ],
+      "500000000000114AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-01-24.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-01-24."
+        }
+      ],
+      "500000000000115AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-03-07.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-03-07."
+        }
+      ],
+      "500000000000116AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Strata Mini",
+          "sentence": "The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-27017",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-27017 on 2026-03-18."
+        }
+      ],
+      "500000000000117AAA": [],
+      "500000000000118AAA": [],
+      "500000000000119AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000120AAA": [],
+      "500000000000121AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000122AAA": [],
+      "500000000000123AAA": [],
+      "500000000000124AAA": [],
+      "500000000000125AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000126AAA": [],
+      "500000000000127AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000128AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000129AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-81358",
+          "displaced": "",
+          "sentence": "Invoice INV-81358 was issued on 2026-04-10 for the repair."
+        }
+      ],
+      "500000000000130AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000131AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Strata Mini ink warnings reset after a 1-day idle period."
+        }
+      ],
+      "500000000000132AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-50853",
+          "displaced": "",
+          "sentence": "Invoice INV-50853 was issued on 2026-03-27 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000133AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $89.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $89.00."
+        }
+      ],
+      "500000000000134AAA": [],
+      "500000000000135AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Nimbus Hub reboots during updates when the 5-minute window is interrupted."
+        }
+      ],
+      "500000000000136AAA": [],
+      "500000000000137AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-72128",
+          "displaced": "",
+          "sentence": "Invoice INV-72128 was issued on 2026-04-13 for the repair."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000138AAA": [],
+      "500000000000139AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000140AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000141AAA": [],
+      "500000000000142AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Orbit Cam",
+          "displaced": "Nimbus Hub",
+          "sentence": "The knowledge base notes that Orbit Cam night mode needs the 3-month lens filter."
+        },
+        {
+          "kind": "contradicted",
+          "atomKind": "money",
+          "atom": "$109.50",
+          "displaced": "$199.00",
+          "sentence": "The agent offered a credit of $109.50."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000143AAA": [],
+      "500000000000144AAA": [],
+      "500000000000145AAA": [],
+      "500000000000146AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000147AAA": [],
+      "500000000000148AAA": [],
+      "500000000000149AAA": [],
+      "500000000000150AAA": [],
+      "500000000000151AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-92925",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-92925 on 2026-03-06."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000152AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000153AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Strata Mini",
+          "displaced": "Nimbus Hub",
+          "sentence": "The knowledge base notes that Strata Mini rear-tray jams clear with the 3-step reset."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-06-10.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-06-10."
+        }
+      ],
+      "500000000000154AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000155AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000156AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "The customer was told a firmware update would arrive on 2026-05-13.",
+          "displaced": "",
+          "sentence": "The customer was told a firmware update would arrive on 2026-05-13."
+        }
+      ],
+      "500000000000157AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000158AAA": [],
+      "500000000000159AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000160AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000161AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000162AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000163AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000164AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Pulse Band syncs only over Bluetooth 5 or later."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000165AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000166AAA": [],
+      "500000000000167AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The customer confirmed order ORD-42960 and asked for a callback.",
+          "displaced": "",
+          "sentence": "The customer confirmed order ORD-42960 and asked for a callback."
+        }
+      ],
+      "500000000000168AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000169AAA": [],
+      "500000000000170AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000171AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000172AAA": [],
+      "500000000000173AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "The agent offered a credit of $89.00.",
+          "displaced": "",
+          "sentence": "The agent offered a credit of $89.00."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000174AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000175AAA": [],
+      "500000000000176AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Aero 2 units carry a 24-month warranty from the purchase date."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000177AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Nimbus Hub",
+          "displaced": "Orbit Cam",
+          "sentence": "The knowledge base notes that Nimbus Hub needs a 2-hour cool-down before a factory reset."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000178AAA": [
+        {
+          "kind": "omission",
+          "atomKind": "sentence",
+          "atom": "A callback is scheduled for 2026-03-14.",
+          "displaced": "",
+          "sentence": "A callback is scheduled for 2026-03-14."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000179AAA": [],
+      "500000000000180AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000181AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000182AAA": [],
+      "500000000000183AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Aero 2",
+          "displaced": "Volt Charger",
+          "sentence": "The knowledge base notes that Aero 2 firmware 3.2 fixes the charging fault on the dock."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000184AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Aero 2",
+          "sentence": "The knowledge base notes that Pulse Band step counts are recalibrated after a 2-day wear period."
+        }
+      ],
+      "500000000000185AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000186AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "contact",
+          "atom": "Marco Quintero",
+          "displaced": "Yara Petrov",
+          "sentence": "Marco Quintero contacted support because the Strata Mini jams the rear tray since 2026-01-28."
+        },
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "INV-64630",
+          "displaced": "",
+          "sentence": "Invoice INV-64630 was issued on 2026-03-09 for the repair."
+        }
+      ],
+      "500000000000187AAA": [],
+      "500000000000188AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000189AAA": [],
+      "500000000000190AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "identifier",
+          "atom": "RMA-50884",
+          "displaced": "",
+          "sentence": "A replacement unit was shipped under RMA-50884 on 2026-04-08."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer seems satisfied with the proposed next step.",
+          "displaced": "",
+          "sentence": "The customer seems satisfied with the proposed next step."
+        }
+      ],
+      "500000000000191AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000192AAA": [
+        {
+          "kind": "unsupported",
+          "atomKind": "date",
+          "atom": "2026-04-29",
+          "displaced": "2026-04-24",
+          "sentence": "Nadia Fernandes contacted support because the Pulse Band drains in under a day since 2026-04-29."
+        },
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000193AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000194AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000195AAA": [
+        {
+          "kind": "misgrounded",
+          "atomKind": "product",
+          "atom": "Pulse Band",
+          "displaced": "Nimbus Hub",
+          "sentence": "The knowledge base notes that Pulse Band straps are replaced free within 12 months."
+        }
+      ],
+      "500000000000196AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000197AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The customer sounds frustrated and wants a quick resolution.",
+          "displaced": "",
+          "sentence": "The customer sounds frustrated and wants a quick resolution."
+        }
+      ],
+      "500000000000198AAA": [
+        {
+          "kind": "unverifiable",
+          "atomKind": "sentence",
+          "atom": "The tone of the thread is polite but increasingly impatient.",
+          "displaced": "",
+          "sentence": "The tone of the thread is polite but increasingly impatient."
+        }
+      ],
+      "500000000000199AAA": [],
+      "500000000000200AAA": [
+        {
+          "kind": "contradicted",
+          "atomKind": "status",
+          "atom": "Working",
+          "displaced": "Closed",
+          "sentence": "It is a Low priority case and the status is currently Working."
+        }
+      ]
+    }
+  },
+  "verdicts": [
+    {
+      "baseline": "v1",
+      "candidate": "v2",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": 0.4556,
+        "sd": 0.8554,
+        "t": 2.917,
+        "critical": 2.045,
+        "direction": "better"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.21,
+        "sd": 0.7931,
+        "t": -3.7445,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v2",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": 0.2667,
+        "sd": 0.8578,
+        "t": 4.3962,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.21,
+        "sd": 0.7931,
+        "t": -3.7445,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v3",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": 0.2333,
+        "sd": 0.9145,
+        "t": 1.3974,
+        "critical": 2.045,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.04,
+        "sd": 0.782,
+        "t": -0.7234,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "exitCode": 2
+    },
+    {
+      "baseline": "v1",
+      "candidate": "v3",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": 0.2483,
+        "sd": 0.9016,
+        "t": 3.8951,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.04,
+        "sd": 0.782,
+        "t": -0.7234,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "exitCode": 0
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v1",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": -0.4556,
+        "sd": 0.8554,
+        "t": -2.917,
+        "critical": 2.045,
+        "direction": "worse"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.21,
+        "sd": 0.7931,
+        "t": 3.7445,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v1",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": -0.2667,
+        "sd": 0.8578,
+        "t": -4.3962,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.21,
+        "sd": 0.7931,
+        "t": 3.7445,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v3",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": -0.2222,
+        "sd": 0.9722,
+        "t": -1.252,
+        "critical": 2.045,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.17,
+        "sd": 0.8089,
+        "t": 2.972,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "exitCode": 2
+    },
+    {
+      "baseline": "v2",
+      "candidate": "v3",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": -0.0183,
+        "sd": 0.8573,
+        "t": -0.3024,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.17,
+        "sd": 0.8089,
+        "t": 2.972,
+        "critical": 1.972,
+        "direction": "better"
+      },
+      "exitCode": 2
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v1",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": -0.2333,
+        "sd": 0.9145,
+        "t": -1.3974,
+        "critical": 2.045,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.04,
+        "sd": 0.782,
+        "t": 0.7234,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "exitCode": 2
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v1",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": -0.2483,
+        "sd": 0.9016,
+        "t": -3.8951,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": 0.04,
+        "sd": 0.782,
+        "t": 0.7234,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v2",
+      "reviewedSet": "first30",
+      "reviews": {
+        "n": 30,
+        "effect": 0.2222,
+        "sd": 0.9722,
+        "t": 1.252,
+        "critical": 2.045,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.17,
+        "sd": 0.8089,
+        "t": -2.972,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "exitCode": 1
+    },
+    {
+      "baseline": "v3",
+      "candidate": "v2",
+      "reviewedSet": "all",
+      "reviews": {
+        "n": 200,
+        "effect": 0.0183,
+        "sd": 0.8573,
+        "t": 0.3024,
+        "critical": 1.972,
+        "direction": "undecided"
+      },
+      "grounding": {
+        "n": 200,
+        "effect": -0.17,
+        "sd": 0.8089,
+        "t": -2.972,
+        "critical": 1.972,
+        "direction": "worse"
+      },
+      "exitCode": 1
+    }
+  ]
+}
